@@ -26,6 +26,16 @@ body{
 	margin-left: auto;
 }
 
+.row {
+	--bs-gutter-x: 1.5rem;
+	--bs-gutter-y: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: calc(var(--bs-gutter-y) * -1);
+	margin-right: var(--bs-gutter-x,.0);
+	margin-left: var(--bs-gutter-x,.0);
+  }
+
 .clearfix{
   clear: both;
   float: none;
@@ -130,7 +140,7 @@ h1 {
 
 .nav{
   display: flex;
-  width: 100%;
+  width: 100vw;
   background: white;
   justify-content: space-between;
   align-items: flex-start;
@@ -147,7 +157,7 @@ h1 {
 	margin-right: 40px;
 	list-style: none;
 	position: relative;
-	top: 19px;
+	top: 7px;
 }
 
 
@@ -183,8 +193,4 @@ color: #222;
 }
 
 
-@media (max-width: 960px) {
-  .content {
-    padding: 0 3rem 0 3rem;
-  }
-}
+
