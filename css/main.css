@@ -342,13 +342,12 @@ h1 {
 }
 
 .linea-bottom {
-  display: block;
-  border-bottom: 3px solid darkred;
-  width: 132px;
-  position: relative;
-  top: -30px;
+	display: block;
+	border-bottom: 3px solid darkred;
+	width: 132px;
+	position: relative;
+	top: -23px;
 }
-
 
 .description-autor p {
   font-size: 20px;
