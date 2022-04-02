@@ -38,7 +38,7 @@ window.addEventListener('load', function () {
         if (scroll > 10) {
             menu.style.backgroundColor = '#121212'
             logoMenu.style.color = '#fff'
-            logoMenu.style.left = "100px";
+            logoMenu.style.left = "-100px";
             link1.style.color ="#fff"
             link2.style.color ="#fff"
             link3.style.color ="#fff"
@@ -47,6 +47,7 @@ window.addEventListener('load', function () {
         } else {
             menu.style.backgroundColor = '#fff'
             logoMenu.style.color = '#444444'
+            logoMenu.style.left = "100px";
             link1.style.color ="#444444"
             link2.style.color ="#444444"
             link3.style.color ="#444444"
