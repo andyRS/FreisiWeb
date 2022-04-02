@@ -30,6 +30,7 @@ window.addEventListener('load', function () {
     let link2 = document.getElementById('link-2')
     let link3 = document.getElementById('link-3')
     let link4 = document.getElementById('link-4')
+    let link5 = document.getElementById('link-5')
 
 
 
@@ -43,6 +44,7 @@ window.addEventListener('load', function () {
             link2.style.color ="#fff"
             link3.style.color ="#fff"
             link4.style.color ="#fff"
+            link5.style.color ="#fff"
 
         } else {
             menu.style.backgroundColor = '#fff'
@@ -52,6 +54,7 @@ window.addEventListener('load', function () {
             link2.style.color ="#444444"
             link3.style.color ="#444444"
             link4.style.color ="#444444"
+            link5.style.color ="#444444"
         }
     })
 

@@ -177,6 +177,7 @@ h1 {
 .nav-link {
   color: white;
   text-decoration: none;
+  transition: all 300ms;
 }
 
 
@@ -190,8 +191,8 @@ h1 {
 
 
 .nav-menu-item {
-  font-size: 20px;
-  margin: 0 10px;
+  font-size: 1.1em;
+  margin: 0 2px;
   text-transform: uppercase;
   width: max-content;
   cursor: pointer;
@@ -207,7 +208,8 @@ h1 {
 
 
 .nav-menu-link {
-  padding: 0px 12px;
+  padding: 0px 8px;
+  transition: all 300ms;
 }
 
 .nav-menu-link:hover {
