@@ -473,8 +473,6 @@ h1 {
 }
 
 .fa-envelope {
-  width: 64px;
-  height: 64px;
   display: block;
   background: #0e76a8;
   border-radius: 60px;
@@ -522,22 +520,132 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  align-self: center;
-  border: 1px solid #ccc;
-  line-height: 150px !important;
   background-color: #13325d;
 }
 
-.iconos-destacados{
-  display: flex;
-  width: 100%;
+.iconos-destacados {
+	display: flex;
+	width: 100%;
+	margin: 0px auto;
+	align-items: center;
+	text-align: center;
+	justify-content: space-between;
+	padding: 10px;
+	position: relative;
+}
+
+.iconos-destacados .fa-envelope {
+  width: 0;
+  color: #fff;
+  font-size: 50px !important;
+  line-height: 0 !important;
+}
+
+.iconos-destacados .fa-facebook-f {
+  width: 0;
+  display: block;
+  border-radius: 60px;
+  color: #fff;
   margin: 0px auto;
   text-align: center;
-  max-width: 1200px;
-  justify-content: space-between;
+  font-size: 50px !important;
+  transition: all 300ms;
+}
+
+.iconos-destacados .fa-instagram {
+  width: 0;
+  display: block;
+  border-radius: 60px;
+  color: #fff;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 50px !important;
+  transition: all 300ms;
+}
+
+.iconos-destacados .fa-youtube {
+  width: 0;
+  display: block;
+  border-radius: 60px;
+  color: #fff;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 50px !important;
+  transition: all 300ms;
+}
+
+.iconos-destacados .fa-linkedin {
+  width: 0;
+  display: block;
+  border-radius: 60px;
+  color: #fff;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 50px !important;
+  transition: all 300ms;
+}
+
+
+.container-icons-text {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative;
+	top: 60px;
+	left: -129px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.t-facebook{
+  display: block;
+  position: relative;
+  left: 27px;
   
 }
 
-.iconos-destacados .fa-envelope{
+.t-instagram {
+	display: block;
+	position: relative;
+	left: 7px;
+}
+
+.t-youtube {
+	display: block;
+	position: relative;
+	left: 4px;
+}
+
+.t-linkedin {
+	display: block;
+	position: relative;
+	left: 14px;
+}
+
+.shape-traingle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px auto;
+  position: relative;
+  top: 135px;
+  left: -750px;
   
+}
+
+.fa-caret-down{
+  display: block;
+  width: 100%;
+  margin: 0px auto;
+  color: #13325d;
+  text-align: center;
+  font-size: 150px !important;
+  font-weight: 800;
+ 
+
 }
