@@ -1,18 +1,29 @@
 * {
+  padding: 0%;
   margin: 0;
-  padding: 0;
+  outline: 0;
   box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
 }
 
 /*Fuentes*/
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
 
+@font-face{
+  font-family: 'Oswald', sans-serifs;
+  src: url(fonts/Oswald-Regular.ttf);
+}
+
+@font-face{
+  font-family: 'Oswald-Bold';
+  src: url(fonts/Oswald-Bold.ttf);
+}
 
 
 /*Fin Fuentes*/
 
 body {
-  font-family: 'Oswald', sans-serif !important;
+ 
   overflow-x: hidden;
 }
 
@@ -164,8 +175,8 @@ h1 {
 .nav-link {
   color: white;
   text-decoration: none;
-  transition: all 300ms;
 }
+
 
 .nav-menu {
   display: flex;
@@ -179,7 +190,6 @@ h1 {
 .nav-menu-item {
   font-size: 20px;
   margin: 0 10px;
-  line-height: 80px;
   text-transform: uppercase;
   width: max-content;
   cursor: pointer;
@@ -187,8 +197,9 @@ h1 {
 }
 
 .nav-menu-item a {
-  font-family: 'Oswald', sans-serif;
-  color: rgb(21, 21, 21);
+  font-family: 'Oswald';
+  color: rgb(0, 0, 0);
+  font-size: 1em;
   transition: all 300ms;
 }
 
@@ -336,6 +347,7 @@ h1 {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
+  
 }
 
 .linea-bottom {
