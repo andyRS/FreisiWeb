@@ -296,15 +296,15 @@ h1 {
 }
 
 .wrap {
-	width: auto;
-	height: auto;
-	display: flex;
-	margin-top: -40px;
-	justify-content: center;
-	align-items: center;
-	background-image: url(../imagenes/Bio.jpg);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-top: -40px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../imagenes/Bio.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .autor-img {
@@ -465,13 +465,34 @@ h1 {
   transition: all 300ms;
 }
 
+
 .fa-linkedin:hover {
   transform: scale(1.2);
   opacity: 0.8;
   transform: rotate(10deg);
 }
 
-.btn-autor{
+.fa-envelope {
+  width: 64px;
+  height: 64px;
+  display: block;
+  background: #0e76a8;
+  border-radius: 60px;
+  color: #fff;
+  margin: 0px auto;
+  text-align: center;
+  line-height: 64px !important;
+  font-size: 30px !important;
+  transition: all 300ms;
+}
+
+.fa-envelope:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+  transform: rotate(10deg);
+}
+
+.btn-autor {
   display: block;
   width: 150px;
   text-decoration: none;
@@ -484,12 +505,39 @@ h1 {
   transition: all 300ms;
   text-transform: uppercase;
   font-weight: bold;
-  box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.5);
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.5);
   transition: all 300ms;
   cursor: pointer;
 }
 
-.btn-autor:hover{
+.btn-autor:hover {
   background-color: #d10000;
   transform: rotate(1deg);
+}
+
+
+#destacado {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  border: 1px solid #ccc;
+  line-height: 150px !important;
+  background-color: #13325d;
+}
+
+.iconos-destacados{
+  display: flex;
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+  max-width: 1200px;
+  justify-content: space-between;
+  
+}
+
+.iconos-destacados .fa-envelope{
+  
 }
