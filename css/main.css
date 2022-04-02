@@ -673,24 +673,28 @@ h1 {
 }
 
 #libertad-financiera h4 {
-  font-family: 'Oswald-Bold';
+  font-family: 'Oswald';
   font-size: 35px;
   height: 110px;
   line-height: 110px;
   text-align: center;
-  background-color: #dff049;
+  font-weight: 600;
+  color: #000;
+  /*background*/
+  background: #f7d371;
 }
 
 #libertad-financiera p {
-  font-family: 'Lato', sans-serif !important;
-  display: block;
-  margin: 0px auto;
-  width: 70%;
-  font-size: 24px;
-  font-weight: 700;
-  text-align: center;
-  margin-top: 15px;
-  border-bottom: 2px solid #ccc;
+	font-family: 'Lato', sans-serif !important;
+	display: block;
+	margin: 0px auto;
+	width: 70%;
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 15px;
+	border-bottom: 2px solid #ccc;
+	color: #000;
 }
 
 .maquinas-ganancias-comercial {
@@ -701,13 +705,13 @@ h1 {
 }
 
 .maquinas-ganancias-comercial img {
-	display: block;
-	width: 65%;
-	margin: 0px auto;
-	margin-bottom: 60px;
-	border: 20px solid rgb(255, 255, 255);
+  display: block;
+  width: 65%;
+  margin: 0px auto;
+  margin-bottom: 60px;
+  border: 20px solid rgb(255, 255, 255);
   border-radius: 10px;
-	box-shadow: 0px 2px 10px #ccc;
+  box-shadow: 0px 2px 10px #ccc;
 }
 
 .p-textcomercial {
