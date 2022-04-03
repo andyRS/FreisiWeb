@@ -870,17 +870,18 @@ h1 {
 }
 
 .btn-warning {
-  width: 350px;
-  margin: 0px auto;
-  padding: 14px 18px;
-  font-size: 20px;
-  text-decoration: none;
-  text-align: center;
-  transition: all 300ms;
-  position: relative;
-  color: #fff;
-  text-shadow: 1px 1px 1px rgb(30, 29, 29);
-  border-radius: 10px;
+	width: 400px;
+	margin: 0px auto;
+	padding: 14px 18px;
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+	transition: all 300ms;
+	position: relative;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgb(30, 29, 29);
+	border-radius: 10px;
+  text-transform: uppercase;
 }
 
 #marketing-agency {
@@ -1055,11 +1056,16 @@ h1 {
   
 }
 
+.title-arte-scalar {
+	position: relative;
+	margin: 0px auto;
+	left: -156px;
+}
 .widget-container-fastmind {
 	display: flex;
 	width: 80%;
 	margin: 0px auto;
-	margin-top: 46px;
+	margin-top: 92px;
 	line-height: 1.8;
 }
 
@@ -1161,8 +1167,8 @@ h1 {
 	width: 30%;
 	text-align: center;
 	position: relative;
-	top: 53px;
-	left: -70px;
+	top: 96px;
+	left: -74px;
 	font-size: 25px;
 	font-weight: bold;
 	color: #444;
@@ -1176,7 +1182,7 @@ h1 {
 
 .heading-title-fastmind-4 {
 	left: -474px;
-	top: 54px;
+	top: 98px;
 }
 
 .widget-wrap-2{
@@ -1229,27 +1235,87 @@ h1 {
 	display: block;
 	margin: 0px auto;
 	position: relative;
-	top: -505px;
+	top: -568px;
 }
 
-#aplicar-mentoria{
-  position: relative;
+
+/*APLICAR MENTORIA*/
+
+#aplicar-mentoria {
+	position: relative;
+  flex-direction: column;
+	display: flex;
+	width: 100%;
+	height: 1200px;
+	top: -600px;
+	margin: 0px auto;
+	background: #001e3f;
+}
+
+.heading-title-mentoria{
   display: flex;
   width: 100%;
-  top: -600px;
   margin: 0px auto;
-  flex-wrap: wrap;
-  height: auto;
-  background: #001e3f;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  margin-top: 80px;
+  color: #fff;
 }
 
-.wrap-container-mentoria{
-  display: flex;
+.heading-title-mentoria h4{
   width: 60%;
   margin: 0px auto;
-  justify-content: center;
-  align-items: center;
+  color: #D9BE85;
+  font-size: 40px;
+  line-height: 1.5em;
+  font-weight: bold;
 }
+
+.heading-title-mentoria p {
+	width: 64%;
+	margin: 0px auto;
+	font-size: 18px;
+	text-align: justify;
+	line-height: 1.8;
+	margin-top: 30px;
+}
+
+.wrap-container-mentoria {
+	display: flex;
+	width: 80%;
+	flex-direction: row;
+	margin: 0px auto;
+	margin-top: 80px;
+	justify-content: center;
+}
+
+.icon-img img{
+  width: 90px;
+  display: block;
+  margin: 0px auto;
+}
+
+.container-mentoria-1, .container-mentoria-2, .container-mentoria-3{
+  width: 25%;
+  margin: 10px;
+  padding: 20px;
+  height: auto;
+  border: 1px solid #ccc;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-icon-mentoria{
+  font-size: 19px;
+  font-weight: lighter;
+  color: #fff;
+  line-height: 2.0;
+  text-align: center;
+  margin-top: 15px;
+}
+
+
 
 
 
