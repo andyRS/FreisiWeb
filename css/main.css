@@ -1057,11 +1057,15 @@ h1 {
 }
 
 .widget-text-editor {
-  text-align: center;
-  color: #D9BE85;
-  font-size: 20px;
-  font-weight: bold;
-  font-style: italic;
+	text-align: center;
+	color: #D9BE85;
+	font-size: 20px;
+	/* font-weight: bold; */
+	/* font-style: italic; */
+	margin: 0px auto;
+	/* display: flex; */
+	position: relative;
+	left: 137px;
 }
 
 .heading-title {
@@ -1112,6 +1116,7 @@ h1 {
 .widget-container-fastmind {
   display: flex;
   width: 68%;
+  margin: 0px auto;
   margin-top: 60px;
 }
 
@@ -1151,4 +1156,44 @@ h1 {
   font-size: 30px;
   font-weight: bold;
   line-height: 1.5em;
+}
+
+.widget-container-img{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.image img {
+	width: 350px;
+	height: 350px;
+	position: relative;
+	top: -405px;
+	left: 67px;
+}
+.widget-wrap{
+  width: 100%;
+  margin: 0px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-editor-fastmind {
+	width: 60%;
+	margin: 0px auto;
+	color: #444;
+	text-align: justify;
+	font-style: normal;
+}
+
+
+.heading-title-fastmind {
+	width: 100%;
+	text-align: center;
+	position: relative;
+	top: 53px;
+	left: -20px;
+	font-size: 25px;
+	font-weight: bold;
 }
