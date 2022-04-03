@@ -1093,8 +1093,62 @@ h1 {
 #fastmind-services {
   width: 100%;
   height: 1500px;
+  margin: 0px auto;
   display: flex;
   margin-right: auto;
   margin-left: auto;
   position: relative;
+}
+
+.wrap-text-fastmind {
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+.widget-container-fastmind {
+  display: flex;
+  width: 68%;
+  margin-top: 60px;
+}
+
+.text-fastmind-wrap p {
+  display: flex;
+  width: 100%;
+  font-size: 21px;
+  color: #444;
+}
+
+.widget-container-fastmind-text-icons {
+  display: flex;
+  width: 100%;
+  max-width: 1181px;
+  /* margin: 0px -124px; */
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  position: relative;
+  left: -166px;
+  /* top: ; */
+  margin-top: 40px;
+}
+
+.wrap-container-posicionamiento {
+  display: flex;
+  width: 100%;
+  margin: 0px auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.wrap-container-title-posicionamiento h3{
+  text-align: center;
+  color: #444444;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.5em;
 }
