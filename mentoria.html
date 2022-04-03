@@ -6,11 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freisy Sanchez</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/responsive-media-querys.css">
-    <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
 
     <!-- Inicio Fuentes Google-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -22,6 +18,20 @@
         rel="stylesheet">
     <!--Fin Fuentes Google-->
 
+    <!--Inicio llamado de boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <!--Inicio llamado de boostrap-->
+
+    <!--Mis estilos (deben estar despues de BOOSTRAP)-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive-media-querys.css">
+    <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
+    <!--Fin mis estilos (deben estar despues de BOOSTRAP)-->
+
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/a998cb1e07.js" crossorigin="anonymous"></script>
     <!--Fin Font Awesome-->
@@ -32,10 +42,17 @@
 
     <!--Inicio de Scripts-->
     <script type="text/javascript" src="js/swipe.js"></script>
+    <script type="text/javascript" src="js/slider-boostrap.js"></script>
     <!--Inicio de Scripts-->
 </head>
 
 <body>
+
+    <!--Inicio API de Whatssap-->
+    <a id="whatssap" href="https://api.whatsapp.com/send?phone=+18293661701" target="_blank" title="Whatssap">
+        <img src="imagenes/Whatssap.png" alt="Whatssap" title="Whatssap" />
+    </a>
+    <!--Fin API de Whatssap-->
 
     <!--Inicio del contenedor de la web-->
     <section id="contenedor" class="container-fluid">
@@ -450,23 +467,30 @@
                     </div>
                     <div class="text-icon-mentoria">
                         <p>
-                            En el día y la hora acordada <strong>haremos una videollamada</strong> contigo y hablaremos de tu situación
+                            En el día y la hora acordada <strong>haremos una videollamada</strong> contigo y hablaremos
+                            de tu situación
                             actual y de cómo lo puedes hacer para conseguir tus objetivos de negocio. En caso de que te
                             podamos ayudar y que todo encaje te lo diremos en esa misma sesión.
                         </p>
                     </div>
-                </div> 
+                </div>
             </div>
             <a class="btn-warning mt-5" href="#">Reserva Ahora</a>
 
         </section>
-
         <!--Fin de la seccion servicio Aplicar mentoria-->
 
-
+        <section id="marketing-bio">
+            <div class="wrap-marketing">
+                <h5>Freisy Sánchez</h5>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-primary" type="button">CONTACTAME</button>
+                  </div>
+            </div>
+        </section>
 
         <!--Inicio de la seccion del footer-->
-        <footer id="footer" class="footer container-fluid">
+        <footer id="footer" class="footer container-fluid footer-mentoria">
             <div class="wrap-footer">
                 <nav class="nav-footer">
                     <ul>

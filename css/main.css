@@ -870,17 +870,17 @@ h1 {
 }
 
 .btn-warning {
-	width: 400px;
-	margin: 0px auto;
-	padding: 14px 18px;
-	font-size: 20px;
-	text-decoration: none;
-	text-align: center;
-	transition: all 300ms;
-	position: relative;
-	color: #fff;
-	text-shadow: 1px 1px 1px rgb(30, 29, 29);
-	border-radius: 10px;
+  width: 400px;
+  margin: 0px auto;
+  padding: 14px 18px;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 300ms;
+  position: relative;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgb(30, 29, 29);
+  border-radius: 10px;
   text-transform: uppercase;
 }
 
@@ -1004,12 +1004,12 @@ h1 {
 }
 
 .widget-text-editor {
-	text-align: center;
-	color: #D9BE85;
-	font-size: 20px;
-	margin: 0px auto;
-	position: relative;
-	left: 137px;
+  text-align: center;
+  color: #D9BE85;
+  font-size: 20px;
+  margin: 0px auto;
+  position: relative;
+  left: 137px;
 }
 
 .heading-title {
@@ -1024,17 +1024,17 @@ h1 {
 }
 
 .triangle-destacado-white .fa-caret-down {
-	position: relative;
-	top: -266px;
-	left: 750px;
-	color: #f5f5f5;
+  position: relative;
+  top: -266px;
+  left: 750px;
+  color: #f5f5f5;
 }
 
 .triangle-destacado-bottom .fa-caret-down {
-	position: relative;
-	top: 141px;
-	left: -8px;
-	color: #001e3f;
+  position: relative;
+  top: 141px;
+  left: -8px;
+  color: #001e3f;
 }
 
 #fastmind-services {
@@ -1053,28 +1053,29 @@ h1 {
   height: 100wv;
   align-items: center;
   flex-direction: column;
-  
+
 }
 
 .title-arte-scalar {
-	position: relative;
-	margin: 0px auto;
-	left: -156px;
+  position: relative;
+  margin: 0px auto;
+  left: -156px;
 }
+
 .widget-container-fastmind {
-	display: flex;
-	width: 80%;
-	margin: 0px auto;
-	margin-top: 92px;
-	line-height: 1.8;
+  display: flex;
+  width: 80%;
+  margin: 0px auto;
+  margin-top: 92px;
+  line-height: 1.8;
 }
 
 .widget-container-fastmind-2 {
-	display: flex;
-	width: 76%;
-	margin: 0px auto;
-	margin-top: 46px;
-	line-height: 1.6;
+  display: flex;
+  width: 76%;
+  margin: 0px auto;
+  margin-top: 46px;
+  line-height: 1.6;
 }
 
 
@@ -1108,7 +1109,7 @@ h1 {
   margin-top: 60px;
 }
 
-.wrap-container-title-posicionamiento h3{
+.wrap-container-title-posicionamiento h3 {
   text-align: center;
   color: #444444;
   font-size: 30px;
@@ -1118,30 +1119,30 @@ h1 {
 
 
 .image img {
-	width: 350px;
-	height: 350px;
-	position: relative;
-	top: -394px;
-	left: -536px;
+  width: 350px;
+  height: 350px;
+  position: relative;
+  top: -394px;
+  left: -536px;
 }
 
 .image2 img {
-	width: 350px;
-	height: 350px;
-	position: relative;
-	top: -362px;
-	left: 508px;
+  width: 350px;
+  height: 350px;
+  position: relative;
+  top: -362px;
+  left: 508px;
 }
 
 .image4 img {
-	width: 350px;
-	height: 350px;
-	position: relative;
-	top: -395px;
-	left: 399px;
+  width: 350px;
+  height: 350px;
+  position: relative;
+  top: -395px;
+  left: 399px;
 }
 
-.widget-wrap{
+.widget-wrap {
   width: 100%;
   margin: 0px auto;
   align-items: center;
@@ -1149,75 +1150,75 @@ h1 {
 }
 
 .text-editor-fastmind {
-	width: 60%;
-	margin: 0px auto;
-	color: #444;
-	text-align: justify;
-	font-style: normal;
+  width: 60%;
+  margin: 0px auto;
+  color: #444;
+  text-align: justify;
+  font-style: normal;
   margin-top: 10px;
 }
 
-.widget-container-img{
+.widget-container-img {
   display: block;
   clear: both;
 }
 
 
 .heading-title-fastmind {
-	width: 30%;
-	text-align: center;
-	position: relative;
-	top: 96px;
-	left: -74px;
-	font-size: 25px;
-	font-weight: bold;
-	color: #444;
+  width: 30%;
+  text-align: center;
+  position: relative;
+  top: 96px;
+  left: -74px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #444;
 }
 
 .heading-title-fastmind-2 {
-	width: 80% !important;
-	left: -150px;
-	top: 76px;
+  width: 80% !important;
+  left: -150px;
+  top: 76px;
 }
 
 .heading-title-fastmind-4 {
-	left: -474px;
-	top: 98px;
+  left: -474px;
+  top: 98px;
 }
 
-.widget-wrap-2{
+.widget-wrap-2 {
   position: relative;
   top: -30px;
 }
 
 .widget-text-editor-2 {
-	position: relative;
-	display: inline-block;
-	position: relative;
-	left: -48px;
+  position: relative;
+  display: inline-block;
+  position: relative;
+  left: -48px;
 }
 
 .text-editor-fastmind-2 {
-	width: 64%;
-	left: -92px;
-	position: relative;
+  width: 64%;
+  left: -92px;
+  position: relative;
 }
 
 .text-editor-fastmind-3 {
-	width: 72%;
-	margin-top: 10px;
-	text-align: justify;
-	left: 83px;
-	position: relative;
+  width: 72%;
+  margin-top: 10px;
+  text-align: justify;
+  left: 83px;
+  position: relative;
 }
 
 .text-editor-fastmind-4 {
-	width: 75%;
-	left: -279px;
-	position: relative;
+  width: 75%;
+  left: -279px;
+  position: relative;
 }
 
-.contenedor-wrap-2{
+.contenedor-wrap-2 {
   display: block;
   margin: 0px auto;
   position: relative;
@@ -1225,34 +1226,34 @@ h1 {
 }
 
 .contenedor-wrap-3 {
-	display: block;
-	margin: 0px auto;
-	position: relative;
-	top: -378px;
+  display: block;
+  margin: 0px auto;
+  position: relative;
+  top: -378px;
 }
 
 .contenedor-wrap-4 {
-	display: block;
-	margin: 0px auto;
-	position: relative;
-	top: -568px;
+  display: block;
+  margin: 0px auto;
+  position: relative;
+  top: -568px;
 }
 
 
 /*APLICAR MENTORIA*/
 
 #aplicar-mentoria {
-	position: relative;
+  position: relative;
   flex-direction: column;
-	display: flex;
-	width: 100%;
-	height: 1200px;
-	top: -600px;
-	margin: 0px auto;
-	background: #001e3f;
+  display: flex;
+  width: 100%;
+  height: 1200px;
+  top: -600px;
+  margin: 0px auto;
+  background: #001e3f;
 }
 
-.heading-title-mentoria{
+.heading-title-mentoria {
   display: flex;
   width: 100%;
   margin: 0px auto;
@@ -1263,7 +1264,7 @@ h1 {
   color: #fff;
 }
 
-.heading-title-mentoria h4{
+.heading-title-mentoria h4 {
   width: 60%;
   margin: 0px auto;
   color: #D9BE85;
@@ -1273,30 +1274,32 @@ h1 {
 }
 
 .heading-title-mentoria p {
-	width: 64%;
-	margin: 0px auto;
-	font-size: 18px;
-	text-align: justify;
-	line-height: 1.8;
-	margin-top: 30px;
+  width: 64%;
+  margin: 0px auto;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.8;
+  margin-top: 30px;
 }
 
 .wrap-container-mentoria {
-	display: flex;
-	width: 80%;
-	flex-direction: row;
-	margin: 0px auto;
-	margin-top: 80px;
-	justify-content: center;
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  margin: 0px auto;
+  margin-top: 80px;
+  justify-content: center;
 }
 
-.icon-img img{
+.icon-img img {
   width: 90px;
   display: block;
   margin: 0px auto;
 }
 
-.container-mentoria-1, .container-mentoria-2, .container-mentoria-3{
+.container-mentoria-1,
+.container-mentoria-2,
+.container-mentoria-3 {
   width: 25%;
   margin: 10px;
   padding: 20px;
@@ -1306,7 +1309,7 @@ h1 {
   justify-content: center;
 }
 
-.text-icon-mentoria{
+.text-icon-mentoria {
   font-size: 19px;
   font-weight: lighter;
   color: #fff;
@@ -1315,14 +1318,24 @@ h1 {
   margin-top: 15px;
 }
 
+#marketing-bio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 350px;
+  margin: 0px auto;
+  position: relative;
+  top: -316px;
+  background-color: #001E3F;
+}
 
+.wrap-marketing h5 {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 700;
 
-
-
-
-
-
-
+}
 
 /*FOOTER*/
 
@@ -1335,6 +1348,7 @@ h1 {
   align-items: center;
   background-color: #444;
 }
+
 
 .wrap-footer {
   display: flex;
@@ -1367,6 +1381,7 @@ h1 {
   font-size: 16px;
   font-weight: bold;
   transition: all 300ms;
+  text-shadow: 1px 1px 1px rgb(23, 23, 23);
 }
 
 .nav-footer ul li a:hover {
@@ -1379,4 +1394,44 @@ h1 {
   font-size: 18px;
   align-items: center;
   text-align: center;
+  text-shadow: 1px 1px 1px rgb(23, 23, 23);
+}
+
+.footer-mentoria {
+  display: flex;
+  height: 500px !important;
+
+  /*BG*/
+
+
+  background: rgba(73, 155, 234, 1);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(73, 155, 234, 1) 0%, rgba(0, 23, 48, 1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(73, 155, 234, 1)), color-stop(100%, rgba(0, 23, 48, 1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(73, 155, 234, 1) 0%, rgba(0, 23, 48, 1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(73, 155, 234, 1) 0%, rgba(0, 23, 48, 1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(73, 155, 234, 1) 0%, rgba(0, 23, 48, 1) 100%);
+  background: radial-gradient(ellipse at center, rgba(73, 155, 234, 1) 0%, rgba(0, 23, 48, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#499bea', endColorstr='#001730', GradientType=1);
+
+}
+
+#whatssap {
+  display: block;
+  position: fixed;
+  top: 80%;
+  transition: 300ms all;
+  z-index: 1;
+}
+
+#whatssap img {
+  width: 27%;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+  top: -40px;
+  left: 1383px;
+}
+
+#whatssap:hover {
+  opacity: 0.8;
 }
