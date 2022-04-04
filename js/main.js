@@ -31,6 +31,7 @@ window.addEventListener('load', function () {
     let link3 = document.getElementById('link-3')
     let link4 = document.getElementById('link-4')
     let link5 = document.getElementById('link-5')
+    let WhatSapp = document.getElementById('whatssap')
 
 
 
@@ -45,6 +46,7 @@ window.addEventListener('load', function () {
             link3.style.color = "#fff";
             link4.style.color = "#fff";
             link5.style.color = "#fff";
+            WhatSapp.style.opacity = "1";
 
         } else {
             menu.style.backgroundColor = '#fff';
@@ -55,6 +57,7 @@ window.addEventListener('load', function () {
             link3.style.color = "#444444";
             link4.style.color = "#444444";
             link5.style.color = "#444444";
+            WhatSapp.style.opacity = "0";
         }
     })
 
