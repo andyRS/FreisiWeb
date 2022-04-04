@@ -26,7 +26,7 @@
 }
 
 @font-face {
-  font-family: 'Monserrat-Regular';
+  font-family: 'Monserrat-Regular', sans-serif;
   src: url(fonts/Montserrat-Regular.ttf);
 }
 
@@ -36,8 +36,8 @@
 }
 
 @font-face {
-  font-family: 'Monserrat-Medio';
-  src: url(fonts/Montserrat-Medium.ttf);
+  font-family: 'Monserrat-Bold';
+  src: url(fonts/Montserrat-Bold.ttf);
 }
 
 
@@ -1372,9 +1372,9 @@ h1 {
   background: #024185;
 }
 
-.volver-inicio:hover{
+.volver-inicio:hover {
   border-radius: 20px 0px 10px 0px;
-  background-color: #003166 ;
+  background-color: #003166;
 }
 
 .wrap-marketing a {
@@ -1390,18 +1390,18 @@ h1 {
 }
 
 .volver-inicio-btn:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 
 }
 
 
 /*BLOG*/
-#container-blog{
+#container-blog {
   position: relative;
   top: -170px;
 }
 
-#paginacion{
+#paginacion {
   display: flex;
   width: 300px;
   margin: 0px auto;
@@ -1410,13 +1410,159 @@ h1 {
 }
 
 
-.ocultar{
+.ocultar {
   display: none;
 }
 
-.aparecer{
+.aparecer {
   display: block;
 }
+
+/*TRADING*/
+#trading {
+  display: flex;
+  height: 45vw;
+  width: 100vw;
+  margin: 0px auto;
+  flex-direction: column;
+  align-items: center;
+  background-color: #201F25;
+  margin-top: -205px;
+}
+
+.wrap-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+}
+
+.title-heading h2 {
+  display: flex;
+  width: 38%;
+  justify-content: center;
+  font-family: 'Monserrat-Bold', sans-serif !important;
+  font-size: 49px;
+  position: relative;
+  top: 127px;
+  left: 190px;
+  color: #fff;
+}
+
+.img-heading img {
+  display: flex;
+  width: 85%;
+  margin: 0px auto;
+  position: relative;
+  top: -199px;
+  left: 264px;
+}
+
+
+.text-rentabilidad p {
+  position: relative;
+  top: 131px;
+  color: #E7E7E7;
+  font-family: "Raleway", Sans-serif;
+  font-size: 20px;
+  width: 34%;
+  left: 190px;
+}
+
+.button-wrapper {
+  display: block;
+  width: 40%;
+  position: relative;
+  top: -206px;
+  left: -265px;
+}
+
+.btn-danger {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  background-color: #FF0202;
+  border-radius: 23px 23px 23px 23px;
+  padding: .500rem .990rem;
+  transition: all 400ms !important;
+}
+
+.btn-danger a:hover {
+  color: #000 !important;
+  background-color: none;
+  border-color: none;
+}
+
+#trading-school {
+  width: 100%;
+  height: 50vw;
+  display: flex;
+  margin-top: 120px;
+  background-color: #fff;
+}
+
+.wrap-trading-school {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+}
+
+.title-school {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 200px;
+}
+
+.title-school h3 {
+  width: 39%;
+  font-family: 'Monserrat-Regular', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.text-school {
+  width: 40%;
+  margin: 0px auto;
+  display: flex;
+}
+
+.text-p-school p {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 200px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Raleway", Sans-serif;
+}
+
+.image-school {
+  display: block;
+  position: relative;
+  top: -410px;
+  left: 115px;
+}
+
+.image-school img {
+  width: 32%;
+  filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-radius: 50% 50% 50% 50%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.39);
+}
+
+.btn-school {
+	display: block;
+	width: 50%;
+	position: relative;
+	top: -305px;
+	left: 630px;
+}
+
+
 
 /*FOOTER*/
 
