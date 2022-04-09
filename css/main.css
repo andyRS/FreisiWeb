@@ -324,23 +324,34 @@ h1 {
 #bio-autor {
   display: flex;
   width: 100%;
-  height: 800px;
   flex-flow: wrap row;
   margin: 0px auto;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
+
 
 .wrap {
   width: auto;
   height: auto;
-  display: flex;
+  display: inline-flex;
   margin-top: -40px;
   justify-content: center;
   align-items: center;
   background-image: url(../imagenes/Bio.jpg);
+  filter: brightness(105.3%) contrast(140.2%) saturate(120.1%) blur(0px);
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.overlay {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .autor-img {
@@ -348,7 +359,15 @@ h1 {
   margin: 0px auto;
   position: relative;
   left: 150px;
+}
 
+.autor-img img {
+  position: relative;
+  filter: brightness(95%) contrast(102%) saturate(110%) blur(0px);
+  top: 90px;
+  z-index: 0;
+  width: 370px;
+  left: -40px;
 }
 
 .description-autor {
@@ -362,7 +381,7 @@ h1 {
   background: rgba(248, 251, 254, 0.6);
   border: 1px solid #ccc;
   box-shadow: 0px 0px 10px #ccc;
-  margin-left: -20px;
+  margin-left: 23px;
 }
 
 .description-autor h3 {
@@ -395,12 +414,13 @@ h1 {
 .redes-sociales {
   display: block;
   width: 100%;
+  position: relative;
 }
 
 
 .icons {
-  display: inline-block;
-  width: 100%;
+  display: inline-flex;
+  width: 61%;
   margin: 5px;
   border-radius: 60px;
   cursor: pointer;
@@ -555,20 +575,24 @@ h1 {
   width: 100%;
   height: 250px;
   display: flex;
+  position: relative;
   justify-content: space-between;
   align-items: center;
   background-color: #13325d;
+  z-index: 0;
 }
 
 .iconos-destacados {
-  display: flex;
+  display: inline-flex;
   width: 100%;
   margin: 0px auto;
   align-items: center;
   text-align: center;
   justify-content: space-between;
-  padding: 10px;
+  padding: 0px;
   position: relative;
+  left: 83px;
+  top: -22px;
 }
 
 .iconos-destacados .fa-envelope {
@@ -1573,15 +1597,15 @@ h1 {
 }
 
 .title-nuestros-num h4 {
-	width: 40%;
-	margin: 0px auto;
-	position: relative;
-	font-family: 'Monserrat-Bold', sans-serif !important;
-	color: #fff;
-	font-size: 45px;
-	letter-spacing: 1.3px;
-	top: -36px;
-	left: 47px;
+  width: 40%;
+  margin: 0px auto;
+  position: relative;
+  font-family: 'Monserrat-Bold', sans-serif !important;
+  color: #fff;
+  font-size: 45px;
+  letter-spacing: 1.3px;
+  top: -36px;
+  left: 47px;
 }
 
 .numeros-red {
@@ -1590,12 +1614,13 @@ h1 {
 }
 
 .wrap-nuestros-num {
-	display: flex;
-	width: 100%;
+  display: flex;
+  width: 100%;
   position: relative;
   left: 40px;
-	justify-content: space-between;
+  justify-content: space-between;
 }
+
 .estadistica-estrag h4 {
   width: 40%;
   margin: 0px auto;
@@ -1606,52 +1631,305 @@ h1 {
 }
 
 .title-academy-text p {
-	width: 75%;
-	margin: 0px auto;
-	color: #FF0202;
-	font-size: 27px;
-	font-weight: 600;
-	position: relative;
-	left: 80px;
+  width: 75%;
+  margin: 0px auto;
+  color: #FF0202;
+  font-size: 27px;
+  font-weight: 600;
+  position: relative;
+  left: 80px;
 }
 
-.num-2 h4{
+.num-2 h4 {
   position: relative;
-  left: 60px;
+  left: 75px;
   top: 0;
 }
 
 .num-3 h4 {
-	position: relative;
-	left: -26px;
-	top: 0;
+  position: relative;
+  left: -26px;
+  top: 0;
 }
 
 .title-2 p {
-	position: relative;
-	left: 127px;
+  position: relative;
+  left: 127px;
 }
 
 .title-3 p {
-	position: relative;
-	left: 38px;
+  position: relative;
+  left: 38px;
 }
 
 .title-simple-matric p {
-	width: 74%;
-	margin: 0px auto;
-	text-align: center;
-	position: relative;
-	left: 71px;
-	font-family: "Raleway", sans-serif;
-	font-weight: 100;
-	font-size: 18px;
-	color: #fff;
+  width: 74%;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+  left: 71px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  color: #fff;
 }
 
 .text-matric-3 p {
-	left: -27px;
+  left: -27px;
 }
+
+#destacado-spacio {
+  display: flex;
+  width: 90%;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px #ccc;
+  margin-top: 100px;
+
+  /*BG*/
+
+  background: radial-gradient(ellipse at center, rgba(248, 80, 50, 1) 0%, rgba(241, 111, 92, 1) 0%, rgba(235, 27, 0, 1) 80%, rgba(231, 56, 39, 1) 100%);
+}
+
+.heading-title-destacado-espacio h4 {
+  font-family: "Raleway", sans-serif !important;
+  color: #fff;
+  font-size: 45px;
+  text-align: center;
+  text-shadow: 2px 2px 2px #111;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.b-espaciadora {
+  width: 90%;
+  margin: 0px auto;
+  color: #fff;
+}
+
+.parrafo-spacio-destacado {
+  width: 90%;
+  text-align: center;
+}
+
+.parrafo-spacio-destacado p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  color: #fff;
+  text-shadow: 4px 4px 4px #000;
+}
+
+
+
+/*Curso-Trading*/
+#cursos-trading {
+  width: 100%;
+  height: 60vw;
+  display: flex;
+  background-color: #201f25;
+  margin-top: 100px;
+}
+
+.wrap-cursos-trading {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.heading-title-cursos-trading {
+  width: 90%;
+  margin: 0px auto;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.heading-title-cursos-trading h5 {
+  width: 40%;
+  margin: 0px auto;
+  position: relative;
+  font-family: 'Monserrat-Bold', sans-serif !important;
+  color: #fff;
+  font-size: 45px;
+  letter-spacing: 1.3px;
+  top: -126px;
+  left: 47px;
+}
+
+.p-cursos-trading {
+  width: 90%;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.p-cursos-trading p {
+  width: 82%;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+  left: 71px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  font-size: 21px;
+  color: #fff;
+  top: -95px;
+}
+
+.wrap-cajas-cursos {
+  width: 72%;
+  margin: 0px auto;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cursos {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 270px;
+  background: #fff;
+  transition: all 1000ms;
+  cursor: pointer;
+}
+
+.cursos:hover {
+  background: #ff0202;
+  color: #fff;
+  border: 2px solid #fff;
+
+}
+
+
+.title-curso h5 {
+  font-family: 'Monserrat-Bold', sans-serif !important;
+  font-size: 32px;
+  text-align: center;
+  transition: all 1000ms;
+}
+
+
+
+.parrafo-curso p {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  transition: all 1000ms;
+}
+
+.btn-cursos {
+  font-family: "Raleway", sans-serif !important;
+  font-size: 20px;
+  transition: all 300ms;
+}
+
+.mas-detalles {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.heading-title-detalles h5 {
+  font-family: "Raleway", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: none;
+}
+
+
+/*Testomonials*/
+#testomonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	width: 100%;
+	height: 41vw;
+  margin-top: 80px;
+	font-family: 'Montserrat', sans-serif;
+	background: #f6f6f6;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+}
+
+
+.wrapper{
+  padding: 50px 0;
+  position: relative;
+  margin: 120px 0; 
+}
+.carousel-control.left,
+.carousel-control.right{
+  background: transparent; 
+}
+.imgBox {
+width: 100px;
+height: 100px;
+margin: auto;
+border: 5px solid #262626;
+border-radius: 50%;
+overflow: hidden;
+}
+.imgBox img{
+  width: 100%; 
+}
+      .carousel-inner {
+background: aliceblue;
+padding: 35px;
+border-radius: 25px;
+box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+.carousel-caption{
+  position: static;
+  padding-bottom: 15px;
+  padding-top: 0;
+}
+.carousel-caption h3 {
+font-size: 50px;
+margin-bottom: 15px;
+margin-top: 25px;
+font-family: 'Allura', cursive;
+color: #262626;
+text-shadow: none;
+}
+.carousel-caption h4 {
+color: #2b2626;
+text-shadow: none;
+}
+.carousel-caption p {
+font-size: 18px;
+margin: auto;
+width: 70%;
+margin-bottom: 10px;
+font-family: 'Teko', sans-serif;
+font-weight: 300;
+letter-spacing: 2px;
+text-shadow: none;
+color: #2b2626;
+}
+      .carousel-indicators li {
+background-color: #ddd;
+          width: 50px;
+}
+      .carousel-control{
+          color: #2b2626;
+      }
+.carousel-indicators .active {
+background-color: #2b2626;
+  width: 20px
+}        
+.carousel-indicators {
+bottom: 10px;
+}
+
 
 /*FOOTER*/
 
