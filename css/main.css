@@ -239,6 +239,10 @@ h1 {
   transform: scale(1.1);
 }
 
+.nav-menu-item:hover{
+  text-decoration: none;
+}
+
 #swiper-container {
   display: flex;
   width: 100vw;
