@@ -2097,10 +2097,10 @@ h1 {
   width: 100%;
   height: 60vw;
   justify-content: center;
-  align-items: center;
   margin-top: 100px;
   flex-direction: column;
   background-color: #201f25;
+  overflow: hidden;
 
 }
 
@@ -2110,6 +2110,8 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  align-self: center;
 }
 
 .heading-title-que-aprenderas {
@@ -2134,47 +2136,72 @@ h1 {
   width: 100%;
   display: inline-flex;
   justify-content: center;
-  padding: 27px;
+  padding: 18px;
   position: relative;
   top: -261px;
   margin-bottom: 1em;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
 }
+
 
 .text-principal-que-aprenderas p {
   font-family: "Raleway", sans-serif;
-  font-size: 19px;
+  font-size: 18px;
   color: #fff;
 }
 
+.heading-que-aprenderas {
+  position: relative;
+  top: 142px;
+}
+
 .wrap-all-text-que-aprenderas {
-	display: flex;
+  display: flex;
   width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.btn-precios {
+  width: 15%;
+  margin: 0px auto;
+  margin-top: 50px;
+}
+
+.wrap-all-02 {
+  display: flex;
+  width: 100%;
+  margin: 0px auto;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
 
 }
 
 .text-widgets-edits {
-	display: inline-flex;
-	width: 95%;
-	flex-direction: row;
-  flex-wrap: wrap;
+  display: inline-flex;
+  width: 100%;
   justify-content: space-around;
   margin-left: 20px;
   margin-right: 20px;
   padding: 40px;
 }
 
-
-.text-que-aprenderas{
+.text-que-aprenderas {
   display: inline-flex;
   width: 100%;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
 }
 
 .text-que-aprenderas h4 {
-	font-size: 32px;
-	font-weight: bold;
-	font-family: "Montserrat", sans-serif;
-	color: #fff;
+  font-size: 27px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
 }
 
 .text-widgets-edits p {
@@ -2183,8 +2210,124 @@ h1 {
   color: #B8B8B8;
 }
 
+.antepenultimo-registro-opera {
+  position: relative;
+  left: 23px;
+}
+
+.ultimo-pisco {
+  position: relative;
+  left: 78px;
+}
 
 /*Fin que aprenderas*/
+
+
+/* Inicio Nuestra-Formacion*/
+#nuestra-formacion {
+  display: flex;
+  width: 100%;
+  height: 73vw;
+  background: #f6f6f6;
+  margin-top: 100px;
+}
+
+.wrap-nformacion {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.heading-title-formacion {
+	display: inline-flex;
+	width: 70%;
+	margin: 0px auto;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+	margin-top: 6em;
+  margin-bottom: 6em;
+	/* margin-bottom: ; */
+}
+
+.heading-title-formacion h4 {
+  color: #201F25;
+  font-size: 45px;
+  letter-spacing: 0.8px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+
+.parrafo-heading-formacion p {
+  text-align: center;
+  color: #4F5362;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+
+
+.cards-formacion-container {
+  display: flex;
+  width: 100%;
+  flex-flow: column wrap;
+}
+
+.cards-group {
+	width: 60%;
+	margin: 0px auto;
+	position: relative;
+	right: -163px;
+	justify-content: center;
+	display: flex;
+	flex-flow: row wrap;
+	top: -528px;
+}
+
+.cards {
+	width: 416px;
+	height: 300px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+	padding: 20px;
+	margin: 10px;
+	background: #fff;
+}
+
+.card-01 {
+	position: relative;
+	left: 46px;
+	top: -9px;
+	height: 500px;
+}
+
+.numero-card h5 {
+  color: #ff0202;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  margin-bottom: 1em;
+  position: relative;
+  top: 5px;
+}
+
+.title-cards h5 {
+  color: #201F25;
+  font-size: 21px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.parrafo-cards p {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: #3a3a3a;
+}
+
+
+/*Fin Nuestra-Formacion*/
 
 /*FOOTER*/
 #footer {
