@@ -42,7 +42,6 @@
 
 
 
-
 /*Fin Fuentes*/
 
 body {
@@ -2333,10 +2332,9 @@ h1 {
   display: flex;
   background: #201f25;
   width: 100%;
-  height: 60vw;
+  height: 38vw;
   flex-flow: column wrap;
 }
-
 
 .wrap-nuestro-sistema {
   display: flex;
@@ -2370,35 +2368,37 @@ h1 {
 }
 
 .wrap-sistema-num {
-	display: flex;
-	width: 90%;
-	flex-direction: row;
-	margin: 0px auto;
-	position: relative;
-	left: -130px;
-	margin-top: 12em;
-	padding: 20px;
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  margin: 0px auto;
+  position: relative;
+  left: -130px;
+  margin-top: 4em;
+  padding: 20px;
 }
 
 .sistema-num-title {
-	display: flex;
-	width: 0%;
-	flex-wrap: nowrap;
-	text-align: center;
-	justify-content: center;
-	margin: 0px auto;
+  display: flex;
+  width: 0%;
+  flex-wrap: nowrap;
+  text-align: center;
+  justify-content: center;
+  margin: 0px auto;
 }
 
-.sistem-title-2{
+.sistem-title-2 {
   display: flex;
   justify-content: center;
   width: 100%;
   margin: 0px auto;
   align-items: center;
   text-align: center;
+  left: -20px;
+  position: relative;
 }
 
-.sistem-p-2{
+.sistem-p-2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2409,12 +2409,222 @@ h1 {
 }
 
 .title-5 {
-	position: relative;
-	left: 41px;
+  position: relative;
+  left: 41px;
+}
+
+.tile-2-exitosas {
+  position: relative;
+  left: 30px;
+}
+
+.parrafo-3-exitosa {
+  position: relative;
+  left: 42px;
+}
+
+/*Nuestro sistema*/
+
+/*Precios*/
+#precios-modalidad {
+  display: flex;
+  margin-top: 10em;
+  margin-bottom: 40em;
+}
+
+.contenedor {
+  width: 85%;
+  max-width: 1280px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tabla {
+  width: 33%;
+  height: 826px;
+  margin: 2px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  box-shadow: 0px 0px 4px 0px #444;
+  padding: 60px;
+  text-align: center;
+  flex-grow: 1;
+  transition: all 300ms;
+}
+
+.tabla>h2 {
+  color: #111;
+  font-family: 'Monserrat-Bold';
+  font-size: 29px;
+  margin-bottom: 35px;
+}
+
+.tabla:hover>h2 {
+  color: #fff;
+}
+
+.title-paquetes {
+  font-family: 'Monserrat-Bold';
+  font-size: 29px;
+  color: #201f25;
+  transition: all 300ms;
 }
 
 
-/*Nuestro sistema*/
+
+.tabla img {
+  width: 64px;
+  margin-bottom: 35px;
+}
+
+.tabla>h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.tabla>p {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  transition: all 300ms;
+}
+
+.boton {
+  display: inline-block;
+  width: 150px;
+  padding: 12px;
+  background: #ff0202;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 100px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  margin: auto;
+  transition: all 300ms;
+}
+
+.boton:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(5, 147, 53);
+  font-size: 16px;
+}
+
+.tabla:hover {
+  background: #201f25;
+  color: #f5f5f5;
+  transition: .5s all;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.check {
+  color: rgb(7, 171, 7);
+}
+
+.no-chek-x {
+  color: #ff0202;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 1000px) {
+  .tabla {
+    width: 45%;
+    max-width: none;
+    margin-bottom: 40px;
+    flex-grow: initial;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .tabla {
+    width: 45%;
+    padding: 30px;
+  }
+
+  .tabla>h2 {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width:550px) {
+  .tabla {
+    width: 85%;
+    padding: 20px;
+  }
+}
+
+/*Precios*/
+
+
+/*Preguntas Frecuentes*/
+#box-acordeon {
+	width: 73%;
+	margin: 0px auto;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+	
+}
+
+#box-acordeon h5{
+	display: block;
+  font-family: 'Monserrat-Bold';
+  color: #111;
+	width: 100%;
+	margin: 0px auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 45px;
+	text-align: center;
+	border-bottom: 2px solid #ccc;
+}
+
+.ui-accordion .ui-accordion-header {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	margin: 2px 0 0 0;
+	padding: .5em .5em .5em .7em;
+	font-size: 200%;
+  transition: all 300ms;
+}
+
+.ui-accordion .ui-accordion-content {
+  font-family: "Raleway", sans-serif;
+	padding: 1em 2.2em;
+	border-top: 0;
+	overflow: auto;
+	background: #f2f2f2;
+	box-shadow: 0px 0px 4px #897f7f;
+  font-size: 18px;
+  transition: all 300ms;
+}
+
+#acordeon{
+	margin-top: 20px;
+}
+
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+  background: #a30909;
+  text-shadow: 1px 1px 1px #222, 1px 2px 2px #333;
+  font-weight: 600;
+}
+
+/*Fin de acordeon*/
+
+/*Fin Preguntas Frencuentes*/
 
 /*FOOTER*/
 #footer {

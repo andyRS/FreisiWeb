@@ -61,10 +61,5 @@ window.addEventListener('load', function () {
         }
     })
 
-
-    //pagination
-    
-
-
-
 })
+
