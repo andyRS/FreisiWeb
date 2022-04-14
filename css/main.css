@@ -41,7 +41,8 @@
 }
 
 
-a:focus, a:hover{
+a:focus,
+a:hover {
   text-decoration: none;
 }
 
@@ -236,8 +237,12 @@ h1 {
   text-decoration: none;
 }
 
-#link-1, #link-2, #link-3, #link-4, #link-5 {
-	font-size: 1.1em !important;
+#link-1,
+#link-2,
+#link-3,
+#link-4,
+#link-5 {
+  font-size: 1.1em !important;
 }
 
 
@@ -857,24 +862,24 @@ h1 {
 }
 
 .btn-prefooter {
-	font-family: "Oswald", Sans-serif;
-	font-weight: bold;
-	line-height: 1.3em;
-	display: inline-block;
-	width: 250px;
-	text-decoration: none;
-	margin-top: 10px;
-	padding: 15px 11px;
-	color: #fff;
-	border: none;
-	border-radius: 10px;
-	background: #ff6e00;
-	text-transform: uppercase;
-	box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.5);
-	transition: all 300ms;
-	cursor: pointer;
-	font-size: 17px;
-	text-align: center;
+  font-family: "Oswald", Sans-serif;
+  font-weight: bold;
+  line-height: 1.3em;
+  display: inline-block;
+  width: 250px;
+  text-decoration: none;
+  margin-top: 10px;
+  padding: 15px 11px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  background: #ff6e00;
+  text-transform: uppercase;
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.5);
+  transition: all 300ms;
+  cursor: pointer;
+  font-size: 17px;
+  text-align: center;
 }
 
 .btn-prefooter:hover {
@@ -1477,12 +1482,12 @@ h1 {
 }
 
 .img-heading img {
-	display: flex;
-	width: 88%;
-	margin: 0px auto;
-	position: relative;
-	top: -141px;
-	left: 264px;
+  display: flex;
+  width: 88%;
+  margin: 0px auto;
+  position: relative;
+  top: -141px;
+  left: 264px;
 }
 
 .text-rentabilidad p {
@@ -1496,11 +1501,11 @@ h1 {
 }
 
 .button-wrapper {
-	display: block;
-	width: 40%;
-	position: relative;
-	top: -206px;
-	left: -270px;
+  display: block;
+  width: 40%;
+  position: relative;
+  top: -206px;
+  left: -270px;
 }
 
 .btn-danger {
@@ -1582,11 +1587,11 @@ h1 {
 }
 
 .btn-school {
-	display: block;
-	width: 50%;
-	position: relative;
-	top: -342px;
-	left: 630px;
+  display: block;
+  width: 50%;
+  position: relative;
+  top: -342px;
+  left: 630px;
 }
 
 /*Estadistica Numerico*/
@@ -1751,15 +1756,15 @@ h1 {
 }
 
 .heading-title-cursos-trading h5 {
-	width: 33%;
-	margin: 0px auto;
-	position: relative;
-	font-family: 'Monserrat-Bold', sans-serif !important;
-	color: #fff;
-	font-size: 45px;
-	letter-spacing: 1.3px;
-	top: -126px;
-	left: 47px;
+  width: 33%;
+  margin: 0px auto;
+  position: relative;
+  font-family: 'Monserrat-Bold', sans-serif !important;
+  color: #fff;
+  font-size: 45px;
+  letter-spacing: 1.3px;
+  top: -126px;
+  left: 47px;
 }
 
 .p-cursos-trading {
@@ -2152,7 +2157,7 @@ h1 {
 
 .heading-que-aprenderas {
   position: relative;
-  top: 142px;
+  top: 196px;
 }
 
 .wrap-all-text-que-aprenderas {
@@ -2257,7 +2262,7 @@ h1 {
   font-weight: bold;
 }
 
-.que-aprenderas .img-icon-aprenderas img{
+.que-aprenderas .img-icon-aprenderas img {
   display: block;
   margin: 0px auto;
   width: 11%;
@@ -2449,16 +2454,16 @@ h1 {
 }
 
 .tabla {
-	width: 33%;
-	height: 1105px;
-	margin: 2px;
-	border: 1px solid #444;
-	border-radius: 4px;
-	box-shadow: 0px 0px 4px 0px #444;
-	padding: 60px;
-	text-align: center;
-	flex-grow: 1;
-	transition: all 300ms;
+  width: 33%;
+  height: 1105px;
+  margin: 2px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  box-shadow: 0px 0px 4px 0px #444;
+  padding: 60px;
+  text-align: center;
+  flex-grow: 1;
+  transition: all 300ms;
 }
 
 .tabla>h2 {
@@ -2570,48 +2575,48 @@ h1 {
 
 /*Preguntas Frecuentes*/
 #box-acordeon {
-	width: 73%;
-	margin: 0px auto;
-	border: 1px solid #ccc;
-	box-shadow: 0px 0px 10px #ccc;
-	
+  width: 73%;
+  margin: 0px auto;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px #ccc;
+
 }
 
 #box-acordeon h5 {
-	display: block;
-	font-family: 'Monserrat-Bold';
-	color: #111;
-	width: 100%;
-	margin: 0px auto;
-	font-size: 40px;
-	text-align: center;
-	line-height: 2.0;
+  display: block;
+  font-family: 'Monserrat-Bold';
+  color: #111;
+  width: 100%;
+  margin: 0px auto;
+  font-size: 40px;
+  text-align: center;
+  line-height: 2.0;
 }
 
 .ui-accordion .ui-accordion-header {
-	display: block;
-	cursor: pointer;
-	position: relative;
-	margin: 2px 0 0 0;
-	padding: .5em .5em .5em .7em;
-	font-size: 185%;
-	transition: all 300ms;
+  display: block;
+  cursor: pointer;
+  position: relative;
+  margin: 2px 0 0 0;
+  padding: .5em .5em .5em .7em;
+  font-size: 185%;
+  transition: all 300ms;
 }
 
 .ui-accordion .ui-accordion-content {
   font-family: "Raleway", sans-serif;
-	padding: 1em 2.2em;
-	border-top: 0;
-	overflow: auto;
-	background: #f2f2f2;
-	box-shadow: 0px 0px 4px #897f7f;
+  padding: 1em 2.2em;
+  border-top: 0;
+  overflow: auto;
+  background: #f2f2f2;
+  box-shadow: 0px 0px 4px #897f7f;
   font-size: 18px;
   height: 200px;
   transition: all 300ms;
 }
 
-#acordeon{
-	margin-top: 20px;
+#acordeon {
+  margin-top: 20px;
 }
 
 
@@ -2626,9 +2631,79 @@ a.ui-button:active,
   font-weight: 600;
 }
 
-/*Fin de acordeon*/
-
 /*Fin Preguntas Frencuentes*/
+
+/*Certificado-finalizacion*/
+#certificado-fin {
+  display: flex;
+  width: 100%;
+  height: 30vw;
+  background: #201f25;
+  margin-bottom: 100px;
+}
+
+.wrap-certificado {
+	display: flex;
+	width: 83%;
+	margin: 0px auto;
+	justify-content: center;
+	margin-top: 40px;
+  flex-direction: row;
+}
+
+.mover-texto-certificado {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	top: 83px;
+}
+
+.heading-title-certificado{
+  display: inline-flex;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.heading-title-certificado h5 {
+	color: #FFFFFF;
+	font-size: 45px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	width: 45%;
+}
+
+.parrafo-certificado{
+  width: 100%;
+  display: inline-flex;
+  justify-content: left;
+  
+}
+
+.parrafo-certificado p{
+  width: 45%;
+  font-family: "Raleway", sans-serif;
+  font-size: 19px;
+  color: #fff;
+}
+
+
+.img-certificado {
+	display: flex;
+	justify-content: right;
+	position: relative;
+	top: -143px;
+	left: -164px;
+}
+
+.img-certificado img{
+  display: block;
+  width: 35%;
+  border: 1px solid #222;
+  box-shadow: 0px 0px 10px #222;
+}
+
+/*Fin Certificado-finalizacion*/
 
 /*FOOTER*/
 #footer {
