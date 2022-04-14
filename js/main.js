@@ -30,30 +30,36 @@ window.addEventListener('load', function () {
     let link2 = document.getElementById('link-2')
     let link3 = document.getElementById('link-3')
     let link4 = document.getElementById('link-4')
+    let link5 = document.getElementById('link-5')
+    let WhatSapp = document.getElementById('whatssap')
 
 
 
     window.addEventListener('scroll', () => {
         var scroll = window.scrollY
         if (scroll > 10) {
-            menu.style.backgroundColor = '#121212'
-            logoMenu.style.color = '#fff'
+            menu.style.backgroundColor = '#121212';
+            logoMenu.style.color = '#fff';
             logoMenu.style.left = "-100px";
-            link1.style.color ="#fff"
-            link2.style.color ="#fff"
-            link3.style.color ="#fff"
-            link4.style.color ="#fff"
+            link1.style.color = "#fff";
+            link2.style.color = "#fff";
+            link3.style.color = "#fff";
+            link4.style.color = "#fff";
+            link5.style.color = "#fff";
+            WhatSapp.style.opacity = "1";
 
         } else {
-            menu.style.backgroundColor = '#fff'
-            logoMenu.style.color = '#444444'
+            menu.style.backgroundColor = '#fff';
+            logoMenu.style.color = '#444444';
             logoMenu.style.left = "100px";
-            link1.style.color ="#444444"
-            link2.style.color ="#444444"
-            link3.style.color ="#444444"
-            link4.style.color ="#444444"
+            link1.style.color = "#444444";
+            link2.style.color = "#444444";
+            link3.style.color = "#444444";
+            link4.style.color = "#444444";
+            link5.style.color = "#444444";
+            WhatSapp.style.opacity = "0";
         }
     })
 
-
 })
+
