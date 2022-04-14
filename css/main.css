@@ -2643,22 +2643,22 @@ a.ui-button:active,
 }
 
 .wrap-certificado {
-	display: flex;
-	width: 83%;
-	margin: 0px auto;
-	justify-content: center;
-	margin-top: 40px;
+  display: flex;
+  width: 83%;
+  margin: 0px auto;
+  justify-content: center;
+  margin-top: 40px;
   flex-direction: row;
 }
 
 .mover-texto-certificado {
-	display: flex;
-	position: relative;
-	flex-direction: column;
-	top: 83px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  top: 83px;
 }
 
-.heading-title-certificado{
+.heading-title-certificado {
   display: inline-flex;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -2666,21 +2666,21 @@ a.ui-button:active,
 }
 
 .heading-title-certificado h5 {
-	color: #FFFFFF;
-	font-size: 45px;
-	font-family: "Montserrat", sans-serif;
-	font-weight: bold;
-	width: 45%;
+  color: #FFFFFF;
+  font-size: 45px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  width: 45%;
 }
 
-.parrafo-certificado{
+.parrafo-certificado {
   width: 100%;
   display: inline-flex;
   justify-content: left;
-  
+
 }
 
-.parrafo-certificado p{
+.parrafo-certificado p {
   width: 45%;
   font-family: "Raleway", sans-serif;
   font-size: 19px;
@@ -2689,14 +2689,14 @@ a.ui-button:active,
 
 
 .img-certificado {
-	display: flex;
-	justify-content: right;
-	position: relative;
-	top: -143px;
-	left: -164px;
+  display: flex;
+  justify-content: right;
+  position: relative;
+  top: -143px;
+  left: -164px;
 }
 
-.img-certificado img{
+.img-certificado img {
   display: block;
   width: 35%;
   border: 1px solid #222;
@@ -2799,4 +2799,576 @@ a.ui-button:active,
 
 #whatssap:hover {
   opacity: 0.8;
+}
+
+
+/*RESPONSIVE*/
+@media (min-width: 1400px) {
+  .wrap {
+    margin-top: -40px;
+  }
+
+  #swiper-container {
+    display: flex;
+    margin-bottom: 258px;
+    position: relative;
+    z-index: -1;
+    top: 218px;
+  }
+
+  #link-1,
+  #link-2,
+  #link-3,
+  #link-4,
+  #link-5 {
+    font-size: 1.2em !important;
+  }
+
+  .container-icons-text {
+    left: -163px;
+  }
+
+
+  .container-btn-pre {
+    left: -607px;
+    top: 111px;
+  }
+
+  #mentoria-container {
+    width: auto;
+  }
+
+
+  .iconos-destacados {
+    display: flex;
+    width: 87%;
+    padding: 10px;
+    position: relative;
+    left: 120px;
+  }
+
+  #destacado {
+    height: 247px;
+    position: relative;
+    top: -47px;
+  }
+
+  .container-icons-text {
+    left: -150px;
+    color: #fff;
+  }
+
+  #whatssap img {
+    left: 1741px;
+  }
+
+  .redes-sociales {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .icons {
+    display: flex;
+    width: 52%;
+    margin: 5px;
+    border-radius: 60px;
+    cursor: pointer;
+  }
+
+  .btn-autor {
+    width: 188px;
+    margin-top: 23px;
+  }
+
+  .container-btn-pre {
+    position: relative;
+    left: -667px;
+    top: 113px;
+  }
+
+  .title-arte-scalar {
+    left: -205px;
+  }
+
+  .wrap-prefooter h5 {
+    width: 42%;
+    letter-spacing: 0.4px;
+    font-size: 50px;
+    line-height: 70px !important;
+    font-weight: 800;
+    position: relative;
+    top: 114px;
+    left: -120px;
+  }
+
+  .nav-footer ul li a {
+    font-size: 25px;
+
+  }
+
+  #mentoria-container {
+    width: 1900px;
+    /* max-width: 1900px; */
+  }
+
+  .title-agency h3 {
+    margin-top: 448px;
+  }
+
+
+  .triangle-destacado-white .fa-caret-down {
+    left: 857px;
+
+  }
+
+  .triangle-destacado-bottom .fa-caret-down {
+    left: -92px;
+    top: 85px;
+  }
+
+  .text-fastmind-wrap p {
+    font-size: 26px;
+  }
+
+  .icon-list-text {
+    font-size: 26px;
+  }
+
+  .icon-list-icon i {
+    font-size: 35px;
+  }
+
+  .wrap-container-title-posicionamiento h3 {
+    font-size: 35px;
+  }
+
+  #marketing-agency {
+    height: 1366px;
+  }
+
+  .image img {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    top: -464px;
+    left: -677px;
+  }
+
+  .widget-text-editor {
+    font-size: 24px;
+  }
+
+  .image2 {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    top: 54px;
+    left: 2014px;
+  }
+
+  .image3 {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    top: -3px;
+    left: 625px;
+  }
+
+  .image4 {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    top: -14px;
+    left: 1928px;
+  }
+
+  .heading-title-fastmind {
+    width: 37%;
+    top: 101px;
+    left: -159px;
+  }
+
+  .heading-title-fastmind-2 {
+    left: -236px;
+    top: 79px;
+  }
+
+  .heading-title-fastmind-3 {
+
+    width: 37%;
+    top: 103px;
+    left: -184px;
+  }
+
+  .heading-title-fastmind-4 {
+    width: 37%;
+    top: 102px;
+    left: -592px;
+  }
+
+  .heading-title {
+    position: relative;
+    width: 45%;
+    left: -66px;
+  }
+
+  .widget-container-fastmind-text-icons {
+    left: -333px;
+  }
+
+  .contenedor-wrap-4 {
+    top: -655px;
+  }
+
+  .heading-title-mentoria h4 {
+    width: 65%;
+    line-height: 1.8em;
+  }
+
+  .heading-title-mentoria p {
+    font-size: 22px;
+    /* margin-top: 50px; */
+  }
+
+  .container-mentoria-1,
+  .container-mentoria-2,
+  .container-mentoria-3 {
+    width: 22%;
+    margin: 15px;
+    padding: 22px;
+  }
+
+  .text-icon-mentoria {
+    font-size: 20px;
+  }
+
+  .shape-traingle {
+    top: 130px;
+    left: -880px;
+  }
+
+
+  .wrap-cajas-cursos {
+    width: 58%;
+  }
+
+  .heading-title-destacado-espacio h4 {
+    font-size: 39px;
+  }
+
+  .title-nuestros-num h4 {
+    width: 26%;
+    top: -56px;
+    left: 47px;
+  }
+
+  .title-2 p {
+    position: relative;
+    left: 135px;
+  }
+
+  .text-p-school p {
+    font-size: 25px;
+  }
+
+  .btn-school {
+    width: 56%;
+    position: relative;
+    top: -443px;
+    left: 755px;
+  }
+
+  .image-school {
+    display: block;
+    position: relative;
+    top: -488px;
+    left: 115px;
+  }
+
+  .title-cursos p {
+    font-size: 34px;
+    top: 136px;
+    left: 16px;
+  }
+
+  .img-heading-cursos img {
+    width: 97%;
+    top: -110px;
+    left: 328px;
+  }
+
+  .btn-cursos-trading {
+    top: -263px;
+    left: -381px;
+  }
+
+  .text-widgets-edits {
+    width: 93%;
+  }
+
+  .card-01 {
+    position: relative;
+    left: 233px;
+    top: -9px;
+  }
+
+  .parrafo-heading-formacion p {
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    color: #656669;
+  }
+
+  #nuestra-formacion {
+    height: 59vw;
+  }
+
+  #precios-modalidad {
+    margin-bottom: 27em;
+  }
+
+  .heading-title-certificado h5 {
+    width: 44%;
+  }
+}
+
+@media(min-width: 1200px) {
+  .title-header-autor {
+    position: relative;
+    top: -71px;
+  }
+
+  .title-p-header {
+    position: relative;
+    top: -74px;
+  }
+
+  #swiper-container {
+    position: relative;
+    z-index: -1;
+    top: -144px;
+  }
+
+  .wrap {
+    margin-top: -184px;
+  }
+
+  .description-autor {
+    display: block;
+    width: 50%;
+
+  }
+
+  .autor-img {
+    position: relative;
+    left: 131px;
+  }
+
+  .container-icons-text {
+    top: 60px;
+    left: -106px;
+  }
+
+  #libertad-financiera h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+  }
+
+  #libertad-financiera p {
+    width: 82%;
+  }
+
+  #libertad-financiera .texto-comercial-trader {
+    font-family: 'Lato', sans-serif;
+    font-size: 27px;
+    width: 90%;
+    line-height: 58px;
+  }
+
+  .strong-style {
+    display: block;
+    font-size: 27px;
+    text-align: center;
+    color: brown;
+  }
+
+  .slogan-final {
+    display: block;
+    font-size: 40px;
+  }
+
+  .wrap-prefooter h5 {
+    width: 50%;
+    position: relative;
+    top: 115px;
+    left: -32px;
+  }
+
+
+  /*MENTORIA*/
+
+  #mentoria-container {
+    width: 100vw;
+    /* width: max-content; */
+    /* margin: 0px auto; */
+    /* width: auto; */
+  }
+
+  .wrap-mentoria h2 {
+    width: 87%;
+    font-size: 45px;
+  }
+
+  .triangle-destacado-white .fa-caret-down {
+    position: relative;
+    top: -288px;
+    left: 598px;
+  }
+
+  .heading-title {
+    width: 69%;
+    margin: 0px auto;
+    text-align: center;
+    /* margin-left: 146px; */
+    /* padding-left: -10px; */
+  }
+
+  .triangle-destacado-bottom .fa-caret-down {
+    position: relative;
+    top: 79px;
+    left: -35px;
+  }
+
+  .heading-title-fastmind {
+    width: 30%;
+    top: 102px;
+    left: -56px;
+  }
+
+  .widget-container-fastmind {
+    width: 93%;
+  }
+
+  .text-editor-fastmind-2 {
+    width: 70%;
+    left: -92px;
+  }
+
+  .heading-title-fastmind-2 {
+    width: 30%;
+    top: 89px;
+    left: -189px;
+  }
+
+  .text-editor-fastmind-3 {
+    width: 67%;
+    margin-top: 10px;
+    text-align: justify;
+    left: 83px;
+    position: relative;
+  }
+
+  .heading-title-fastmind-3 {
+    width: 30%;
+    top: 102px;
+    left: -33px;
+  }
+
+  .heading-title-fastmind-4 {
+    width: 30%;
+    top: 107px;
+    left: -461px;
+  }
+
+  .image4 img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -395px;
+    left: 339px;
+  }
+
+
+  /*TRADING*/
+  #trading {
+    margin-top: -217px;
+  }
+
+  .button-wrapper {
+    display: block;
+    width: 40%;
+    position: relative;
+    top: -211px;
+    left: -197px;
+  }
+
+  .title-school h3 {
+    width: 52%;
+    text-align: center;
+  }
+
+  .text-p-school p {
+    width: 100%;
+    text-align: justify;
+  }
+
+
+  /*Nuestros Numeros*/
+
+  .wrap-nuestros-num {
+    position: relative;
+    left: -16px;
+  }
+  
+  .estadistica-estrag h4 {
+    font-size: 70px;
+  }
+
+  .title-1 p, .title-2 p, .title-3 p {
+    position: relative;
+    width: 90%;
+    left: 104px;
+  }
+
+  .title-1 p {
+    left: 100px;
+  }
+
+  .title-2 p {
+    left: 145px;
+  }
+
+  .title-3 p {
+    left: 52px;
+  }
+
+  .text-matric-3 p {
+    left: -11px;
+  }
+
+
+  /*Curso Trading*/
+  #cursos-trading {
+    height: 80vw;
+    display: flex;
+  }
+
+  .heading-title-cursos-trading {
+    width: 100%;
+  }
+
+  .heading-title-cursos-trading h5 {
+    top: -154px;
+    left: 47px;
+  }
+
+  .p-cursos-trading p {
+    top: -130px;
+  }
+
+  .wrap-cajas-cursos {
+    width: 90%;
+    position: relative;
+    top: -34px;
+  }
 }
