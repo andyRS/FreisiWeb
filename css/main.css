@@ -1667,11 +1667,11 @@ h1 {
 }
 
 .btn-school .btn {
-	display: block;
-	width: 50%;
-	position: relative;
-	top: -515px;
-	left: 129px;
+  display: block;
+  width: 50%;
+  position: relative;
+  top: -515px;
+  left: 129px;
 }
 
 
@@ -1703,11 +1703,11 @@ h1 {
 }
 
 .wrap-nuestros-num {
-	display: flex;
-	width: 100%;
-	position: relative;
-	left: -10px;
-	justify-content: space-between;
+  display: flex;
+  width: 100%;
+  position: relative;
+  left: -10px;
+  justify-content: space-between;
 }
 
 .estadistica-estrag h4 {
@@ -2251,9 +2251,10 @@ h1 {
 }
 
 .btn-precios {
-  width: 15%;
-  margin: 0px auto;
-  margin-top: 50px;
+	width: 20%;
+	margin: 0px auto;
+	margin-top: 50px;
+  font-size: 16px;
 }
 
 .wrap-all-02 {
@@ -2283,10 +2284,10 @@ h1 {
 }
 
 .text-que-aprenderas h4 {
-  font-size: 27px;
-  font-weight: bold;
-  font-family: "Montserrat", sans-serif;
-  color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	color: #fff;
 }
 
 .text-widgets-edits p {
@@ -3448,7 +3449,7 @@ a.ui-button:active,
   .text-matric-3 p {
     left: 18px;
   }
-  
+
   .title-academy-text p {
     width: 100%;
 
@@ -3495,7 +3496,8 @@ a.ui-button:active,
 
   .title-cursos p {
     top: 144px;
-    left: 77px;
+    left: 108px;
+    font-size: 26px;
   }
 
   .parrafo-dirigido-clients p {
