@@ -2987,10 +2987,6 @@ a.ui-button:active,
 
   }
 
-  #mentoria-container {
-    width: 1900px;
-    /* max-width: 1900px; */
-  }
 
   .title-agency h3 {
     margin-top: 448px;
@@ -3119,6 +3115,8 @@ a.ui-button:active,
     padding: 22px;
   }
 
+  
+
   .text-icon-mentoria {
     font-size: 20px;
   }
@@ -3212,7 +3210,25 @@ a.ui-button:active,
   }
 }
 
+@media(min-width:1367px){
+  .container-icons-text {
+      top: 60px;
+      left: -112px;
+  }
+
+  .fa-caret-down {
+      position: relative;
+      left: 105px;
+  }
+
+  .container-btn-pre {
+      left: -413px;
+      top: 111px;
+  }
+}
+
 @media(min-width: 1200px) {
+
   .title-header-autor {
     position: relative;
     top: -71px;
@@ -3294,6 +3310,12 @@ a.ui-button:active,
     /* width: auto; */
   }
 
+
+  .wrap-container-mentoria {
+    width: 90%;
+  }
+
+
   .wrap-mentoria h2 {
     width: 87%;
     font-size: 45px;
@@ -3364,7 +3386,7 @@ a.ui-button:active,
     width: 300px;
     height: 300px;
     position: relative;
-    top: -395px;
+    top: -361px;
     left: 339px;
   }
 
