@@ -329,7 +329,7 @@ h1 {
 #swiper-container {
   display: flex;
   width: 100vw;
-  height: 8vw;
+  height: 10vw;
   margin-top: 200px;
   margin: 0px auto;
   text-align: center;
@@ -420,16 +420,16 @@ h1 {
 
 
 .wrap {
-  width: auto;
-  height: auto;
-  display: inline-flex;
-  margin-top: -40px;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../imagenes/Bio.jpg);
-  filter: brightness(105.3%) contrast(140.2%) saturate(120.1%) blur(0px);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+	width: auto;
+	height: auto;
+	display: inline-flex;
+	margin-top: -40px;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../imagenes/Bio.jpg);
+	filter: brightness(100.3%) contrast(140.2%) saturate(130.1%) blur(0px);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 .overlay {
@@ -1782,13 +1782,13 @@ h1 {
 }
 
 .heading-title-destacado-espacio h4 {
-  font-family: "Raleway", sans-serif !important;
-  color: #fff;
-  font-size: 45px;
-  text-align: center;
-  text-shadow: 2px 2px 2px #111;
-  line-height: 1.5;
-  font-weight: 600;
+	font-family: "Raleway", sans-serif !important;
+	color: #fff;
+	font-size: 29px;
+	text-align: center;
+	text-shadow: 2px 2px 2px #111;
+	line-height: 2.0;
+	font-weight: 600;
 }
 
 .b-espaciadora {
@@ -1967,28 +1967,29 @@ h1 {
 
 /*Testomonials*/
 #testomonials {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 95%;
-  margin: 0px auto;
-  height: 41vw;
-  margin-top: 80px;
-  font-family: 'Montserrat', sans-serif;
-  background: #fff;
-  border: 1px solid #ccc;
-  box-shadow: 0px 0px 10px #ccc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 98%;
+	margin: 0px auto;
+	height: 41vw;
+	margin-top: 80px;
+	font-family: 'Montserrat', sans-serif;
+	background: #fff;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+	border-radius: 20px;
 }
 
 .title-testiomials h5 {
-  width: 90%;
+  width: 95%;
   display: inline-flex;
   justify-content: center;
   position: relative;
   font-family: 'Monserrat-Bold', sans-serif !important;
   color: #212529;
-  font-size: 50px;
-  top: -40px;
+  font-size: 38px;
+  top: -24px;
 }
 
 
@@ -3228,7 +3229,6 @@ a.ui-button:active,
 }
 
 @media(min-width: 1200px) {
-
   .title-header-autor {
     position: relative;
     top: -71px;
@@ -3242,12 +3242,13 @@ a.ui-button:active,
   #swiper-container {
     position: relative;
     z-index: -1;
-    top: -144px;
+    top: -143px;
   }
 
   .wrap {
-    margin-top: -184px;
+    margin-top: -183px;
   }
+
 
   .description-autor {
     display: block;
@@ -3414,14 +3415,17 @@ a.ui-button:active,
     text-align: justify;
   }
 
+  .wrap-nuestros-num {
+    left: 10px;
+
+  }
+
 
   /*Nuestros Numeros*/
   #nuestro-sistema {
     height: 58vw;
 
   }
-
-
 
   .estadistica-estrag h4 {
     font-size: 70px;
