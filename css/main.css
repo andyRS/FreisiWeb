@@ -3416,16 +3416,24 @@ a.ui-button:active,
   }
 
   .wrap-nuestros-num {
-    left: 10px;
-
+    left: -122px;
   }
+
 
 
   /*Nuestros Numeros*/
   #nuestro-sistema {
-    height: 58vw;
-
+    height: 44vw;
   }
+
+  .heading-title-nuestro-sistema h5 {
+    font-size: 43px;
+  }
+
+  .title-simple-matric p {
+    width: 86%;
+  }
+
 
   .estadistica-estrag h4 {
     font-size: 70px;
@@ -3458,6 +3466,11 @@ a.ui-button:active,
   .title-academy-text p {
     width: 100%;
 
+  }
+
+  .parrafo-heading-formacion p {
+    font-size: 21px;
+    color: #9a9a9b;
   }
 
 
@@ -3524,7 +3537,7 @@ a.ui-button:active,
   }
 
   .heading-title-que-aprenderas h5 {
-    font-size: 43px;
+    font-size: 41px;
     line-height: 1;
     letter-spacing: 0.8px;
   }
@@ -3605,15 +3618,15 @@ a.ui-button:active,
     border-bottom: 2px solid #9e0c30;
   }
 
-  .wrap-heading-title p{
-    width: 95%;
-    font-family: "Raleway", Sans-serif;
-    font-size: 19px;
-    color: #333;
-    line-height: 1.8;
-    text-align: center;
-
-  }
+.wrap-heading-title p {
+	width: 95%;
+	font-family: "Raleway", Sans-serif;
+	font-size: 19px;
+	color: #333;
+	line-height: 1.8;
+	text-align: center;
+	margin-bottom: 1.3em;
+}
 
   .contenedor {
     width: 60%;
