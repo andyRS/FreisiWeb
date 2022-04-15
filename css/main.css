@@ -1158,14 +1158,14 @@ h1 {
 
 .triangle-destacado-white .fa-caret-down {
   position: relative;
-  top: -266px;
-  left: 750px;
+  top: -271px;
+  left: 585px;
   color: #f5f5f5;
 }
 
 .triangle-destacado-bottom .fa-caret-down {
   position: relative;
-  top: 141px;
+  top: 82px;
   left: -8px;
   color: #001e3f;
 }
@@ -1666,13 +1666,14 @@ h1 {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.39);
 }
 
-.btn-school {
-  display: block;
-  width: 50%;
-  position: relative;
-  top: -342px;
-  left: 630px;
+.btn-school .btn {
+	display: block;
+	width: 50%;
+	position: relative;
+	top: -515px;
+	left: 129px;
 }
+
 
 /*Estadistica Numerico*/
 #nuestros-numeros {
@@ -1702,11 +1703,11 @@ h1 {
 }
 
 .wrap-nuestros-num {
-  display: flex;
-  width: 100%;
-  position: relative;
-  left: 40px;
-  justify-content: space-between;
+	display: flex;
+	width: 100%;
+	position: relative;
+	left: -10px;
+	justify-content: space-between;
 }
 
 .estadistica-estrag h4 {
@@ -1736,7 +1737,7 @@ h1 {
 
 .num-3 h4 {
   position: relative;
-  left: -26px;
+  left: 0px;
   top: 0;
 }
 
@@ -3151,12 +3152,7 @@ a.ui-button:active,
     font-size: 25px;
   }
 
-  .btn-school {
-    width: 56%;
-    position: relative;
-    top: -443px;
-    left: 755px;
-  }
+
 
   .image-school {
     display: block;
@@ -3322,12 +3318,6 @@ a.ui-button:active,
     font-size: 45px;
   }
 
-  .triangle-destacado-white .fa-caret-down {
-    position: relative;
-    top: -288px;
-    left: 598px;
-  }
-
   .heading-title {
     width: 69%;
     margin: 0px auto;
@@ -3336,11 +3326,6 @@ a.ui-button:active,
     /* padding-left: -10px; */
   }
 
-  .triangle-destacado-bottom .fa-caret-down {
-    position: relative;
-    top: 79px;
-    left: -35px;
-  }
 
   .heading-title-fastmind {
     width: 30%;
@@ -3459,14 +3444,11 @@ a.ui-button:active,
     left: 145px;
   }
 
-  .title-3 p {
-    left: 52px;
-  }
 
   .text-matric-3 p {
-    left: -11px;
+    left: 18px;
   }
-
+  
   .title-academy-text p {
     width: 100%;
 
