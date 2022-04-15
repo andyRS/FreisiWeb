@@ -54,7 +54,7 @@ body {
 
 /*PRE-LOAD*/
 
-#pre-load{
+#pre-load {
   position: fixed;
   width: 100vw;
   height: 100vh;
@@ -66,48 +66,48 @@ body {
   transition: all .7s ease-in-out;
 }
 
-.loader{
+.loader {
   height: 95px;
   display: flex;
   align-items: center;
 }
 
-.linea:nth-child(2){
-  animation-delay: .1s ;
+.linea:nth-child(2) {
+  animation-delay: .1s;
 
 }
 
-.linea:nth-child(3){
-  animation-delay: .2s ;
-  
+.linea:nth-child(3) {
+  animation-delay: .2s;
+
 }
 
-.linea:nth-child(4){
-  animation-delay: .3s ;
-  
+.linea:nth-child(4) {
+  animation-delay: .3s;
+
 }
 
-.linea:nth-child(5){
+.linea:nth-child(5) {
   animation-delay: .4s;
-  
+
 }
 
-.linea:nth-child(6){
+.linea:nth-child(6) {
   animation-delay: .5s;
-  
+
 }
 
-.linea:nth-child(7){
+.linea:nth-child(7) {
   animation-delay: .6s;
-  
+
 }
 
-.linea:nth-child(8){
+.linea:nth-child(8) {
   animation-delay: .7s;
-  
+
 }
 
-.linea{
+.linea {
   width: 6px;
   height: 95px;
   background: #fff;
@@ -116,14 +116,16 @@ body {
   animation: loader .8s infinite;
 }
 
-@keyframes loader{
+@keyframes loader {
   0% {
     height: 0;
   }
-  50%{
+
+  50% {
     height: 95px;
   }
-  100%{
+
+  100% {
     height: 0;
   }
 }
@@ -3392,17 +3394,20 @@ a.ui-button:active,
 
 
   /*Nuestros Numeros*/
+  #nuestro-sistema {
+    height: 58vw;
 
-  .wrap-nuestros-num {
-    position: relative;
-    left: -16px;
   }
-  
+
+
+
   .estadistica-estrag h4 {
     font-size: 70px;
   }
 
-  .title-1 p, .title-2 p, .title-3 p {
+  .title-1 p,
+  .title-2 p,
+  .title-3 p {
     position: relative;
     width: 90%;
     left: 104px;
@@ -3422,6 +3427,11 @@ a.ui-button:active,
 
   .text-matric-3 p {
     left: -11px;
+  }
+
+  .title-academy-text p {
+    width: 100%;
+
   }
 
 
@@ -3448,5 +3458,169 @@ a.ui-button:active,
     width: 90%;
     position: relative;
     top: -34px;
+  }
+
+  .button-wrapper {
+    top: -266px;
+    left: -190px;
+  }
+
+  .title-heading h2 {
+    width: 40%;
+    position: relative;
+    top: 127px;
+    left: 190px;
+    line-height: 1.2;
+  }
+
+  .title-cursos p {
+    top: 144px;
+    left: 77px;
+  }
+
+  .parrafo-dirigido-clients p {
+    width: 67%;
+    font-size: 22px;
+    line-height: 1.6;
+  }
+
+  #que-aprenderas {
+    display: flex;
+    width: 100%;
+    height: 85vw;
+    overflow: hidden;
+    flex-wrap: wrap;
+  }
+
+  .heading-que-aprenderas {
+    position: relative;
+    top: 113px;
+  }
+
+  .heading-title-que-aprenderas h5 {
+    font-size: 43px;
+    line-height: 1;
+    letter-spacing: 0.8px;
+  }
+
+  .text-widgets-edits {
+    padding: 0px;
+  }
+
+  .wrap-container-aprenderas {
+    width: 99%;
+    margin: 0px auto;
+
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -23px;
+    top: -60px;
+    display: flex;
+  }
+
+  .ultimo-p-aprenderas {
+    display: flex;
+    position: relative;
+    top: -7px;
+  }
+
+  .heading-title-formacion {
+    width: 90%;
+
+  }
+
+  .cards-group {
+    width: 90%;
+    position: relative;
+    right: -212px;
+    top: -323px;
+  }
+
+  .parrafo-heading-formacion p {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    color: #5b5f6d;
+  }
+
+
+
+  .cards {
+    width: 384px;
+    height: 304px;
+    padding: 20px;
+    margin: 5px;
+  }
+
+
+  /*precios-modalidad*/
+
+  #precios-modalidad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .wrap-heading-title{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 2em;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrap-heading-title h4{
+    color: #222;
+    font-family: 'Monserrat-Bold';
+    font-size: 40px;
+    margin-bottom: 1em;
+    border-bottom: 2px solid #9e0c30;
+  }
+
+  .wrap-heading-title p{
+    width: 95%;
+    font-family: "Raleway", Sans-serif;
+    font-size: 19px;
+    color: #333;
+    line-height: 1.8;
+    text-align: center;
+
+  }
+
+  .contenedor {
+    width: 60%;
+    min-width: 1200px;
+  }
+
+  .tabla:hover {
+    transform: scale(1.1);
+  }
+
+  .tabla>h2 {
+    font-size: 27px;
+  }
+
+  .mover-texto-certificado {
+    top: 40px;
+  }
+
+  .wrap-certificado {
+    width: 93%;
+  }
+
+  .img-certificado {
+    top: -196px;
+    left: -164px;
+  }
+
+  .wrap-prefooter h5 {
+    font-size: 39px;
+  }
+
+  .container-btn-pre {
+    left: -412px;
+    top: 106px;
   }
 }
