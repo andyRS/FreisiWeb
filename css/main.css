@@ -4032,6 +4032,16 @@ a.ui-button:active,
 }
 
 @media(max-width:576px) {
+  .row {
+    --bs-gutter-x: 4%;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * 0);
+    margin-right: var(--bs-gutter-x, .0);
+    margin-left: var(--bs-gutter-x, .0);
+  }
+
   .header-content {
     width: 100vh;
     z-index: 1;
@@ -4205,16 +4215,6 @@ a.ui-button:active,
 }
 
 @media(max-width:491px) {
-  .row {
-    --bs-gutter-x: 5%;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(var(--bs-gutter-y) * 0);
-    margin-right: var(--bs-gutter-x, .0);
-    margin-left: var(--bs-gutter-x, .0);
-  }
-
   .nav {
     height: 28vw;
   }
