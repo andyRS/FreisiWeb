@@ -3366,12 +3366,13 @@ a.ui-button:active,
     top: 102px;
     left: -53px;
   }
+
   .heading-title-fastmind-4 {
     width: 30%;
     top: 107px;
     left: -476px;
   }
-  
+
   .image2 img {
     width: 300px;
     height: 300px;
@@ -4031,6 +4032,12 @@ a.ui-button:active,
 }
 
 @media(max-width:576px) {
+  .header-content {
+    width: 100%;
+    z-index: 1;
+    height: 100vw;
+  }
+
   .nav {
     height: 19vw;
   }
@@ -4072,6 +4079,8 @@ a.ui-button:active,
     margin: 0px auto;
   }
 
+
+
   #swiper-container {
     height: 26vw;
     top: 59px;
@@ -4081,6 +4090,9 @@ a.ui-button:active,
     margin-top: 19px;
   }
 
+  .description-autor {
+    width: 95%;
+  }
 
   .iconos-destacados {
     left: 35px;
@@ -4122,15 +4134,17 @@ a.ui-button:active,
 
 }
 
-@media(max-width:539px){
+@media(max-width:539px) {
 
   .header {
     margin-bottom: 0px;
   }
 
-  
-
-  #link-1, #link-2, #link-3, #link-4, #link-5 {
+  #link-1,
+  #link-2,
+  #link-3,
+  #link-4,
+  #link-5 {
     font-size: 1em !important;
   }
 
@@ -4153,6 +4167,7 @@ a.ui-button:active,
   .wrap {
     margin-top: 258px;
   }
+
   .shape-traingle {
     left: -302px;
   }
@@ -4190,7 +4205,7 @@ a.ui-button:active,
   }
 }
 
-@media(max-width:491px){
+@media(max-width:491px) {
   .row {
     --bs-gutter-x: 0;
     --bs-gutter-y: 0;
@@ -4201,34 +4216,56 @@ a.ui-button:active,
     margin-left: var(--bs-gutter-x, .0);
   }
 
+  .nav {
+    height: 28vw;
+  }
+
+  .logo-nav {
+    font-size: 30px !important;
+  }
+
   #swiper-container {
-    top: 248px;
+    top: 411px;
   }
 
   .wrap {
-    margin-top: 208px;
+    margin-top: 371px;
+  }
+
+  .description-autor {
+    width: 95%;
+    position: relative;
+    box-shadow: 0px 0px 10px #ccc;
+    top: -500px;
+    margin: 0px auto;
   }
 
   .description-autor h3 {
-    font-size: 25px;
+    font-size: 23px;
     text-align: center;
+  }
+
+  .autor-img img {
+    width: 263px;
   }
 
   .autor-img {
     left: 101px;
-    top: 892px;
+    top: 934px;
     margin: 0px auto;
   }
+
   .container-icons-text {
-    margin: 10px;
+    margin: 12px;
+    font-size: 13px;
   }
 
   #libertad-financiera h4 {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   #libertad-financiera p {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .wrap-prefooter {
@@ -4243,6 +4280,14 @@ a.ui-button:active,
 
   .text-footer p {
     font-size: 14px;
+  }
+
+  .shape-traingle {
+    left: -257px;
+  }
+
+  .slogan-final {
+    font-size: 23px !important;
   }
 
   #footer {
