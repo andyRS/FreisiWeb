@@ -4227,6 +4227,10 @@ a.ui-button:active,
     top: -41px;
   }
 
+  .autor-title h2 {
+    font-size: 18px;
+  }
+
   .wrap {
     margin-top: -81px;
   }
@@ -4245,12 +4249,12 @@ a.ui-button:active,
   }
 
   .autor-img img {
-    width: 263px;
+    width: 238px;
   }
 
   .autor-img {
     left: 101px;
-    top: 934px;
+    top: 946px;
     margin: 0px auto;
   }
 
@@ -4273,11 +4277,11 @@ a.ui-button:active,
   }
 
   #libertad-financiera h4 {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   #libertad-financiera p {
-    font-size: 11px;
+    font-size: 10px;
   }
 
   .wrap-prefooter {
