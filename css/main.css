@@ -4224,11 +4224,11 @@ a.ui-button:active,
   }
 
   #swiper-container {
-    top: 411px;
+    top: -41px;
   }
 
   .wrap {
-    margin-top: 371px;
+    margin-top: -81px;
   }
 
   .description-autor {
@@ -4255,8 +4255,21 @@ a.ui-button:active,
   }
 
   .container-icons-text {
-    margin: 12px;
-    font-size: 13px;
+    top: 60px;
+    left: -8px;
+    margin: 0px;
+    font-size: 12px;
+  }
+
+  .iconos-destacados .fa-envelope,
+  .iconos-destacados .fa-facebook-f,
+  .iconos-destacados .fa-instagram,
+  .iconos-destacados .fa-youtube,
+  .iconos-destacados .fa-linkedin {
+    font-size: 27px !important;
+    position: relative;
+    left: 24px;
+    top: 18px;
   }
 
   #libertad-financiera h4 {
@@ -4282,7 +4295,7 @@ a.ui-button:active,
   }
 
   .shape-traingle {
-    left: -257px;
+    left: -199px;
   }
 
   .slogan-final {
