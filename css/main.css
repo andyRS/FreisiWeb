@@ -4321,6 +4321,10 @@ a.ui-button:active,
     font-size: 23px !important;
   }
 
+  .autor-title {
+    flex-basis: 46%;
+  }
+
   #footer {
     width: 100%;
     height: 80vw;
