@@ -4033,7 +4033,7 @@ a.ui-button:active,
 
 @media(max-width:576px) {
   .header-content {
-    width: 100%;
+    width: 100vh;
     z-index: 1;
     height: 100vh;
   }
