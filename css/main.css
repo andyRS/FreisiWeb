@@ -4033,7 +4033,7 @@ a.ui-button:active,
 
 @media(max-width:576px) {
   .row {
-    --bs-gutter-x: 4%;
+    --bs-gutter-x: 1%;
     --bs-gutter-y: 0;
     display: flex;
     flex-wrap: wrap;
