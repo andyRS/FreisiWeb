@@ -4097,6 +4097,13 @@ a.ui-button:active,
 }
 
 @media(max-width:539px){
+
+  .header {
+    margin-bottom: 0px;
+  }
+
+  
+
   #link-1, #link-2, #link-3, #link-4, #link-5 {
     font-size: 1em !important;
   }
@@ -4112,6 +4119,14 @@ a.ui-button:active,
     margin: 14px;
   }
 
+  #swiper-container {
+    height: 26vw;
+    top: 298px;
+  }
+
+  .wrap {
+    margin-top: 258px;
+  }
   .shape-traingle {
     left: -302px;
   }
@@ -4123,6 +4138,10 @@ a.ui-button:active,
 
   #libertad-financiera h4 {
     border-radius: 20px;
+  }
+
+  #libertad-financiera .texto-comercial-trader {
+    line-height: 41px;
   }
 
   .maquinas-ganancias-comercial img {
