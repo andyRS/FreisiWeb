@@ -4144,6 +4144,10 @@ a.ui-button:active,
     line-height: 41px;
   }
 
+  .slogan-final {
+    font-size: 28px !important;
+  }
+
   .maquinas-ganancias-comercial img {
     width: 90%;
   }
