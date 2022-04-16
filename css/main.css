@@ -4144,7 +4144,7 @@ a.ui-button:active,
   #link-3,
   #link-4,
   #link-5 {
-    font-size: 1em !important;
+    font-size: 0.900em !important;
   }
 
   .autor-img {
@@ -4206,7 +4206,7 @@ a.ui-button:active,
 
 @media(max-width:491px) {
   .row {
-    --bs-gutter-x: 8%;
+    --bs-gutter-x: 5%;
     --bs-gutter-y: 0;
     display: flex;
     flex-wrap: wrap;
