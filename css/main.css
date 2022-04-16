@@ -4006,13 +4006,17 @@ a.ui-button:active,
 
 @media(max-width:576px){
   .nav {
-    height: 17vw;
+    height: 19vw;
   }
 
   .nav-menu {
     margin-right: 0px;
     width: 100%;
     padding: 0px;
+  }
+
+  .nav-menu-item {
+    margin: 0px;
   }
 
   .caja-logo .absolute {
@@ -4041,5 +4045,27 @@ a.ui-button:active,
     justify-content: center;
     margin: 0px auto;
   }
+
+  #swiper-container {
+    height: 26vw;
+    top: 59px;
+  }
+
+  .wrap {
+    margin-top: 19px;
+  }
+
+
+  .iconos-destacados {
+    left: 35px;
+    top: -22px;
+  }
+
+.container-icons-text {
+	top: 60px;
+	left: -48px;
+	margin: 20px;
+}
+
 
 }
