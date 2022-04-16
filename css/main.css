@@ -4206,7 +4206,7 @@ a.ui-button:active,
 
 @media(max-width:491px) {
   .row {
-    --bs-gutter-x: 7%;
+    --bs-gutter-x: 6%;
     --bs-gutter-y: 0;
     display: flex;
     flex-wrap: wrap;
@@ -4225,7 +4225,7 @@ a.ui-button:active,
   #link-4,
   #link-5 {
     font-size: 0.900em !important;
-    margin: 0px;
+    margin: -3px;
     padding: 0px;
   }
 
