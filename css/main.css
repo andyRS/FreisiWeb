@@ -4219,8 +4219,23 @@ a.ui-button:active,
     height: 28vw;
   }
 
+  #link-1,
+  #link-2,
+  #link-3,
+  #link-4,
+  #link-5 {
+    font-size: 0.900em !important;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+
   .logo-nav {
     font-size: 30px !important;
+    text-align: center;
+    margin: 0px auto;
+    justify-content: center;
+    width: 100%;
   }
 
   #swiper-container {
