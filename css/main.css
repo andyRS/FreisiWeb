@@ -4035,7 +4035,7 @@ a.ui-button:active,
   .header-content {
     width: 100%;
     z-index: 1;
-    height: 100vw;
+    height: 100vh;
   }
 
   .nav {
@@ -4078,7 +4078,6 @@ a.ui-button:active,
     justify-content: center;
     margin: 0px auto;
   }
-
 
 
   #swiper-container {
