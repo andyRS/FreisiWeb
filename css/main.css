@@ -2251,9 +2251,9 @@ h1 {
 }
 
 .btn-precios {
-	width: 20%;
-	margin: 0px auto;
-	margin-top: 50px;
+  width: 20%;
+  margin: 0px auto;
+  margin-top: 50px;
   font-size: 16px;
 }
 
@@ -2284,10 +2284,10 @@ h1 {
 }
 
 .text-que-aprenderas h4 {
-	font-size: 24px;
-	font-weight: bold;
-	font-family: "Montserrat", sans-serif;
-	color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
 }
 
 .text-widgets-edits p {
@@ -2770,7 +2770,6 @@ a.ui-button:active,
   color: #fff;
 }
 
-
 .img-certificado {
   display: flex;
   justify-content: right;
@@ -3226,6 +3225,8 @@ a.ui-button:active,
 }
 
 @media(min-width: 1200px) {
+
+
   .title-header-autor {
     position: relative;
     top: -71px;
@@ -3273,10 +3274,11 @@ a.ui-button:active,
   }
 
   #libertad-financiera .texto-comercial-trader {
-    font-family: 'Lato', sans-serif;
     font-size: 27px;
     width: 90%;
     line-height: 58px;
+    font-weight: 300;
+    font-style: oblique;
   }
 
   .strong-style {
@@ -3300,7 +3302,6 @@ a.ui-button:active,
 
 
   /*MENTORIA*/
-
   #mentoria-container {
     width: 100vw;
     /* width: max-content; */
@@ -3308,11 +3309,9 @@ a.ui-button:active,
     /* width: auto; */
   }
 
-
   .wrap-container-mentoria {
     width: 90%;
   }
-
 
   .wrap-mentoria h2 {
     width: 87%;
@@ -3326,7 +3325,6 @@ a.ui-button:active,
     /* margin-left: 146px; */
     /* padding-left: -10px; */
   }
-
 
   .heading-title-fastmind {
     width: 30%;
@@ -3565,8 +3563,6 @@ a.ui-button:active,
     color: #b1b1b5;
   }
 
-
-
   .cards {
     width: 384px;
     height: 304px;
@@ -3645,4 +3641,405 @@ a.ui-button:active,
     left: -412px;
     top: 106px;
   }
+}
+
+@media(max-width: 1171px) {
+  .logo-nav {
+    left: -33px !important;
+    font-size: 30px !important;
+  }
+}
+
+@media (max-width: 1077px) {
+  .title-header-autor {
+    font-size: 43px;
+  }
+
+  .title-p-header {
+    font-size: 18px;
+  }
+
+  .logo-nav {
+    left: -15px !important;
+    font-size: 27px !important;
+    width: 30%;
+  }
+
+  .nav {
+    height: 7vw;
+  }
+
+
+}
+
+
+@media (max-width: 992px) {
+  .caja-logo {
+    position: relative;
+    top: -55px;
+  }
+
+  #swiper-container {
+    position: relative;
+    top: 176px;
+  }
+
+  .wrap {
+    margin-top: 136px;
+  }
+
+  .description-autor {
+    width: 56%;
+    padding: 40px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+    margin-left: 23px;
+  }
+
+  .autor-img img {
+    filter: brightness(100%) contrast(102%) saturate(110%) blur(0px);
+    width: 314px;
+    left: -108px;
+  }
+
+  .description-autor h3 {
+    font-size: 28px;
+  }
+
+  .description-autor p {
+    font-size: 18px;
+  }
+
+  .fa-facebook,
+  .fa-instagram,
+  .fa-twitter,
+  .fa-youtube,
+  .fa-linkedin {
+    width: 44px;
+    height: 44px;
+    line-height: 45px !important;
+    font-size: 20px !important;
+
+  }
+
+  .icons {
+    width: 56%;
+  }
+
+  .btn-autor {
+    display: block;
+    width: 165px;
+    padding: 6px 12px;
+    color: #fff;
+  }
+
+  .container-icons-text {
+    top: 60px;
+    left: -74px;
+    font-weight: 600;
+  }
+
+  .shape-traingle {
+    top: 135px;
+    left: -438px;
+  }
+
+  #libertad-financiera h4 {
+    font-size: 26px;
+  }
+
+  #libertad-financiera p {
+    font-size: 18px;
+  }
+
+  #libertad-financiera .texto-comercial-trader {
+    font-size: 24px;
+    width: 90%;
+    font-weight: 400;
+    font-style: oblique;
+  }
+
+  .wrap-prefooter h5 {
+    width: 48%;
+    font-size: 29px;
+    text-transform: uppercase;
+    line-height: 50px !important;
+    top: 73px;
+    left: 34px;
+  }
+
+  .container-btn-pre {
+    left: -228px;
+    top: 43px;
+  }
+
+  .btn-prefooter {
+    width: 212px;
+    padding: 14px 0px;
+    font-size: 17px;
+  }
+
+  .iconos-destacados .fa-envelope,
+  .iconos-destacados .fa-facebook-f,
+  .iconos-destacados .fa-instagram,
+  .iconos-destacados .fa-youtube,
+  .iconos-destacados .fa-linkedin {
+    font-size: 38px !important;
+    position: relative;
+    left: 5px;
+    top: 9px;
+  }
+
+  #link-1,
+  #link-2,
+  #link-3,
+  #link-4,
+  #link-5 {
+    font-size: 1.1em !important;
+  }
+
+  b,
+  strong {
+    display: block;
+    text-align: center;
+    color: brown;
+  }
+
+  .slogan-final {
+    display: block;
+    font-size: 30px !important;
+  }
+
+}
+
+@media(max-width:941px) {
+  .logo-nav {
+    left: -2px !important;
+    font-size: 25px !important;
+  }
+
+  .title-header-autor {
+    font-size: 38px;
+  }
+
+  .title-p-header {
+    font-size: 16px;
+  }
+
+  .container-btn-pre {
+    left: -198px;
+    top: 31px;
+  }
+
+  .wrap-prefooter {
+    background-position: -245px -123px;
+  }
+
+  .wrap-prefooter h5 {
+    top: 73px;
+    left: -53px;
+  }
+
+  #footer {
+    width: 100%;
+    height: 30vw;
+  }
+
+  .text-footer {
+    display: flex;
+    width: 100%;
+  }
+
+  .description-autor {
+    width: 60%;
+    padding: 31px;
+  }
+
+  .autor-img {
+    left: 135px;
+  }
+}
+
+@media(max-width:845px) {
+  #libertad-financiera {
+    width: 91%;
+  }
+
+  #libertad-financiera h4 {
+    font-size: 23px;
+  }
+
+  .description-autor {
+    width: 54%;
+    padding: 20px;
+  }
+
+  .container-icons-text {
+    top: 60px;
+    left: -58px;
+  }
+
+  .t-facebook {
+    left: 17px;
+  }
+
+  .t-linkedin {
+    left: 9px;
+  }
+
+  #swiper-container {
+    height: 13vw;
+  }
+
+  .description-autor h3 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .linea-bottom {
+    margin: 0px auto;
+  }
+
+  .icons {
+    width: 65%;
+  }
+
+  .wrap-prefooter h5 {
+    top: 91px;
+    left: 20px;
+    width: 57%;
+  }
+
+  .container-btn-pre {
+    left: -248px;
+    top: 44px;
+  }
+
+  .shape-traingle {
+    left: -345px;
+  }
+
+  .nav {
+    height: 9vw;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+    width: 100%;
+    height: 14vw;
+    justify-content: center;
+  }
+
+  .wrap-prefooter h5 {
+    width: 62%;
+  }
+
+  .container-btn-pre {
+    left: -212px;
+    top: 44px;
+  }
+
+  .container-btn-pre {
+    left: -245px;
+    top: 44px;
+  }
+
+  .iconos-destacados .fa-envelope,
+  .iconos-destacados .fa-facebook-f,
+  .iconos-destacados .fa-instagram,
+  .iconos-destacados .fa-youtube,
+  .iconos-destacados .fa-linkedin {
+    font-size: 30px !important;
+  }
+}
+
+@media(max-width:580px){
+  .nav-menu {
+    margin-right: 0px; 
+  }
+
+  .title-header-autor {
+    font-size: 29px;
+  }
+
+  .title-p-header {
+    font-size: 12px;
+  }
+
+  .wrap {
+   flex-direction: column;
+    width: 100%;
+  }
+
+  #swiper-container {
+    height: 26vw;
+    top: 201px;
+  }
+
+  .autor-title {
+    flex-basis: 33%;
+  }
+
+  .description-autor {
+    width: 90%;
+    position: relative;
+    box-shadow: 0px 0px 10px #ccc;
+    top: -660px;
+    margin: 0px auto;
+  }
+
+  .autor-img img {
+    width: 300px;
+  }
+
+  .autor-img {
+    left: 120px;
+    top: 640px;
+    margin-top: 30px;
+    justify-content: center;
+    align-content: center;
+  }
+}
+
+@media(max-width:576px){
+  .nav {
+    height: 17vw;
+  }
+
+  .nav-menu {
+    margin-right: 0px;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .caja-logo .absolute {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  .title-header-autor {
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: -116px;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-p-header {
+    display: flex;
+    width: 80%;
+    position: relative;
+    top: -106px;
+    justify-content: center;
+    margin: 0px auto;
+  }
+
 }
