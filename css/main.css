@@ -3956,9 +3956,9 @@ a.ui-button:active,
   }
 }
 
-@media(max-width:580px){
+@media(max-width:580px) {
   .nav-menu {
-    margin-right: 0px; 
+    margin-right: 0px;
   }
 
   .title-header-autor {
@@ -3970,7 +3970,7 @@ a.ui-button:active,
   }
 
   .wrap {
-   flex-direction: column;
+    flex-direction: column;
     width: 100%;
   }
 
@@ -4004,7 +4004,7 @@ a.ui-button:active,
   }
 }
 
-@media(max-width:576px){
+@media(max-width:576px) {
   .nav {
     height: 19vw;
   }
@@ -4061,11 +4061,82 @@ a.ui-button:active,
     top: -22px;
   }
 
-.container-icons-text {
-	top: 60px;
-	left: -48px;
-	margin: 20px;
+  .container-icons-text {
+    top: 60px;
+    left: -48px;
+    margin: 20px;
+  }
+
+  #libertad-financiera h4 {
+    font-size: 18px;
+  }
+
+  #libertad-financiera p {
+    font-size: 14px;
+  }
+
+  #libertad-financiera .texto-comercial-trader {
+    font-size: 18px;
+    width: 92%;
+    line-height: 39px;
+  }
+
+  #footer {
+    height: 39vw;
+  }
+
+  .text-footer p {
+    font-size: 16px;
+  }
+
+  .container-btn-pre {
+    left: -131px;
+    top: 68px;
+  }
+
 }
 
+@media(max-width:539px){
+  #link-1, #link-2, #link-3, #link-4, #link-5 {
+    font-size: 1em !important;
+  }
 
+  .autor-img {
+    left: 120px;
+    top: 741px;
+  }
+
+  .container-icons-text {
+    top: 60px;
+    left: -39px;
+    margin: 14px;
+  }
+
+  .shape-traingle {
+    left: -302px;
+  }
+
+  #libertad-financiera {
+    width: 98%;
+    border-radius: 20px;
+  }
+
+  #libertad-financiera h4 {
+    border-radius: 20px;
+  }
+
+  .maquinas-ganancias-comercial img {
+    width: 90%;
+  }
+
+  .wrap-prefooter {
+    background-position: -316px -188px;
+  }
+
+  .wrap-prefooter h5 {
+    top: 111px;
+    left: 31px;
+    width: 71%;
+    font-size: 23px;
+  }
 }
