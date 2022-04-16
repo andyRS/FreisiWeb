@@ -4210,7 +4210,7 @@ a.ui-button:active,
     --bs-gutter-y: 0;
     display: flex;
     flex-wrap: wrap;
-    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-top: calc(var(--bs-gutter-y) * 0);
     margin-right: var(--bs-gutter-x, .0);
     margin-left: var(--bs-gutter-x, .0);
   }
