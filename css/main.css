@@ -4206,7 +4206,7 @@ a.ui-button:active,
 
 @media(max-width:491px) {
   .row {
-    --bs-gutter-x: 6%;
+    --bs-gutter-x: 7%;
     --bs-gutter-y: 0;
     display: flex;
     flex-wrap: wrap;
@@ -4227,6 +4227,7 @@ a.ui-button:active,
     font-size: 0.900em !important;
     margin: -3px;
     padding: 0px;
+    text-align: left;
   }
 
   .logo-nav {
