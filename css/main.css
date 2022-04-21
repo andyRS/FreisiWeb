@@ -713,6 +713,7 @@ h1 {
   align-items: center;
   background-color: #13325d;
   z-index: 0;
+  overflow: hidden;
 }
 
 .iconos-destacados {
@@ -4291,7 +4292,7 @@ a.ui-button:active,
   }
 
   #libertad-financiera {
-    width: 98%;
+    width: 95%;
     border-radius: 20px;
   }
 
@@ -4358,7 +4359,7 @@ a.ui-button:active,
 
   .logo-nav {
     font-size: 30px !important;
-    left: -98px !important;
+    left: 0pxpx !important;
     text-align: center;
     margin: 0px auto;
     justify-content: center;
@@ -4366,7 +4367,7 @@ a.ui-button:active,
   }
 
   #swiper-container {
-    top: -41px;
+    top: 268px;
   }
 
   .autor-title h2 {
@@ -4374,7 +4375,7 @@ a.ui-button:active,
   }
 
   .wrap {
-    margin-top: -81px;
+    margin-top: 228px;
   }
 
   .description-autor {
