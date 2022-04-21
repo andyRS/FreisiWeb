@@ -52,9 +52,10 @@ body {
   overflow-x: hidden;
 }
 
-.contenedor{
-  width: 95%;
+#contenedor{
+  width: 100%;
   height: auto;
+  overflow-x: hidden;
 }
 
 /*PRE-LOAD*/
