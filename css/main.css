@@ -4274,7 +4274,7 @@ a.ui-button:active,
   .container-icons-text {
     top: 60px;
     left: -39px;
-    margin: 15px;
+    margin: 0px;
     font-size: 14px;
   }
 
@@ -4418,6 +4418,13 @@ a.ui-button:active,
     left: 24px;
     top: 18px;
   }
+
+  .iconos-destacados {
+    left: 26px;
+    top: -22px;
+  }
+
+
 
   #libertad-financiera h4 {
     font-size: 11px;
