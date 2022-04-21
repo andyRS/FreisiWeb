@@ -4009,6 +4009,19 @@ a.ui-button:active,
     flex-wrap: wrap;
   }
 
+  .nav-menu {
+    width: 90%;
+  }
+
+  .title-header-autor {
+    width: 100%;
+    font-size: 38px;
+  }
+  .title-p-header {
+    width: 100%;
+    font-size: 15px;
+  }
+
   .wrap-prefooter h5 {
     width: 62%;
   }
