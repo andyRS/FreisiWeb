@@ -4485,3 +4485,59 @@ a.ui-button:active,
     height: 80vw;
   }
 }
+
+@media(max-width:360px){
+  .bars__menu {
+    top: 54px;
+  }
+
+  .description-autor {
+    width: 98%;
+  }
+
+  .container-icons-text {
+    top: 60px;
+    left: -7px;
+    margin: 7px;
+    font-size: 11px;
+  }
+
+  .iconos-destacados {
+    left: 5px;
+    top: -22px;
+  }
+
+  .icons {
+    width: 77%;
+  }
+
+  #libertad-financiera {
+    width: 98%;
+  }
+
+  .maquinas-ganancias-comercial img {
+    width: 95%;
+  }
+
+  #libertad-financiera p {
+    font-size: 9px;
+  }
+
+  .wrap-prefooter h5 {
+    left: 31px;
+    font-size: 22px;
+    left: 18px;
+  }
+
+  .btn-prefooter {
+    width: 198px;
+    padding: 14px 0px;
+    font-size: 16px;
+    line-height: 0.5em;
+  }
+
+  .container-btn-pre {
+    left: -85px;
+    top: 63px;
+  }
+}
