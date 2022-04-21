@@ -3,7 +3,6 @@
   margin: 0;
   outline: 0;
   box-sizing: border-box;
-  font-family: 'Oswald', sans-serif;
 }
 
 /*Fuentes*/
@@ -55,6 +54,7 @@ body,
   margin: 0;
   max-width: 100% !important;
   overflow-x: hidden !important;
+  font-family: 'Oswald', sans-serif;
 }
 
 /*PRE-LOAD*/
