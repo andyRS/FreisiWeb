@@ -85,6 +85,7 @@ window.addEventListener('load', function () {
         line2__bars.classList.toggle("activeline2__bars-menu");
         line3__bars.classList.toggle("activeline3__bars-menu");
         container_menu.classList.toggle("menu__active");
+
     }
 
 

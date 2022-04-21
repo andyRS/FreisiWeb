@@ -4005,8 +4005,8 @@ a.ui-button:active,
   }
 
   .container-btn-pre {
-    left: -245px;
-    top: 44px;
+    left: -146px;
+    top: 77px;
   }
 
   .iconos-destacados .fa-envelope,
@@ -4249,15 +4249,20 @@ a.ui-button:active,
     font-size: 0.900em !important;
   }
 
+  .autor-img img {
+    width: 239px;
+  }
+
   .autor-img {
     left: 120px;
-    top: 741px;
+    top: 921px;
   }
 
   .container-icons-text {
     top: 60px;
     left: -39px;
-    margin: 14px;
+    margin: 15px;
+    font-size: 14px;
   }
 
   #swiper-container {
