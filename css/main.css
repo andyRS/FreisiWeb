@@ -48,9 +48,11 @@ a:hover {
 
 /*Fin Fuentes*/
 
-html,body, #container {
+html,
+body,
+#container {
   max-width: 100% !important;
-	overflow-x:hidden !important; 
+  overflow-x: hidden !important;
 }
 
 /*PRE-LOAD*/
@@ -146,7 +148,7 @@ html,body, #container {
   margin-right: auto;
   margin-left: auto;
   max-width: 100% !important;
-	overflow-x:hidden !important;
+  overflow-x: hidden !important;
 }
 
 .row {
@@ -4105,9 +4107,9 @@ a.ui-button:active,
   }
 
   .header-content {
-    width: 100vh;
+    width: 100%;
     z-index: 1;
-    height: 100vh;
+    height: 100%;
   }
 
   .nav-menu {
@@ -4175,7 +4177,7 @@ a.ui-button:active,
     text-align: center;
     font-size: 36px;
     position: relative;
-    top: 0px;
+    top: -48px;
     margin: 0px auto;
     justify-content: center;
     align-items: center;
@@ -4185,7 +4187,7 @@ a.ui-button:active,
     display: flex;
     width: 95%;
     position: relative;
-    top: 0px;
+    top: -44px;
     justify-content: center;
     margin: 0px auto;
     font-size: 13px;
@@ -4336,10 +4338,10 @@ a.ui-button:active,
   #link-4,
   #link-5 {
     font-size: 1.4em !important;
-    margin: 27px;
+    margin: 30px;
     padding: 0px;
     text-align: center;
-    top: -157px;
+    top: -129px;
     left: -15px;
   }
 
@@ -4350,7 +4352,7 @@ a.ui-button:active,
   .bars__menu {
     display: block;
     position: relative;
-    top: 8%;
+    top: 66px;
     left: 85%;
   }
 
