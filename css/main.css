@@ -4173,9 +4173,9 @@ a.ui-button:active,
   .title-header-autor {
     display: flex;
     text-align: center;
-    font-size: 40px;
+    font-size: 36px;
     position: relative;
-    top: -116px;
+    top: 0px;
     margin: 0px auto;
     justify-content: center;
     align-items: center;
@@ -4183,13 +4183,13 @@ a.ui-button:active,
 
   .title-p-header {
     display: flex;
-    width: 80%;
+    width: 95%;
     position: relative;
-    top: -106px;
+    top: 0px;
     justify-content: center;
     margin: 0px auto;
+    font-size: 13px;
   }
-
 
   #swiper-container {
     height: 26vw;
@@ -4355,7 +4355,7 @@ a.ui-button:active,
   }
 
   .logo-nav {
-    font-size: 36px !important;
+    font-size: 30px !important;
     left: -98px !important;
     text-align: center;
     margin: 0px auto;
