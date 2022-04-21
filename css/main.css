@@ -48,7 +48,7 @@ a:hover {
 
 /*Fin Fuentes*/
 
-html {
+html,body {
 	overflow-x:hidden; 
 }
 
@@ -147,7 +147,7 @@ html {
 }
 
 .row {
-  --bs-gutter-x: 1.5rem;
+  --bs-gutter-x: 0rem;
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
