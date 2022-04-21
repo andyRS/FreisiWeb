@@ -3273,12 +3273,18 @@ a.ui-button:active,
 
   .title-header-autor {
     position: relative;
-    top: -71px;
+    top: -10px;
+    z-index: -1;
   }
 
   .title-p-header {
     position: relative;
-    top: -74px;
+    top: 0px;
+    font-size: 20px;
+  }
+
+  #destacado {
+    overflow: hidden;
   }
 
   #swiper-container {
