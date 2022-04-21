@@ -71,10 +71,14 @@ window.addEventListener('load', function () {
     var line3__bars = document.querySelector(".line3__bars-menu");
     var container_menu = document.querySelector(".nav-menu")
     var menu = document.querySelector('#menu');
+    var logo_Menu = document.getElementById("logo-menu");
     var btnMenuHamburg = document.querySelector(".btn-menu-hamb");
-    if(btnMenuHamburg){
-        btnMenuHamburg.addEventListener("click",()=>{
+    if (btnMenuHamburg) {
+        btnMenuHamburg.addEventListener("click", () => {
             menu.classList.toggle("mostrar-hei");
+            logo_Menu.style.left="-4px !important";
+            logo_Menu.classList.toggle("red");
+
         })
     }
 

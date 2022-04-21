@@ -4316,7 +4316,7 @@ a.ui-button:active,
     height: 28vw;
   }
 
-  .mostrar-hei{
+  .mostrar-hei {
     height: 100vh;
   }
 
@@ -4325,12 +4325,16 @@ a.ui-button:active,
   #link-3,
   #link-4,
   #link-5 {
-    font-size: 1.1em !important;
+    font-size: 1.4em !important;
     margin: 27px;
     padding: 0px;
     text-align: center;
-    top: 4px;
+    top: -157px;
     left: -15px;
+  }
+
+  .red{
+    color: #d10000;
   }
 
   .bars__menu {
