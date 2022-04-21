@@ -4202,8 +4202,9 @@ a.ui-button:active,
 
   .container-icons-text {
     top: 60px;
-    left: -48px;
-    margin: 20px;
+    left: -38px;
+    margin: 16px;
+    font-size: 14px;
   }
 
   #libertad-financiera h4 {
@@ -4333,7 +4334,7 @@ a.ui-button:active,
     left: -15px;
   }
 
-  .red{
+  .red {
     color: #d10000;
   }
 
@@ -4438,6 +4439,11 @@ a.ui-button:active,
 
   .autor-title {
     flex-basis: 46%;
+  }
+
+  .container-btn-pre {
+    left: -131px;
+    top: 98px;
   }
 
   #footer {
