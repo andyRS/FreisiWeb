@@ -48,9 +48,8 @@ a:hover {
 
 /*Fin Fuentes*/
 
-html, body {
-  max-width: 100% !important;
-  overflow-x: hidden !important;
+html {
+	overflow-x:hidden; 
 }
 
 /*PRE-LOAD*/
