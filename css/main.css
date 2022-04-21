@@ -150,7 +150,7 @@ html,body, #container {
 }
 
 .row {
-  --bs-gutter-x: 0rem;
+  --bs-gutter-x: 1rem;
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
