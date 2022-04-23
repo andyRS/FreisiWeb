@@ -4713,6 +4713,7 @@ a.ui-button:active,
     left: 302px;
   }
 
+
   .widget-container-heading h2 {
     left: -43px;
     width: 100%;
@@ -4742,6 +4743,13 @@ a.ui-button:active,
     line-height: 1.9;
     position: relative;
     left: -64px;
+  }
+
+  .widget-container-fastmind-01 {
+    width: 98%;
+    line-height: 1.9;
+    position: relative;
+    left: 0px;
   }
 
   .widget-text-editor {
