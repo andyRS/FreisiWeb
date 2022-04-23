@@ -4574,7 +4574,7 @@ a.ui-button:active,
     width: 95%;
     position: relative;
   }
-  
+
   .heading-title-fastmind-2 {
     left: -163px;
     top: 76px;
@@ -4684,4 +4684,155 @@ a.ui-button:active,
     width: 100%;
     text-align: center;
   }
+}
+
+@media(max-width:768px){
+  .wrap-mentoria h2 {
+    width: 100%;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    left: 0px;
+    line-height: 55px;
+  }
+
+  .title-agency h3 {
+    width: 100%;
+    font-size: 25px;
+  }
+
+  .icon-list-text {
+    font-size: 20px;
+    /* width: 100%; */
+  }
+
+  .triangle-destacado-white .fa-caret-down {
+    position: relative;
+    top: -250px;
+    left: 302px;
+  }
+
+  .widget-container-heading h2 {
+    left: -43px;
+    width: 100%;
+    font-size: 25px;
+  }
+
+  .icon-list-item-02 {
+    width: 100%;
+    position: relative;
+    left: 143px;
+  }
+
+  .icon-list-text {
+    font-size: 19px;
+    /* width: 100%; */
+  }
+
+  .heading-title-fastmind {
+    width: 95%;
+    top: 96px;
+    left: -43px;
+    font-size: 25px;
+  }
+
+  .widget-container-fastmind {
+    width: 80%;
+    line-height: 1.9;
+    position: relative;
+    left: -64px;
+  }
+
+  .widget-text-editor {
+    font-size: 19px;
+    left: 165px;
+  }
+
+  .text-editor-fastmind {
+    width: 90%;
+  }
+
+  .image img {
+    width: 220px;
+    height: 220px;
+    position: relative;
+    top: -338px;
+    left: -441px;
+  }
+
+
+  .heading-title-fastmind-2 {
+    width: 100%;
+    left: -67px;
+    top: 76px;
+    font-size:23px;
+  }
+
+  .text-editor-fastmind-2 {
+    width: 86%;
+    left: -194px;
+    position: relative;
+  }
+
+  .image2 img {
+    width: 220px;
+    height: 220px;
+    position: relative;
+    top: -311px;
+    left: 117px;
+  }
+
+  .text-editor-fastmind-3 {
+    width: 85%;
+    margin-top: 10px;
+    text-align: justify;
+    left: -3px;
+    position: relative;
+  }
+
+  
+
+  .heading-title-fastmind-4 {
+    width: 95%;
+    top: 96px;
+    left: -272px;
+    font-size: 25px;
+  }
+
+  .widget-text-editor-4 {
+    font-size: 19px;
+    left: 240px;
+  }
+
+  .widget-container-fastmind-4 {
+    width: 78%;
+    line-height: 1.9;
+    position: relative;
+    left: -70px;
+  }
+
+  .image4 img {
+    width: 220px;
+    height: 220px;
+    position: relative;
+    top: -338px;
+    left: 35px;
+  }
+
+  .heading-title-mentoria h4 {
+    width: 90%;
+    font-size: 44px;
+  }
+
+
+  .heading-title-mentoria p {
+    width: 98%;
+    font-size: 22px;
+  }
+
+  .container-mentoria-1, .container-mentoria-2, .container-mentoria-3 {
+    width: 50%;
+  }
+
 }
