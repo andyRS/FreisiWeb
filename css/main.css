@@ -3075,8 +3075,8 @@ a.ui-button:active,
   }
 
   .image img {
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
     position: relative;
     top: -464px;
     left: -677px;
@@ -3087,24 +3087,24 @@ a.ui-button:active,
   }
 
   .image2 {
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
     position: relative;
     top: 54px;
     left: 2014px;
   }
 
   .image3 {
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
     position: relative;
     top: -3px;
-    left: 625px;
+    left: 583px;
   }
 
   .image4 {
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
     position: relative;
     top: -14px;
     left: 1928px;
@@ -3873,7 +3873,7 @@ a.ui-button:active,
     font-size: 1.1em !important;
   }
 
-  b,
+
   strong {
     display: block;
     text-align: center;
@@ -4017,6 +4017,7 @@ a.ui-button:active,
     width: 100%;
     font-size: 38px;
   }
+
   .title-p-header {
     width: 100%;
     font-size: 15px;
@@ -4486,7 +4487,7 @@ a.ui-button:active,
   }
 }
 
-@media(max-width:360px){
+@media(max-width:360px) {
   .bars__menu {
     top: 54px;
   }
@@ -4539,5 +4540,148 @@ a.ui-button:active,
   .container-btn-pre {
     left: -85px;
     top: 63px;
+  }
+}
+
+/**Responsive Mentoria**/
+
+@media(max-width:992px) {
+  .wrap-mentoria h2 {
+    width: 87%;
+    font-size: 40px;
+  }
+
+  .title-agency h3 {
+    width: 90%;
+  }
+
+  .icon-list-items {
+    width: 85%;
+  }
+
+  .icon-list-text {
+    font-size: 22px;
+  }
+
+  .triangle-destacado-white .fa-caret-down {
+    position: relative;
+    top: -267px;
+    left: 458px;
+  }
+
+
+  .heading-title {
+    width: 95%;
+    position: relative;
+  }
+  
+  .heading-title-fastmind-2 {
+    left: -163px;
+    top: 76px;
+  }
+
+  .heading-title-fastmind-4 {
+    left: -380px;
+    top: 98px;
+  }
+
+  .widget-text-editor {
+    font-size: 21px;
+  }
+
+  .widget-container-heading h2 {
+    left: -43px;
+  }
+
+  .widget-container-fastmind-01 {
+    width: 95%;
+  }
+
+  .widget-container-fastmind-2 {
+    display: flex;
+    width: 80%;
+  }
+
+  .icon-list-item-02 {
+    width: 100%;
+    position: relative;
+    left: 77px;
+  }
+
+  .text-editor-fastmind {
+    width: 85%;
+  }
+
+  .text-editor-fastmind-3 {
+    width: 87%;
+    margin-top: 10px;
+    text-align: justify;
+    left: 9px;
+    position: relative;
+  }
+
+  .text-editor-fastmind-4 {
+    width: 87%;
+  }
+
+  .image img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -394px;
+    left: -479px;
+  }
+
+  .image2 img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -327px;
+    left: 399px;
+  }
+
+  .image3 img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -394px;
+    left: -484px;
+  }
+
+  .image4 img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -394px;
+    left: 217px;
+  }
+
+
+  .heading-title-mentoria h4 {
+    width: 70%;
+    font-size: 44px;
+  }
+
+  .heading-title-mentoria p {
+    width: 79%;
+    font-size: 23px;
+  }
+
+  .wrap-container-mentoria {
+    width: 100%;
+  }
+
+  #marketing-bio {
+    width: 90%;
+  }
+
+  .volver-inicio-btn {
+    font-size: 33px !important;
+  }
+
+  .text-footer{
+    display: flex;
+    width: 100%;
+    text-align: center;
   }
 }
