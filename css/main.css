@@ -4872,14 +4872,27 @@ a.ui-button:active,
     width: 361px;
   }
 
+  #marketing-agency {
+    height: auto;
+    max-height: auto;
+  }
+
   .title-agency h3 {
-    font-size: 19px;
-    margin-top: 500px;
+    font-size: 17px;
+    margin-top: 599px;
     overflow: hidden;
   }
 
   .icon-list-items {
     width: 100%;
+    position: relative;
+    left: -23px;
+  }
+
+  .icon-list-item-02 {
+    width: 100%;
+    position: relative;
+    left: 142px;
   }
 
   .icon-list-text {
@@ -4888,9 +4901,8 @@ a.ui-button:active,
   }
 
   .widget-container-text {
-    width: 100%;
-    font-size: 18px;
- 
+    width: 94%;
+    font-size: 16px;
   }
 
   .triangle-destacado-white .fa-caret-down {
@@ -5023,20 +5035,23 @@ a.ui-button:active,
   }
 
   .wrap-container-mentoria {
-    width: 60%;
+    width: 90%;
     flex-direction: column;
-    margin: 0px auto;
+    /* margin: 0px auto; */
+    position: relative;
+    left: -7px;
   }
 
   .container-mentoria-1,
   .container-mentoria-2,
   .container-mentoria-3 {
     width: 100%;
+    margin-top: 40px;
   }
 
   .heading-title-mentoria h4 {
     width: 96%;
-    font-size: 38px;
+    font-size: 33px;
   }
 
   #marketing-bio {
