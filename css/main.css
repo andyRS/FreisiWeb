@@ -4946,8 +4946,18 @@ a.ui-button:active,
   }
 
   .widget-container-fastmind-01 {
-    width: 97%;
-    left: 5px;
+    width: 96%;
+    left: 0px;
+    text-align: justify;
+  }
+
+  strong {
+    display: block;
+    text-align: center;
+    color: brown;
+    font-size: 16px;
+    margin-bottom: 2px;
+    /* width: 100%; */
   }
 
   .heading-title-fastmind {
@@ -5047,4 +5057,55 @@ a.ui-button:active,
   }
 
 
+}
+
+@media(max-width: 377px){
+  .widget-text-editor {
+    font-size: 15px;
+  }
+
+  .triangle-destacado-white .fa-caret-down {
+    position: relative;
+    font-size: 100px !important;
+    top: -182px;
+    left: 179px;
+  }
+
+  .widget-container-heading h2 {
+    left: -29px;
+    width: 100%;
+    font-size: 14px;
+    top: 72px;
+  }
+
+  .triangle-destacado-white .fa-caret-down {
+    position: relative;
+    font-size: 100px !important;
+    top: -140px;
+    left: 179px;
+  }
+
+  .icon-list-icon i {
+    font-size: 22px;
+  }
+
+  .widget-container-text {
+    width: 93%;
+    font-size: 13px;
+  }
+
+  .title-agency h3 {
+    font-size: 19px;
+    margin-top: 586px;
+    overflow: hidden;
+  }
+
+  .wrap-container-title-posicionamiento h3 {
+    font-size: 16px;
+ 
+  }
+
+  .heading-title-fastmind, .heading-title-fastmind-2, .heading-title-fastmind-3,.heading-title-fastmind-4{
+    font-size: 16px;
+  }
 }
