@@ -4436,11 +4436,10 @@ a.ui-button:active,
   }
 
   .iconos-destacados {
-    left: 26px;
+    left: 23px;
     top: -22px;
+    display: none;
   }
-
-
 
   #libertad-financiera h4 {
     font-size: 11px;
@@ -4879,7 +4878,7 @@ a.ui-button:active,
 
   .title-agency h3 {
     font-size: 17px;
-    margin-top: 599px;
+    margin-top: 459px;
     overflow: hidden;
   }
 
@@ -4921,7 +4920,8 @@ a.ui-button:active,
 
   .title-arte-scalar {
     left: -203px;
-    top: 65px;
+    top: 61px;
+    font-size: 16px;
   }
 
   .widget-container-heading h2 {
