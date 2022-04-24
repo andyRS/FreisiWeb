@@ -4900,15 +4900,15 @@ a.ui-button:active,
   }
 
   .widget-container-text {
-    width: 94%;
-    font-size: 16px;
+    width: 98%;
+    font-size: 14px;
   }
 
   .triangle-destacado-white .fa-caret-down {
     position: relative;
     font-size: 100px !important;
-    top: -155px;
-    left: 260px;
+    top: -184px;
+    left: 159px;
   }
 
   .triangle-destacado-bottom .fa-caret-down {
@@ -4921,7 +4921,7 @@ a.ui-button:active,
   .title-arte-scalar {
     left: -203px;
     top: 61px;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .widget-container-heading h2 {
