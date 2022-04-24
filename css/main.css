@@ -4848,6 +4848,10 @@ a.ui-button:active,
 }
 
 @media(max-width:576px) {
+  #mentoria-container {
+    margin-bottom: 60px;
+  }
+
 
   .widget-container {
     width: 100%;
