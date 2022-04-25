@@ -5512,7 +5512,7 @@ a.ui-button:active,
     margin-top: -213px;
   }
 
-  .header-content {
+  .header-content-trading {
     height: 100px;
   }
 
@@ -5744,8 +5744,8 @@ a.ui-button:active,
 
   .button-wrapper {
     width: 56%;
-    top: -38px;
-    left: -192px;
+    top: -2px;
+    left: -99px;
   }
 
   .title-nuestros-num h4 {
