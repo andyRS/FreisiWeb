@@ -4262,12 +4262,34 @@ a.ui-button:active,
     top: 68px;
   }
 
+  /*BLOG*/
+  #container-blog {
+    position: relative;
+    top: -72px;
+  }
+
+  .menu-hamb-blog {
+    display: block;
+    position: relative;
+    left: 482px;
+    top: 89px;
+  }
+
+
+
+  .col-blog{
+    margin: 0px;
+  }
 }
 
 @media(max-width:539px) {
 
   .header {
     margin-bottom: 0px;
+  }
+
+  .header-blog{
+    margin-bottom: 369px;
   }
 
   #link-1,
@@ -4798,8 +4820,6 @@ a.ui-button:active,
     position: relative;
   }
 
-
-
   .heading-title-fastmind-4 {
     width: 95%;
     top: 96px;
@@ -5071,6 +5091,12 @@ a.ui-button:active,
     width: 61%;
   }
 
+
+  /*BLOG*/
+
+  .blog-content{
+    height: 100%;
+  }
 
 }
 
