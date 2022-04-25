@@ -5512,9 +5512,7 @@ a.ui-button:active,
     margin-top: -213px;
   }
 
-  .header-content-trading {
-    height: 100px;
-  }
+
 
   .title-heading h2 {
     width: 66%;
@@ -5704,6 +5702,13 @@ a.ui-button:active,
     height: 100vw;
     width: 100%;
     margin-top: 0px;
+    position: relative;
+    /* top: -764px; */
+  }
+
+  .header-content-trading{
+    width: 100%;
+    height: 100%;
   }
 
   .text-rentabilidad p {
