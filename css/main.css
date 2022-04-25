@@ -4277,7 +4277,7 @@ a.ui-button:active,
 
 
 
-  .col-blog{
+  .col-blog {
     margin: 0px;
   }
 }
@@ -4288,7 +4288,7 @@ a.ui-button:active,
     margin-bottom: 0px;
   }
 
-  .header-blog{
+  .header-blog {
     margin-bottom: 369px;
   }
 
@@ -4876,7 +4876,7 @@ a.ui-button:active,
     width: 100%;
     max-width: auto;
     justify-content: center;
-  
+
   }
 
   #mentoria-destacado {
@@ -5094,13 +5094,13 @@ a.ui-button:active,
 
   /*BLOG*/
 
-  .blog-content{
+  .blog-content {
     height: 100%;
   }
 
 }
 
-@media(max-width: 377px){
+@media(max-width: 377px) {
   .widget-text-editor {
     font-size: 15px;
   }
@@ -5143,10 +5143,557 @@ a.ui-button:active,
 
   .wrap-container-title-posicionamiento h3 {
     font-size: 16px;
+
+  }
+
+  .heading-title-fastmind,
+  .heading-title-fastmind-2,
+  .heading-title-fastmind-3,
+  .heading-title-fastmind-4 {
+    font-size: 16px;
+  }
+}
+
+/*Trading*/
+@media(max-width:992px) {
+  #trading {
+    height: 66vw;
+    width: 100%;
+    margin-top: -213px;
+  }
+
+  .title-heading h2 {
+    width: 41%;
+    font-size: 49px;
+    top: 127px;
+    left: 93px;
+  }
+
+  .img-heading img {
+    width: 67%;
+  }
+
+  .text-rentabilidad p {
+    top: 131px;
+    font-size: 20px;
+    width: 34%;
+    left: 94px;
+  }
+
+  .button-wrapper {
+    width: 41%;
+    top: -141px;
+    left: -209px;
+  }
+
+  #trading-school {
+    width: 100%;
+    height: 65vw;
+  }
+
+  .wrap-trading-school {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    overflow: hidden;
+  }
+
+  .title-school h3 {
+    width: 61%;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .text-school {
+    width: 50%;
+    text-align: justify;
+  }
+
+  .image-school {
+    top: -354px;
+    left: 79px;
+  }
+
+  .estadistica-estrag h4 {
+    width: 56%;
+  }
+
+
+  .btn-school .btn {
+    width: 50%;
+    top: -88px;
+    left: 644px;
+  }
+
+  .wrap-nuestros-num {
+    left: -47px;
+
+  }
+
+  .title-nuestros-num h4 {
+    width: 50%;
+    top: -36px;
+    left: 47px;
+  }
+
+  .title-academy-text p {
+    width: 90%;
+    left: 80px;
+  }
+
+  .num-2 h4 {
+    position: relative;
+    left: 82px;
+    top: 0;
+  }
+
+  .title-2 p {
+    width: 90%;
+    left: 116px;
+  }
+
+  .title-simple-matric p {
+    width: 85%;
+    left: 70px;
+    font-size: 17px;
+  }
+
+  .num-3 h4 {
+    position: relative;
+    left: 56px;
+    top: 0;
+  }
+
+  .title-3 p {
+    left: 106px;
+  }
+
+  .text-matric-3 p {
+    left: 64px;
+  }
+
+
+  #cursos-trading {
+    width: 100%;
+    height: 100vw;
+    margin-top: 100px;
+  }
+
+  .heading-title-cursos-trading h5 {
+    width: 53%;
+    top: -66px;
+    left: 47px;
+  }
+
+  .p-cursos-trading p {
+    width: 90%;
+    top: -59px;
+  }
+
+  .cursos {
+    width: 300px;
+    height: 300px;
+  }
+
+  .wrap-cajas-cursos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .title-curso h5 {
+    font-size: 29px;
+  }
+
+
+  #testomonials {
+    display: flex;
+    width: 95%;
+    height: 60vw;
+    background: #fff;
+    border: none;
+    box-shadow: 0px 0px 0px;
+    border-radius: 25px;
+  }
+
+  .carousel-inner {
+    background: #ede3d1;
+    padding: 35px;
+    border-radius: 25px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .title-testiomials h5 {
+    width: 100%;
+  }
+}
+
+@media(max-width:768px) {
+  .title-heading h2 {
+    width: 53%;
+    font-size: 36px;
+    top: 127px;
+    left: 39px;
+  }
+
+  .img-heading img {
+    width: 54%;
+    top: -52px;
+    left: 194px;
+  }
+
+  .text-rentabilidad p {
+    top: 131px;
+    font-size: 17px;
+    width: 43%;
+    left: 40px;
+  }
+
+  .button-wrapper {
+    width: 41%;
+    top: -91px;
+    left: -192px;
+  }
+
+  #trading-school {
+    width: 100%;
+    height: 100vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-school {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 0px;
+    margin-bottom: 20px;
+  }
+
+  .text-school {
+    width: 95%;
+    text-align: justify;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .text-p-school p {
+    left: 0px;
+  }
+
+  .wrap-trading-school {
+    height: 100vw;
+  }
+
+  .image-school {
+    top: -13px;
+    left: 269px;
+  }
+
+  .btn-school .btn {
+    width: 50%;
+    top: 72px;
+    left: 503px;
+  }
+
+  #nuestros-numeros {
+    height: 75vw;
+  }
+
+  .title-nuestros-num h4 {
+    width: 66%;
+  }
+
+  .estadistica-estrag h4 {
+    width: 40%;
+    font-size: 60px !important;
+  }
+
+  .title-academy-text p {
+    width: 90%;
+    font-size: 21px;
+    left: 80px;
+  }
+
+  .title-simple-matric p {
+    width: 100%;
+    left: 65px;
+    font-size: 14px;
+  }
+
+  .title-1 {
+    width: 100%;
+    font-size: 18px;
+    left: -11px;
+    position: relative;
+  }
+
+  .text-matric-1 {
+    left: 64px;
+    font-size: 14px;
+  }
+
+  .num-2 h4 {
+    position: relative;
+    left: 73px;
+    top: 0;
+  }
+
+  .title-2 p {
+    width: 90%;
+    font-size: 21px;
+    left: 110px;
+  }
+
+  .text-matric-2 {
+    left: 10px;
+    position: relative;
+  }
+
+  .title-3 p {
+    left: 106px;
+  }
+
+
+  .heading-title-destacado-espacio h4 {
+    font-size: 22px;
+  }
+
+  .parrafo-spacio-destacado p {
+    font-size: 26px;
+  }
+
+  .heading-title-cursos-trading h5 {
+    width: 59%;
+    top: -66px;
+    left: 47px;
+  }
+
+  .p-cursos-trading p {
+    width: 100%;
+    font-size: 18px;
+    left: 44px;
+  }
+
+  .parrafo-curso p {
+    font-size: 15px;
+  }
+
+  .cursos {
+    width: 240px;
+    height: 240px;
+  }
+
+  .title-curso h5 {
+    font-size: 22px;
+  }
+
+  .btn-cursos {
+    font-size: 15px;
+  }
+
+  .heading-title-detalles h5 {
+    font-size: 30px;
+  }
+
+  .title-testiomials h5 {
+    width: 95%;
+    font-size: 31px;
+    top: -24px;
+  }
+}
+
+@media(max-width: 576px) {
+  #trading {
+    height: 100vw;
+    width: 100%;
+    margin-top: -213px;
+  }
+
+  .header-content {
+    height: 100px;
+  }
+
+  .title-heading h2 {
+    width: 66%;
+    font-size: 30px;
+    left: -1px;
+  }
+
+  .text-rentabilidad p {
+    top: 125px;
+    font-size: 15px;
+    width: 47%;
+    left: 0px;
+  }
+
+  .img-heading img {
+    width: 41%;
+    top: -52px;
+    left: 156px;
+  }
+
+  .button-wrapper {
+    width: 41%;
+    top: -25px;
+    left: -152px;
+
+  }
+
+  .btn-danger {
+    font-size: 11px;
+  }
+
+  .title-school h3 {
+    width: 100%;
+  }
+
+  #trading-school {
+    width: 100%;
+    height: 855px;
+  }
+
+  .text-school {
+    width: 100%;
+  }
+
+  .wrap-trading-school {
+    height: 902px;
+  }
+
+  .image-school {
+    top: -13px;
+    left: 154px;
+  }
+
+  .btn-school .btn {
+    width: 85%;
+    top: 0px;
+    left: 311px;
+  }
+
+  #nuestros-numeros {
+    height: 100vw;
+  }
+
+  .title-nuestros-num h4 {
+    width: 86%;
+    font-size: 38px;
+  }
+
+  .wrap-nuestros-num {
+    left: -47px;
+    flex-direction: column;
+  }
+
+  .estadistica-estrag h4 {
+    width: 21%;
+    font-size: 50px !important;
+  }
+
+  .title-academy-text p {
+    width: 44%;
+    font-size: 21px;
+    left: 80px;
+  }
+
+  .estadistica-estrag h4 {
+    position: relative;
+    left: 20px;
+  }
+
+  .title-simple-matric p {
+    margin-bottom: 25px;
+  }
+
+  .text-matric-1 {
+    left: -36px;
+    font-size: 14px;
+    position: relative;
+  }
+
+  .num-2 h4 {
+    position: relative;
+    left: 49px;
+    top: 0;
+  }
+
+  .text-matric-2 {
+    left: -21px;
+    position: relative;
+  }
+
+  .num-3 h4 {
+    position: relative;
+    left: 37px;
+  }
+
+  .title-3 {
+    position: relative;
+    left: -20px;
+  }
+  
+  .text-matric-3 {
+    display: block;
+    position: relative;
+    left: -23px;
+  }
+
+  #destacado-spacio {
+    width: 95%;
+  }
+
+  .heading-title-destacado-espacio h4 {
+    font-size: 18px;
+    line-height: 3;
+  }
+
+
+  #cursos-trading {
+    width: 100%;
+    height: 1250px;
+  }
+
+  .heading-title-cursos-trading h5 {
+    width: 85%;
+    top: -66px;
+    left: 47px;
+  }
+
+  .p-cursos-trading p {
+    width: 100%;
+    font-size: 14px;
+    left: 29px;
+  }
+
+  .wrap-cajas-cursos {
+    width: 100%;
+    flex-direction: column;
+    /* margin: 5px; */
+    /* padding: 51px; */
+  }
+
+  .cursos {
+    width: 270px;
+    height: 270px;
+    margin: 5px;
+    position: relative;
+    left: -34px;
+  }
+
+
+  #testomonials {
+    width: 96%;
+    height: 100vw;
  
   }
 
-  .heading-title-fastmind, .heading-title-fastmind-2, .heading-title-fastmind-3,.heading-title-fastmind-4{
-    font-size: 16px;
+  .title-testiomials h5 {
+    width: 99%;
+    font-size: 27px;
+    top: 9px;
   }
+
 }

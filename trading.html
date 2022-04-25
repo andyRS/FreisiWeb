@@ -31,7 +31,6 @@
 
     <!--Mis estilos (deben estar despues de BOOSTRAP)-->
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/responsive-media-querys.css">
     <!--Fin mis estilos (deben estar despues de BOOSTRAP)-->
 
     <!--Font Awesome-->
@@ -52,6 +51,19 @@
 </head>
 
 <body>
+    <!--Pre-loader-->
+    <section id="pre-load">
+        <div class="loader">
+            <div class="linea"></div>
+            <div class="linea"></div>
+            <div class="linea"></div>
+            <div class="linea"></div>
+            <div class="linea"></div>
+            <div class="linea"></div>
+            <div class="linea"></div>
+            <div class="linea"></div>
+        </div>
+    </section>
 
     <!--Inicio API de Whatssap-->
     <a id="whatssap" href="https://api.whatsapp.com/send?phone=+18492763532" target="_blank" title="Whatssap">
@@ -64,30 +76,32 @@
         <!--Inicio del header de la web-->
         <header id="header" class="header content">
             <div class="header-content">
-                <nav id="menu"
-                    class="container-fluid navbar-expand-lg col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 nav">
-                    <h1 id="logo-menu" class="logo-nav col">Freisis Sánchez</h1>
-                    <ul class="nav-menu row">
-                        <li class="nav-menu-item col col-xs-6 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <a id="link-1" href="index.html" class="nav-menu-link nav-link" data-url="inicio">Inicio</a>
+                <nav id="menu" class="container-fluid navbar-expand-lg col-xs col-sm col-md-12 col-lg-12 col-xl-12 nav">
+                    <h1 id="logo-menu" class="logo-nav col col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-5">
+                        Freisis Sánchez</h1>
+                    <ul class="nav-menu menu__active row">
+                        <li class="nav-menu-item col col-xs col-sm col-md-12 col-lg-12 col-xl-12">
+                            <a id="link-1" href="index.html" class="nav-menu-link nav-link">Inicio</a>
                         </li>
-                        <li class="nav-menu-item col col-xs-6 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <a id="link-2" href="mentoria.html" class="nav-menu-link nav-link"
-                                data-url="mentoria">Mentoría</a>
+                        <li class="nav-menu-item col col-xs col-sm col-md-12 col-lg-12 col-xl-12">
+                            <a id="link-2" href="mentoria.html" class="nav-menu-link nav-link">Mentoría</a>
                         </li>
-                        <li class="nav-menu-item col col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <a id="link-3" href="blog.html" class="nav-menu-link nav-link"
-                                data-url="portafolio">Blog</a>
+                        <li class="nav-menu-item col col-xs-12 col-sm col-md-12 col-lg-12 col-xl-12">
+                            <a id="link-3" href="blog.html" class="nav-menu-link nav-link">Blog</a>
                         </li>
-                        <li class="nav-menu-item col col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <a id="link-4" href="trading.html" class="nav-menu-link nav-link "
-                                data-url="trading">Trading</a>
+                        <li class="nav-menu-item col col-xs col-sm col-md-12 col-lg-12 col-xl-12">
+                            <a id="link-4" href="trading.html" class="nav-menu-link nav-link ">Trading</a>
                         </li>
-                        <li class="nav-menu-item col col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <a id="link-5" href="#" class="nav-menu-link nav-link " data-url="sobremi">Sobre mi</a>
+                        <li class="nav-menu-item col col-xs col-sm col-md-12 col-lg-12 col-xl-12">
+                            <a id="link-5" href="#" class="nav-menu-link nav-link ">Sobre mi</a>
                         </li>
                     </ul>
                 </nav>
+                <div class="bars__menu btn-menu-hamb">
+                    <span class="line1__bars-menu"></span>
+                    <span class="line2__bars-menu"></span>
+                    <span class="line3__bars-menu"></span>
+                </div>
         </header>
         <!--Fin del header de la web-->
 
@@ -119,7 +133,7 @@
                 <div class="text-school">
                     <div class="text-p-school">
                         <p>
-                            <strong>Freisis Sanchez Academy Trading Profesional</strong>nace con el objetivo de formar
+                            Freisis Sanchez Academy Trading Profesional nace con el objetivo de formar
                             traders e
                             inversores a
                             obtener beneficios
@@ -301,7 +315,7 @@
                                     <h4>Alumno de Freisis Academy Trading Profesional</h4>
                                     <p>Me siento muy agradecido por darme la oportunidad de poder comenzar en esta
                                         grandiosa academia,
-                                        gracias al profesor <strong>Freisis</strong> por su paciencia y ayudarme en mi
+                                        gracias al profesor <b>Freisis</b> por su paciencia y ayudarme en mi
                                         emprendimiento y largo camino del trading.</p>
                                 </div>
                             </div>
@@ -368,7 +382,7 @@
                 </nav> <br />
 
                 <div class="text-footer">
-                    <p>&copy; 2022 Freisi Sánchez - Desarrollado por <strong>Andy Rosado</strong> | MINED Academy
+                    <p>&copy; 2022 Freisi Sánchez - Desarrollado por <b>Andy Rosado</b> | MINED Academy
                         Trading | </p> <br>
                 </div>
             </div>

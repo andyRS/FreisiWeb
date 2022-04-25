@@ -49,7 +49,19 @@
 
 <body>
 
-     
+    <!--Pre-loader-->
+    <section id="pre-load">
+        <div class="loader">
+            <div class="linea"></div>
+            <div class="linea"></div>
+            <div class="linea"></div>
+            <div class="linea"></div>
+            <div class="linea"></div>
+            <div class="linea"></div>
+            <div class="linea"></div>
+            <div class="linea"></div>
+        </div>
+    </section>
 
     <!--Inicio API de Whatssap-->
     <a id="whatssap" href="https://api.whatsapp.com/send?phone=+18492763532" target="_blank" title="Whatssap">
@@ -62,30 +74,32 @@
         <!--Inicio del header de la web-->
         <header id="header" class="header content">
             <div class="header-content">
-                <nav id="menu"
-                    class="container-fluid navbar-expand-lg col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 nav">
-                    <h1 id="logo-menu" class="logo-nav col">Freisy Sánchez</h1>
-                    <ul class="nav-menu row">
-                        <li class="nav-menu-item col col-xs-6 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <a id="link-1" href="index.html" class="nav-menu-link nav-link"
-                                data-url="servicios">Inicio</a>
+                <nav id="menu" class="container-fluid navbar-expand-lg col-xs col-sm col-md-12 col-lg-12 col-xl-12 nav">
+                    <h1 id="logo-menu" class="logo-nav col col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-5">
+                        Freisis Sánchez</h1>
+                    <ul class="nav-menu menu__active row">
+                        <li class="nav-menu-item col col-xs col-sm col-md-12 col-lg-12 col-xl-12">
+                            <a id="link-1" href="index.html" class="nav-menu-link nav-link">Inicio</a>
                         </li>
-                        <li class="nav-menu-item col col-xs-6 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <a id="link-2" href="mentoria.html" class="nav-menu-link nav-link"
-                                data-url="servicios">Mentoría</a>
+                        <li class="nav-menu-item col col-xs col-sm col-md-12 col-lg-12 col-xl-12">
+                            <a id="link-2" href="mentoria.html" class="nav-menu-link nav-link">Mentoría</a>
                         </li>
-                        <li class="nav-menu-item col col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <a id="link-3" href="blog.html" class="nav-menu-link nav-link"
-                                data-url="portafolio">Blog</a>
+                        <li class="nav-menu-item col col-xs-12 col-sm col-md-12 col-lg-12 col-xl-12">
+                            <a id="link-3" href="blog.html" class="nav-menu-link nav-link">Blog</a>
                         </li>
-                        <li class="nav-menu-item col col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <a id="link-4" href="trading.html" class="nav-menu-link nav-link " data-url="contacto">Trading</a>
+                        <li class="nav-menu-item col col-xs col-sm col-md-12 col-lg-12 col-xl-12">
+                            <a id="link-4" href="trading.html" class="nav-menu-link nav-link ">Trading</a>
                         </li>
-                        <li class="nav-menu-item col col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <a id="link-5" href="#" class="nav-menu-link nav-link " data-url="sobremi">Sobre mi</a>
+                        <li class="nav-menu-item col col-xs col-sm col-md-12 col-lg-12 col-xl-12">
+                            <a id="link-5" href="#" class="nav-menu-link nav-link ">Sobre mi</a>
                         </li>
                     </ul>
                 </nav>
+                <div class="bars__menu btn-menu-hamb menu-hamb-blog">
+                    <span class="line1__bars-menu"></span>
+                    <span class="line2__bars-menu"></span>
+                    <span class="line3__bars-menu"></span>
+                </div>
         </header>
         <!--Fin del header de la web-->
 
@@ -196,7 +210,7 @@
 
         <!--Paginacion-->
         <div id="paginacion" class="container fluid">
-            <br/>
+            <br />
             <nav aria-label="Page navigation">
                 <ul class="pagination">
                     <li id="anterior" class="page-item disabled"><a class="page-link" href="">&laquo;</a></li>
@@ -205,9 +219,9 @@
                     <li class="page-item"><a class="page-link" href="">3</a></li>
                     <li class="page-item"><a class="page-link" href="">4</a></li>
                     <li class="page-item"><a class="page-link" href="">5</a></li>
-                    <li class="page-item"><a id="siguiente" class="page-link"href="">&raquo;</a></li>
+                    <li class="page-item"><a id="siguiente" class="page-link" href="">&raquo;</a></li>
                 </ul>
-            </nav> 
+            </nav>
         </div>
         <!--Fin paginacion-->
 
