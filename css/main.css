@@ -5546,6 +5546,7 @@ a.ui-button:active,
 
   .title-school h3 {
     width: 100%;
+    font-size: 25px;
   }
 
   #trading-school {
@@ -5632,7 +5633,7 @@ a.ui-button:active,
     position: relative;
     left: -20px;
   }
-  
+
   .text-matric-3 {
     display: block;
     position: relative;
@@ -5686,7 +5687,7 @@ a.ui-button:active,
   #testomonials {
     width: 96%;
     height: 100vw;
- 
+
   }
 
   .title-testiomials h5 {
@@ -5697,7 +5698,7 @@ a.ui-button:active,
 
 }
 
-@media(max-width:491px){
+@media(max-width:491px) {
   #trading {
     height: 100vw;
     width: 100%;
@@ -5706,7 +5707,7 @@ a.ui-button:active,
     /* top: -764px; */
   }
 
-  .header-content-trading{
+  .header-content-trading {
     width: 100%;
     height: 100%;
   }
@@ -5775,5 +5776,105 @@ a.ui-button:active,
     width: 100%;
     font-size: 22px;
     top: -1px;
+  }
+}
+
+@media(max-width:390px) {
+
+  #trading {
+    height: 768px;
+  }
+
+  .title-heading h2 {
+    width: 81%;
+    font-size: 36px;
+    left: 52px;
+  }
+
+  .text-rentabilidad p {
+    width: 87%;
+    font-size: 15px;
+    left: 22px;
+    text-align: center;
+    top: 344px;
+  }
+
+  .img-heading img {
+    width: 85%;
+    top: 59px;
+    left: 1px;
+  }
+
+  .button-wrapper {
+    width: 66%;
+    top: 127px;
+    left: 58px;
+  }
+
+  .btn-school .btn {
+    width: 100%;
+    top: -198px;
+    left: 26px;
+  }
+
+  .title-nuestros-num h4 {
+    width: 100%;
+    font-size: 28px;
+  }
+
+  .title-academy-text p {
+    width: 44%;
+    font-size: 17px;
+    left: 80px;
+  }
+
+  .estadistica-estrag h4 {
+    width: 21%;
+    font-size: 42px !important;
+  }
+
+  .title-academy-text p {
+    width: 44%;
+    font-size: 17px;
+    left: 80px;
+  }
+
+
+  .title-simple-matric p {
+    width: 100%;
+    left: 71px;
+    font-size: 11px;
+  }
+
+  .num-2 h4 {
+    position: relative;
+    left: 58px;
+    top: 0;
+  }
+
+  .num-3 h4 {
+    position: relative;
+    left: 52px;
+  }
+
+  .heading-title-destacado-espacio h4 {
+    font-size: 14px;
+    line-height: 3;
+  }
+
+  .parrafo-spacio-destacado p {
+    font-size: 18px;
+  }
+
+  .heading-title-cursos-trading h5 {
+    font-size: 23px;
+  }
+
+  .p-cursos-trading p {
+    font-size: 9px;
+  }
+
+  #testomonials {
+    display: none;
   }
 }
