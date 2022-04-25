@@ -5568,12 +5568,12 @@ a.ui-button:active,
 
   .btn-school .btn {
     width: 85%;
-    top: 0px;
-    left: 311px;
+    top: -69px;
+    left: 212px;
   }
 
   #nuestros-numeros {
-    height: 100vw;
+    height: 762px;
   }
 
   .title-nuestros-num h4 {
@@ -5711,6 +5711,10 @@ a.ui-button:active,
     height: 100%;
   }
 
+  .heading-title-cursos-trading h5 {
+    font-size: 30px;
+  }
+
   .text-rentabilidad p {
     width: 56%;
   }
@@ -5764,7 +5768,7 @@ a.ui-button:active,
   }
 
   .heading-title-detalles h5 {
-    font-size: 23px;
+    font-size: 19px;
   }
 
   .title-testiomials h5 {
