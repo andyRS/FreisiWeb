@@ -2332,16 +2332,16 @@ h1 {
 }
 
 .text-que-aprenderas h4 {
-	font-size: 20px;
-	font-weight: bold;
-	font-family: "Montserrat", sans-serif;
-	color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
 }
 
 .text-widgets-edits p {
-	font-size: 19px;
-	text-align: left;
-	color: #B8B8B8;
+  font-size: 19px;
+  text-align: left;
+  color: #B8B8B8;
 }
 
 .antepenultimo-registro-opera {
@@ -2350,10 +2350,11 @@ h1 {
 }
 
 .ultimo-pisco {
-	position: relative;
-	left: 78px;
-	top: -3px;
+  position: relative;
+  left: 78px;
+  top: -3px;
 }
+
 /*Fin que aprenderas*/
 
 
@@ -3615,22 +3616,22 @@ a.ui-button:active,
   display: flex;
 }
 
-.img-icon-aprenderas img{
+.img-icon-aprenderas img {
   display: block;
   width: 30px;
 }
 
 .gestion-m {
-	display: block;
-	position: relative;
-	top: -8px;
+  display: block;
+  position: relative;
+  top: -8px;
 }
 
 .ultimo-p-aprenderas {
-	display: flex;
-	position: relative;
-	top: -7px;
-	width: 86%;
+  display: flex;
+  position: relative;
+  top: -7px;
+  width: 86%;
 }
 
 .heading-title-formacion {
@@ -5896,4 +5897,165 @@ a.ui-button:active,
     top: -23px;
     left: 84px;
   }
+}
+
+/*Curso Trading Responsive*/
+@media (max-width: 992px) {
+  .title-cursos p {
+    width: 40%;
+    font-size: 23px;
+    top: 141px;
+    left: 47px;
+  }
+
+  .title-heading h2 {
+    width: 50%;
+    font-size: 33px;
+  }
+
+  .text-rentabilidad p {
+    top: 131px;
+    font-size: 17px;
+    width: 36%;
+    left: 94px;
+  }
+
+  .img-heading-cursos img {
+    width: 63%;
+    position: relative;
+    left: 303px;
+  }
+
+  .btn-cursos-trading {
+    width: 40%;
+    top: -138px;
+    left: -205px;
+  }
+
+  .title-widget-dirigido h3 {
+    font-size: 19px;
+
+  }
+
+  .heading-title-que-aprenderas {
+    top: -164px;
+    left: 45px;
+  }
+
+  .heading-title-que-aprenderas h5 {
+    font-size: 32px;
+  }
+
+  .text-principal-que-aprenderas {
+    position: relative;
+    top: -177px;
+    left: 46px;
+  }
+
+  .text-principal-que-aprenderas p {
+    font-size: 15px;
+  }
+
+  .heading-title-formacion h4 {
+    font-size: 40px;
+  }
+
+  .parrafo-heading-formacion p {
+    font-size: 17px;
+  }
+
+  #nuestra-formacion {
+    width: 100%;
+    height: 100vw;
+  }
+
+  .cards {
+    width: 300px;
+    height: 310px;
+  }
+
+  .cards-group {
+    width: 90%;
+    right: -175px;
+    top: -323px;
+  }
+
+  .parrafo-cards p {
+    font-size: 16px;
+
+  }
+
+  .heading-title-nuestro-sistema h5 {
+    color: #fff;
+    font-size: 32px;
+  }
+
+
+  #nuestro-sistema {
+    display: flex;
+    background: #201f25;
+    width: 100%;
+    height: 70vw;
+    flex-flow: column wrap;
+  }
+
+  .title-academy-text p {
+    width: 97%;
+    left: 80px;
+  }
+
+  .wrap-sistema-num {
+    left: -122px;
+  }
+
+  .estadistica-estrag h4 {
+    font-size: 75px !important;
+  }
+
+  .title-simple-matric p {
+    width: 99%;
+    left: 70px;
+    font-size: 16px;
+  }
+
+  .contenedor {
+    width: 24%;
+    min-width: 1200px;
+    margin: 0;
+  }
+
+  .tabla {
+    width: 26%;
+    max-width: none;
+    margin-bottom: 40px;
+    flex-grow: initial;
+    /* margin: 0; */
+    height: 1230px;
+  }
+
+  .tabla>h2 {
+    font-size: 20px;
+  }
+
+  .tabla>p {
+    font-size: 14px;
+
+  }
+
+  .heading-title-certificado h5 {
+    font-size: 43px;
+    width: 56%;
+  }
+
+  .parrafo-certificado p {
+    width: 45%;
+    font-size: 16px;
+
+  }
+
+  .img-certificado {
+    top: -186px;
+    left: -63px;
+  }
+
 }
