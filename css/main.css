@@ -4490,13 +4490,13 @@ a.ui-button:active,
   }
 
   .wrap-prefooter h5 {
-    left: 31px;
+    left: 5px;
     width: 100%;
-    font-size: 23px;
+    font-size: 21px;
   }
 
   .text-footer p {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .shape-traingle {
@@ -5560,7 +5560,7 @@ a.ui-button:active,
 
   .title-school h3 {
     width: 100%;
-    font-size: 25px;
+    font-size: 21px;
   }
 
   #trading-school {
@@ -5694,7 +5694,7 @@ a.ui-button:active,
     height: 270px;
     margin: 5px;
     position: relative;
-    left: -34px;
+    left: -28px;
   }
 
 
@@ -5753,8 +5753,8 @@ a.ui-button:active,
 
   .text-p-school p {
     left: 0px;
-    top: -56px;
-    font-size: 17px;
+    top: -98px;
+    font-size: 14px;
   }
 
   .image-school img {
@@ -5824,11 +5824,11 @@ a.ui-button:active,
     top: 150px;
     left: 61px;
   }
-  
+
   .btn-school .btn {
     width: 100%;
-    top: -198px;
-    left: 8px;
+    top: -88px;
+    left: 199px;
   }
 
   .title-nuestros-num h4 {
@@ -5999,20 +5999,15 @@ a.ui-button:active,
     flex-flow: column wrap;
   }
 
-  .title-academy-text p {
-    width: 97%;
-    left: 80px;
-  }
-
   .wrap-sistema-num {
     left: -122px;
   }
 
-  .estadistica-estrag h4 {
+  .sistema-num-title h4 {
     font-size: 75px !important;
   }
 
-  .title-simple-matric p {
+  .sistem-title-2 p {
     width: 99%;
     left: 70px;
     font-size: 16px;
@@ -6033,7 +6028,7 @@ a.ui-button:active,
     height: 1230px;
   }
 
-  .tabla > h2 {
+  .tabla>h2 {
     font-size: 19px;
   }
 
