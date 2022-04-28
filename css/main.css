@@ -5779,7 +5779,7 @@ a.ui-button:active,
   }
 }
 
-@media(min-width:394px) {
+@media(max-width:475px) {
 
   #trading {
     height: 768px;
@@ -5800,7 +5800,7 @@ a.ui-button:active,
   }
 
   .img-heading img {
-    width: 85%;
+    width: 74%;
     top: 59px;
     left: 1px;
   }
@@ -5808,13 +5808,13 @@ a.ui-button:active,
   .button-wrapper {
     width: 66%;
     top: 127px;
-    left: 58px;
+    left: 73px;
   }
 
   .btn-school .btn {
     width: 100%;
     top: -198px;
-    left: 26px;
+    left: 8px;
   }
 
   .title-nuestros-num h4 {
@@ -5867,14 +5867,20 @@ a.ui-button:active,
   }
 
   .heading-title-cursos-trading h5 {
-    font-size: 23px;
+    font-size: 24px;
+    left: 79px;
   }
 
   .p-cursos-trading p {
-    font-size: 9px;
+    font-size: 11px;
   }
 
   #testomonials {
     display: none;
+  }
+
+  .title-nuestros-num h4 {
+    top: -23px;
+    left: 84px;
   }
 }
