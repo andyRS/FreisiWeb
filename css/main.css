@@ -2252,7 +2252,6 @@ h1 {
   width: 100%;
   display: inline-flex;
   justify-content: center;
-  padding: 30px;
   position: relative;
   top: -225px;
 }
@@ -2333,16 +2332,16 @@ h1 {
 }
 
 .text-que-aprenderas h4 {
-  font-size: 24px;
-  font-weight: bold;
-  font-family: "Montserrat", sans-serif;
-  color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	color: #fff;
 }
 
 .text-widgets-edits p {
-  font-size: 21px;
-  text-align: left;
-  color: #B8B8B8;
+	font-size: 19px;
+	text-align: left;
+	color: #B8B8B8;
 }
 
 .antepenultimo-registro-opera {
@@ -2351,10 +2350,10 @@ h1 {
 }
 
 .ultimo-pisco {
-  position: relative;
-  left: 78px;
+	position: relative;
+	left: 78px;
+	top: -3px;
 }
-
 /*Fin que aprenderas*/
 
 
@@ -3465,7 +3464,7 @@ a.ui-button:active,
   .btn-cursos-trading .btn-curso-trading {
     position: relative;
     top: -494px;
-    left: -723px;
+    left: -712px;
   }
 
   .title-school h3 {
@@ -3569,154 +3568,168 @@ a.ui-button:active,
 
   .title-cursos p {
     top: 144px;
-    left: 108px;
+    left: 115px;
     font-size: 26px;
   }
-
-  .parrafo-dirigido-clients p {
-    width: 67%;
-    font-size: 22px;
-    line-height: 1.6;
-  }
-
-  #que-aprenderas {
-    display: flex;
-    width: 100%;
-    height: 85vw;
-    overflow: hidden;
-    flex-wrap: wrap;
-  }
-
-  .heading-que-aprenderas {
-    position: relative;
-    top: 113px;
-  }
-
-  .heading-title-que-aprenderas h5 {
-    font-size: 41px;
-    line-height: 1;
-    letter-spacing: 0.8px;
-  }
-
-  .text-widgets-edits {
-    padding: 0px;
-  }
-
-  .wrap-container-aprenderas {
-    width: 99%;
-    margin: 0px auto;
-
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    left: -23px;
-    top: -60px;
-    display: flex;
-  }
-
-  .ultimo-p-aprenderas {
-    display: flex;
-    position: relative;
-    top: -7px;
-  }
-
-  .heading-title-formacion {
-    width: 90%;
-
-  }
-
-  .cards-group {
-    width: 90%;
-    position: relative;
-    right: -212px;
-    top: -323px;
-  }
-
-  .parrafo-heading-formacion p {
-    font-family: "Raleway", sans-serif;
-    font-size: 21px;
-    color: #b1b1b5;
-  }
-
-  .cards {
-    width: 384px;
-    height: 304px;
-    padding: 20px;
-    margin: 5px;
-  }
-
-
-  /*precios-modalidad*/
-
-  #precios-modalidad {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .wrap-heading-title {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin-bottom: 2em;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .wrap-heading-title h4 {
-    color: #222;
-    font-family: 'Monserrat-Bold';
-    font-size: 40px;
-    margin-bottom: 1em;
-    border-bottom: 2px solid #9e0c30;
-  }
-
-  .wrap-heading-title p {
-    width: 95%;
-    font-family: "Raleway", Sans-serif;
-    font-size: 19px;
-    color: #333;
-    line-height: 1.8;
-    text-align: center;
-    margin-bottom: 1.3em;
-  }
-
-  .contenedor {
-    width: 60%;
-    min-width: 1200px;
-  }
-
-  .tabla:hover {
-    transform: scale(1.1);
-  }
-
-  .tabla>h2 {
-    font-size: 27px;
-  }
-
-  .mover-texto-certificado {
-    top: 40px;
-  }
-
-  .wrap-certificado {
-    width: 93%;
-  }
-
-  .img-certificado {
-    top: -196px;
-    left: -164px;
-  }
-
-  .wrap-prefooter h5 {
-    font-size: 39px;
-  }
-
-  .container-btn-pre {
-    left: -412px;
-    top: 106px;
-  }
 }
+
+.parrafo-dirigido-clients p {
+  width: 67%;
+  font-size: 22px;
+  line-height: 1.6;
+}
+
+#que-aprenderas {
+  display: flex;
+  width: 100%;
+  height: 85vw;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.heading-que-aprenderas {
+  position: relative;
+  top: 113px;
+}
+
+.heading-title-que-aprenderas h5 {
+  font-size: 41px;
+  line-height: 1;
+  letter-spacing: 0.8px;
+}
+
+.text-widgets-edits,
+.text-01-que-aprenderas {
+  padding: 0px;
+}
+
+.wrap-container-aprenderas {
+  width: 99%;
+  margin: 0px auto;
+
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: -23px;
+  top: -60px;
+  display: flex;
+}
+
+.img-icon-aprenderas img{
+  display: block;
+  width: 30px;
+}
+
+.gestion-m {
+	display: block;
+	position: relative;
+	top: -8px;
+}
+
+.ultimo-p-aprenderas {
+	display: flex;
+	position: relative;
+	top: -7px;
+	width: 86%;
+}
+
+.heading-title-formacion {
+  width: 90%;
+
+}
+
+.cards-group {
+  width: 90%;
+  position: relative;
+  right: -212px;
+  top: -323px;
+}
+
+.parrafo-heading-formacion p {
+  font-family: "Raleway", sans-serif;
+  font-size: 21px;
+  color: #b1b1b5;
+}
+
+.cards {
+  width: 384px;
+  height: 304px;
+  padding: 20px;
+  margin: 5px;
+}
+
+
+/*precios-modalidad*/
+
+#precios-modalidad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrap-heading-title {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-bottom: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap-heading-title h4 {
+  color: #222;
+  font-family: 'Monserrat-Bold';
+  font-size: 40px;
+  margin-bottom: 1em;
+  border-bottom: 2px solid #9e0c30;
+}
+
+.wrap-heading-title p {
+  width: 95%;
+  font-family: "Raleway", Sans-serif;
+  font-size: 19px;
+  color: #333;
+  line-height: 1.8;
+  text-align: center;
+  margin-bottom: 1.3em;
+}
+
+.contenedor {
+  width: 60%;
+  min-width: 1200px;
+}
+
+.tabla:hover {
+  transform: scale(1.1);
+}
+
+.tabla>h2 {
+  font-size: 27px;
+}
+
+.mover-texto-certificado {
+  top: 40px;
+}
+
+.wrap-certificado {
+  width: 93%;
+}
+
+.img-certificado {
+  top: -196px;
+  left: -164px;
+}
+
+.wrap-prefooter h5 {
+  font-size: 39px;
+}
+
+.container-btn-pre {
+  left: -412px;
+  top: 106px;
+}
+
 
 @media(max-width: 1171px) {
   .logo-nav {
@@ -5807,8 +5820,8 @@ a.ui-button:active,
 
   .button-wrapper {
     width: 66%;
-    top: 127px;
-    left: 73px;
+    top: 149px;
+    left: 72px;
   }
 
   .btn-school .btn {
