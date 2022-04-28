@@ -5779,7 +5779,7 @@ a.ui-button:active,
   }
 }
 
-@media(max-width:390px) {
+@media(min-width:394px) {
 
   #trading {
     height: 768px;
