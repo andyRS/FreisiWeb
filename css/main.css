@@ -5819,12 +5819,12 @@ a.ui-button:active,
     left: 1px;
   }
 
-  .button-wrapper {
+  .btn-unete-equipo {
     width: 66%;
-    top: 149px;
-    left: 72px;
+    top: 150px;
+    left: 61px;
   }
-
+  
   .btn-school .btn {
     width: 100%;
     top: -198px;
@@ -5913,7 +5913,7 @@ a.ui-button:active,
     font-size: 33px;
   }
 
-  .text-rentabilidad p {
+  .text-rentabilidad-curso p {
     top: 131px;
     font-size: 17px;
     width: 36%;
@@ -6033,8 +6033,8 @@ a.ui-button:active,
     height: 1230px;
   }
 
-  .tabla>h2 {
-    font-size: 20px;
+  .tabla > h2 {
+    font-size: 19px;
   }
 
   .tabla>p {
