@@ -2998,21 +2998,21 @@ a.ui-button:active,
   line-height: 42px;
 }
 
-.icon-mitrabajo{
+.icon-mitrabajo {
   margin: -8px 0px 0px 0px;
 }
 
-.icon-list-icon .fa-dot-circle-o{
+.icon-list-icon .fa-dot-circle-o {
   color: #cf0e1a;
   font-size: 23px;
 }
 
-.icon-text-mitrabajo{
+.icon-text-mitrabajo {
   font-family: "Lato", Sans-serif;
   font-size: 18px;
 }
 
-.hitos-destacados{
+.hitos-destacados {
   display: flex;
   flex-direction: column;
   width: 90%;
@@ -3020,22 +3020,23 @@ a.ui-button:active,
   margin-top: 70px;
 }
 
-.heading-title-hitos h3{
-    color: #3f3f3f;
-    font-size: 2.8em;
-    text-align: center;
-    font-family: "Oswald", Sans-serif;
-    text-transform: uppercase;
+.heading-title-hitos h3 {
+  color: #3f3f3f;
+  font-size: 2.8em;
+  text-align: center;
+  font-family: "Oswald", Sans-serif;
+  text-transform: uppercase;
 }
 
-.text-hitos-destacados{
+.text-hitos-destacados {
   width: 100%;
   margin-bottom: 60px;
 }
 
-.list-hitos{
+.list-hitos {
   width: 95%;
-  color: #3f3f3f;;
+  color: #3f3f3f;
+  ;
   margin: 0px auto;
   display: flex;
   flex-direction: column;
@@ -6008,10 +6009,10 @@ a.ui-button:active,
     height: 768px;
   }
 
-  .title-heading h2 {
-    width: 81%;
+  .title-heading-trading h2 {
+    width: 81% !important;
     font-size: 36px;
-    left: 52px;
+    left: 65px;
   }
 
   .text-rentabilidad p {
@@ -6260,6 +6261,202 @@ a.ui-button:active,
   .img-certificado {
     top: -186px;
     left: -63px;
+  }
+
+}
+
+@media(max-width: 768px) {
+  .title-cursos p {
+    width: 50%;
+    left: 0px;
+  }
+
+  .title-heading-cursos h2 {
+    width: 68%;
+    font-size: 33px;
+    left: 35px;
+  }
+
+  .text-rentabilidad-curso p {
+    top: 121px;
+    font-size: 17px;
+    width: 53%;
+    left: 36px;
+  }
+
+  .img-heading-cursos img {
+    width: 48%;
+    position: relative;
+    left: 245px;
+  }
+
+  .btn-cursos-trading {
+    width: 40%;
+    top: -83px;
+    left: -194px;
+  }
+
+  .title-digido-clientes h3 {
+    font-size: 33px;
+  }
+
+  .parrafo-dirigido-clients p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .wrap-digido-clientes {
+    width: 94%;
+  }
+
+  .title-widget-dirigido h3 {
+    font-size: 16px;
+  }
+
+  .text-widget-dirigido p {
+    font-size: 16px;
+  }
+
+  #que-aprenderas {
+    width: 100%;
+    height: 100vw;
+  }
+
+  .heading-title-que-aprenderas h5 {
+    font-size: 24px;
+    position: relative;
+    left: -20px;
+    top: 39px;
+  }
+
+  .text-principal-que-aprenderas {
+    position: relative;
+    top: -123px;
+  }
+
+  .text-que-aprenderas h4 {
+    font-size: 15px;
+  }
+
+  .text-widgets-edits p {
+    font-size: 14px;
+  }
+
+  .heading-title-formacion h4 {
+    font-size: 30px;
+  }
+
+  .parrafo-heading-formacion p {
+    font-size: 20px;
+    width: 91%;
+    margin: 0px auto;
+  }
+
+  #nuestra-formacion {
+    margin-bottom: 1200px;
+    background: #fff;
+  }
+
+  .cards {
+    width: 510px;
+    height: 315px;
+  }
+
+  .card-01 {
+    position: relative;
+    left: 122px;
+    top: -9px;
+    height: 315px;
+  }
+
+  .cards-group {
+    width: 100%;
+    right: 0px;
+    top: 0px;
+  }
+
+  .heading-title-nuestro-sistema h5 {
+    color: #fff;
+    font-size: 25px;
+  }
+
+  .sistema-num-title h4 {
+    font-size: 60px !important;
+  }
+
+  #nuestro-sistema{
+    display: none;
+  }
+
+  #freisis-destacado{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background: #201f25;
+  }
+
+  .destacado-f{
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .destacado-f h4{
+    color: #fff;
+    font-size: 2.4em;
+  }
+
+  #precios-modalidad {
+    width: 100%;
+    margin-bottom: 2080px;
+  }
+
+  .contenedor {
+    width: 100%;
+  }
+
+  .tabla {
+    width: 50%;
+    height: 893px;
+  }
+
+  .tabla:hover {
+    transform: scale(0.9);
+  }
+
+
+  #certificado-fin {
+    height: 50vw;
+  }
+
+  .heading-title-certificado h5 {
+    font-size: 37px;
+    width: 55%;
+  }
+
+  .parrafo-certificado p {
+    width: 52%;
+    font-size: 15px;
+  }
+
+  .img-certificado img {
+    width: 43%;
+  }
+
+  .img-certificado {
+    top: -139px;
+    left: -8px;
+  }
+
+
+  #box-acordeon h5 {
+    font-size: 30px;
+  }
+
+  .ui-accordion .ui-accordion-header {
+    font-size: 144%;
   }
 
 }
