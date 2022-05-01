@@ -2568,22 +2568,23 @@ h1 {
 #precios-modalidad {
   display: flex;
   margin-top: 10em;
-  margin-bottom: 50em;
+  margin-bottom: -13em;
 }
 
 .contenedor {
-  width: 85%;
-  max-width: 1280px;
+  width: 93%;
+  max-width: 1342px;
   margin: auto;
-  height: 100vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 
+
 .tabla {
-  width: 33%;
+  width: 27%;
   height: 1105px;
   margin: 2px;
   border: 1px solid #444;
@@ -3907,8 +3908,9 @@ a.ui-button:active,
 }
 
 .contenedor {
-  width: 60%;
-  min-width: 1200px;
+  /* width: 41%; */
+  min-height: 950px;
+  margin-bottom: 469px;
 }
 
 .tabla:hover {
@@ -4280,6 +4282,10 @@ a.ui-button:active,
   .autor-title h2 {
     font-size: 21px;
   }
+}
+
+#freisis-destacado {
+  display: none;
 }
 
 @media(max-width:580px) {
@@ -6225,7 +6231,6 @@ a.ui-button:active,
 
   .contenedor {
     width: 24%;
-    min-width: 1200px;
     margin: 0;
   }
 
@@ -6384,33 +6389,33 @@ a.ui-button:active,
     font-size: 60px !important;
   }
 
-  #nuestro-sistema{
+  #nuestro-sistema {
     display: none;
   }
 
-  #freisis-destacado{
-    display: flex;
+  #freisis-destacado {
+    display: block;
     width: 100%;
     height: 250px;
     background: #201f25;
   }
 
-  .destacado-f{
+  .destacado-f {
     width: 90%;
     margin: 0px auto;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
-  .destacado-f h4{
+
+  .destacado-f h4 {
     color: #fff;
     font-size: 2.4em;
   }
 
   #precios-modalidad {
     width: 100%;
-    margin-bottom: 2080px;
+    margin-bottom: 200px;
   }
 
   .contenedor {
@@ -6423,7 +6428,7 @@ a.ui-button:active,
   }
 
   .tabla:hover {
-    transform: scale(0.9);
+    transform: scale(1.0);
   }
 
 
@@ -6459,4 +6464,191 @@ a.ui-button:active,
     font-size: 144%;
   }
 
+}
+
+@media(max-width:576px) {
+  .header-content-cursos {
+    width: 100%;
+    height: 100%;
+  }
+
+  .btn-curso-menu {
+    position: relative;
+    top: 90px;
+    left: 458px;
+  }
+
+  .title-cursos p {
+    width: 69%;
+    left: -43px;
+  }
+
+  .title-heading-cursos h2 {
+    width: 56%;
+    font-size: 20px;
+    left: -6px;
+  }
+
+  .text-rentabilidad-curso p {
+    font-size: 14px;
+    left: -9px;
+  }
+
+  .btn-cursos-trading {
+    width: 55%;
+    top: -63px;
+    left: -121px;
+  }
+
+  .img-heading-cursos img {
+    width: 44%;
+    position: relative;
+    left: 165px;
+  }
+
+  .title-digido-clientes h3 {
+    font-size: 27px;
+  }
+
+  .parrafo-dirigido-clients p {
+    width: 93%;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .wrap-digido-clientes {
+    width: 100%;
+  }
+
+  .title-widget-dirigido h3 {
+    font-size: 14px;
+  }
+
+  .text-widget-dirigido p {
+    font-size: 14px;
+  }
+
+  .text-principal-que-aprenderas {
+    position: relative;
+    top: -94px;
+    left: -4px;
+    text-align: center;
+  }
+
+  .text-principal-que-aprenderas p {
+    font-size: 13px;
+  }
+
+  .heading-title-que-aprenderas {
+    top: -138px;
+    left: 45px;
+  }
+
+  .heading-title-que-aprenderas h5 {
+    font-size: 18px;
+    position: relative;
+    left: -59px;
+    top: 63px;
+  }
+
+
+  .text-que-aprenderas h4 {
+    font-size: 10px;
+  }
+
+  .wrap-all-text-que-aprenderas {
+    position: relative;
+    left: -28px;
+  }
+
+  .text-widgets-edits p {
+    font-size: 10px;
+  }
+
+  .title-pisco {
+    display: block;
+    position: relative;
+    left: -31px;
+  }
+
+  .ultimo-p-aprenderas {
+    top: -7px;
+    width: 89%;
+    left: -31px;
+  }
+
+  .heading-title-formacion h4 {
+    font-size: 22px;
+  }
+
+  .parrafo-heading-formacion p {
+    font-size: 18px;
+  }
+
+  .card-01 {
+    position: relative;
+    left: 29px;
+    height: 315px;
+  }
+
+  #nuestra-formacion {
+    margin-bottom: 1382px;
+    background: #fff;
+  }
+
+  .wrap-heading-title h4 {
+    font-size: 29px;
+  }
+
+  .wrap-heading-title p {
+    width: 95%;
+    font-size: 17px;
+  }
+
+  .contenedor {
+    min-height: 0;
+    width: 850px !important;
+  }
+
+  .heading-title-certificado h5 {
+    font-size: 28px;
+    width: 60%;
+  }
+
+  .parrafo-certificado p {
+    width: 61%;
+    font-size: 14px;
+  }
+
+  .img-certificado {
+    top: -98px;
+    left: 23px;
+  }
+
+  #box-acordeon {
+    width: 95%;
+  }
+
+  #box-acordeon h5 {
+    font-size: 24px;
+  }
+
+  .ui-accordion .ui-accordion-header {
+    font-size: 116%;
+  }
+
+  .ui-accordion .ui-accordion-content {
+    font-size: 16px;
+  }
+
+  .wrap-prefooter{
+    display: none;
+  }
+
+  #pre-footer {
+    height: 221px;
+  }
+  #footer {
+    height: 60vw;
+  }
 }
