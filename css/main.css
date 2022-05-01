@@ -372,8 +372,6 @@ h1 {
 
 
 /*FIN MENU HAMBURGESA*/
-
-
 #swiper-container {
   display: flex;
   width: 100vw;
@@ -1423,7 +1421,6 @@ h1 {
 
 
 /*APLICAR MENTORIA*/
-
 #aplicar-mentoria {
   position: relative;
   flex-direction: column;
@@ -2835,6 +2832,218 @@ a.ui-button:active,
 }
 
 /*Fin Certificado-finalizacion*/
+
+
+/*Sobre-mi*/
+.header-sobremi {
+  background-image: url("../imagenes/fondo-sobremi.jpg");
+  background-position: 0px 64px;
+  background-repeat: no-repeat;
+
+  background-color: #001860;
+  background-position: center center;
+  background-size: cover;
+
+}
+
+.caja-logo-sobremi {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  top: 167px;
+  position: relative;
+}
+
+.header-content-sobremi {
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+}
+
+.header-overlay-sobremi {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, rgba(89, 89, 89, 0.54) 0%, #000000 100%);
+  opacity: 0.5;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.logo-sobremi {
+  display: flex;
+  width: 100%;
+}
+
+
+.title-header-autor-sobremi {
+  display: flex;
+  flex-basis: 100%;
+  margin: 0px auto;
+}
+
+.logo-sobremi-h2 {
+  display: flex;
+  width: 100%;
+}
+
+.title-header-autor-sobremi h2 {
+  display: flex;
+  width: 72%;
+  margin: 0px auto;
+  color: #ffffff;
+  font-family: 'Oswald-Bold';
+  font-size: 3.0em;
+  text-transform: uppercase;
+  line-height: 1.3em;
+  text-align: center;
+  text-shadow: 10px 10px 6px rgb(0 0 0 / 30%);
+}
+
+#sobre-mi {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-top: -220px;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.sobre-mi-wrapper {
+  display: flex;
+  width: 70%;
+  position: relative;
+  margin: 0px auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sobre-mi-wrapper h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.text-sobremi p {
+  text-align: center;
+  color: #3f3f3f;
+  font-family: "Lato", Sans-serif;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.permiso-soñar {
+  display: flex;
+  width: 98%;
+  margin: 0px auto;
+  margin-top: 60px;
+  flex-direction: column;
+}
+
+
+.heading-title-soñar h3 {
+  width: 70%;
+  margin: 0px auto;
+  color: #3f3f3f;
+  font-size: 2.8em;
+  font-family: "Oswald", Sans-serif;
+  line-height: 1.2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.heading-text-soñar p {
+  width: 84%;
+  margin: 0 0 1em;
+  margin: 0px auto;
+  text-align: left;
+  color: #3f3f3f;
+  font-family: "Lato", Sans-serif;
+  font-size: 18px;
+  line-height: 42px;
+}
+
+.ayudarte-mitrabajo {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.heading-title-mitrabajo {
+  display: flex;
+  width: 78%;
+  margin: 0px auto;
+}
+
+
+.ayudarte-mitrabajo h3 {
+  display: flex;
+  text-align: center;
+  color: #3f3f3f;
+  font-family: "Oswald", Sans-serif;
+  font-style: normal;
+  line-height: 1.4em;
+  font-size: 2.5em;
+}
+
+.text-ayudarte p {
+  width: 84%;
+  margin: 0 0 1em;
+  margin: 0px auto;
+  text-align: left;
+  color: #3f3f3f;
+  font-family: "Lato", Sans-serif;
+  font-size: 18px;
+  line-height: 42px;
+}
+
+.icon-mitrabajo{
+  margin: -8px 0px 0px 0px;
+}
+
+.icon-list-icon .fa-dot-circle-o{
+  color: #cf0e1a;
+  font-size: 23px;
+}
+
+.icon-text-mitrabajo{
+  font-family: "Lato", Sans-serif;
+  font-size: 18px;
+}
+
+.hitos-destacados{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 70px;
+}
+
+.heading-title-hitos h3{
+    color: #3f3f3f;
+    font-size: 2.8em;
+    text-align: center;
+    font-family: "Oswald", Sans-serif;
+    text-transform: uppercase;
+}
+
+.text-hitos-destacados{
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.list-hitos{
+  width: 95%;
+  color: #3f3f3f;;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+  font-family: "Lato", Sans-serif;
+  font-size: 19px;
+}
+
 
 /*FOOTER*/
 #footer {
