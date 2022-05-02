@@ -6893,6 +6893,10 @@ a.ui-button:active,
     font-size: 13px;
   }
 
+  .destacado-f h4 {
+    font-size: 1.7em;
+  }
+
 
   .title-pisco {
     left: -9px;
@@ -6918,5 +6922,9 @@ a.ui-button:active,
 
   .ui-accordion .ui-accordion-content {
     font-size: 14px;
+  }
+
+  .text-footer p {
+    font-size: 11px;
   }
 }
