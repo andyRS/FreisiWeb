@@ -6521,7 +6521,7 @@ a.ui-button:active,
   }
 
   .title-widget-dirigido h3 {
-    font-size: 14px;
+    font-size: 17px;
   }
 
   .text-widget-dirigido p {
@@ -6711,6 +6711,8 @@ a.ui-button:active,
 
   .dirigidos {
     width: 100%;
+    margin: 0px;
+    margin-bottom: 15px;
   }
 
   .heading-title-que-aprenderas h5 {
@@ -6852,6 +6854,10 @@ a.ui-button:active,
     width: 368px;
     height: 315px;
   }
+  .text-principal-que-aprenderas p {
+    font-size: 10px;
+  }
+
   .title-cards h5 {
     font-size: 18px;
   }
@@ -6859,6 +6865,37 @@ a.ui-button:active,
   .wrap-heading-title p {
     width: 100%;
     font-size: 15px;
+  }
+
+  .text-que-aprenderas h4 {
+    font-size: 7px;
+  }
+
+  .text-widgets-edits p {
+    font-size: 6px;
+  }
+  .heading-title-que-aprenderas h5 {
+    font-size: 12px;
+    position: relative;
+    left: -59px;
+    top: 92px;
+    width: 100%;
+  }
+
+  .ultimo-p-aprenderas {
+    top: -7px;
+    width: 89%;
+    left: -45px;
+  }
+
+  .btn-precios {
+    width: 45%;
+    font-size: 13px;
+  }
+
+
+  .title-pisco {
+    left: -9px;
   }
 
   .contenedor {
