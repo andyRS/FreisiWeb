@@ -7005,9 +7005,16 @@ a.ui-button:active,
 }
 
 @media(max-width:490px) {
+
+  .caja-logo-sobremi {
+    top: 137px;
+    position: relative;
+  }
+
   .title-header-autor-sobremi h2 {
     width: 100%;
-    font-size: 1.5em;
+    font-size: 1.4em;
+    line-height: 1.5em;
   }
 
   .header-sobremi {
