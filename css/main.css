@@ -6846,3 +6846,32 @@ a.ui-button:active,
   }
 
 }
+
+@media(max-width:396px){
+  .cards {
+    width: 368px;
+    height: 315px;
+  }
+
+  .contenedor {
+    min-height: 0;
+    width: 720px !important;
+  }
+
+  .img-certificado img {
+    width: 50%;
+  }
+
+  .img-certificado {
+    top: -106px;
+    left: 27px;
+  }
+
+  .ui-accordion .ui-accordion-header {
+    font-size: 104%;
+  }
+
+  .ui-accordion .ui-accordion-content {
+    font-size: 14px;
+  }
+}
