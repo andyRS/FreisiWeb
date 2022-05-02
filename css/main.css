@@ -6641,19 +6641,20 @@ a.ui-button:active,
     font-size: 16px;
   }
 
-  .wrap-prefooter{
+  .wrap-prefooter {
     display: none;
   }
 
   #pre-footer {
     height: 221px;
   }
+
   #footer {
     height: 60vw;
   }
 }
 
-@media(max-width:425px){
+@media(max-width:425px) {
   .btn-curso-menu {
     position: relative;
     top: 63px;
@@ -6667,28 +6668,37 @@ a.ui-button:active,
 
   .title-heading-cursos h2 {
     width: 78%;
-    font-size: 21px;
-    left: 67px;
+    font-size: 20px;
+    left: 48px;
   }
 
   .text-rentabilidad-curso p {
     width: 65%;
     font-size: 13px;
-    left: 68px;
+    left: 50px;
     text-align: justify;
   }
 
   .img-heading-cursos img {
-    width: 70%;
+    width: 90%;
     position: relative;
     left: 1px;
     top: 116px;
   }
 
+
+
+  .btn-cursos-trading .btn-danger {
+    width: 71%;
+    top: 5px;
+    left: 8px;
+    padding: 0.9rem 2.999rem;
+  }
+
   .btn-cursos-trading {
-    width: 55%;
-    top: 124px;
-    left: 64px;
+    width: 71%;
+    top: 128px;
+    left: 43px;
   }
 
   .title-digido-clientes h3 {
@@ -6698,7 +6708,7 @@ a.ui-button:active,
   .parrafo-dirigido-clients p {
     width: 100%;
     font-size: 14px;
-    line-height: 1.6;
+    line-height: 1.8;
   }
 
   .wrap-digido-clientes {
@@ -6798,7 +6808,7 @@ a.ui-button:active,
     top: 95px;
   }
 
-  .destacado-f h4{
+  .destacado-f h4 {
     font-size: 1.9em;
   }
 
@@ -6849,11 +6859,12 @@ a.ui-button:active,
 
 }
 
-@media(max-width:396px){
+@media(max-width:396px) {
   .cards {
     width: 368px;
     height: 315px;
   }
+
   .text-principal-que-aprenderas p {
     font-size: 10px;
   }
@@ -6874,6 +6885,7 @@ a.ui-button:active,
   .text-widgets-edits p {
     font-size: 6px;
   }
+
   .heading-title-que-aprenderas h5 {
     font-size: 12px;
     position: relative;
