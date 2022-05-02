@@ -6852,6 +6852,14 @@ a.ui-button:active,
     width: 368px;
     height: 315px;
   }
+  .title-cards h5 {
+    font-size: 18px;
+  }
+
+  .wrap-heading-title p {
+    width: 100%;
+    font-size: 15px;
+  }
 
   .contenedor {
     min-height: 0;
