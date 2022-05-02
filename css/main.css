@@ -6940,3 +6940,11 @@ a.ui-button:active,
     font-size: 11px;
   }
 }
+
+/*SOBRE-MI*/
+
+@media(max-width:992px){
+  .title-header-autor-sobremi h2 {
+    font-size: 2.7em;
+  }
+}
