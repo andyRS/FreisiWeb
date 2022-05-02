@@ -6652,3 +6652,197 @@ a.ui-button:active,
     height: 60vw;
   }
 }
+
+@media(max-width:425px){
+  .btn-curso-menu {
+    position: relative;
+    top: 63px;
+    left: 363px;
+  }
+
+  .title-cursos p {
+    width: 100%;
+    left: 0px;
+  }
+
+  .title-heading-cursos h2 {
+    width: 78%;
+    font-size: 21px;
+    left: 67px;
+  }
+
+  .text-rentabilidad-curso p {
+    width: 65%;
+    font-size: 13px;
+    left: 68px;
+    text-align: justify;
+  }
+
+  .img-heading-cursos img {
+    width: 70%;
+    position: relative;
+    left: 1px;
+    top: 116px;
+  }
+
+  .btn-cursos-trading {
+    width: 55%;
+    top: 124px;
+    left: 64px;
+  }
+
+  .title-digido-clientes h3 {
+    font-size: 23px;
+  }
+
+  .parrafo-dirigido-clients p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .wrap-digido-clientes {
+    width: 80%;
+    margin: 0px auto;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .dirigidos {
+    width: 100%;
+  }
+
+  .heading-title-que-aprenderas h5 {
+    font-size: 13px;
+    position: relative;
+    left: -59px;
+    top: 63px;
+  }
+
+  .text-principal-que-aprenderas p {
+    font-size: 11px;
+  }
+
+  .text-que-aprenderas h4 {
+    font-size: 8px;
+  }
+
+  .text-widgets-edits p {
+    font-size: 8px;
+  }
+
+  .ultimo-p-aprenderas {
+    top: -7px;
+    width: 89%;
+    left: -38px;
+  }
+
+  .wrap-all-text-que-aprenderas {
+    position: relative;
+    left: -28px;
+    top: 42px;
+  }
+
+  .text-principal-que-aprenderas p {
+    font-size: 11px;
+    top: 28px;
+    position: relative;
+    left: -3px;
+  }
+
+  .heading-title-que-aprenderas h5 {
+    font-size: 13px;
+    position: relative;
+    left: -59px;
+    top: 92px;
+    width: 100%;
+  }
+
+  .btn-danger {
+    font-size: 11px;
+    position: relative;
+    left: -22px;
+  }
+
+  .heading-title-formacion h4 {
+    font-size: 15px;
+  }
+
+  .parrafo-heading-formacion p {
+    font-size: 15px;
+  }
+
+  #nuestra-formacion {
+    margin-bottom: 1526px;
+    background: #fff;
+  }
+
+  .cards {
+    width: 398px;
+    height: 315px;
+  }
+
+  .card-01 {
+    position: relative;
+    left: 6px;
+    height: 309px;
+  }
+
+
+  .destacado-f {
+    width: 100%;
+    position: relative;
+    top: 95px;
+  }
+
+  .destacado-f h4{
+    font-size: 1.9em;
+  }
+
+  .wrap-heading-title h4 {
+    font-size: 24px;
+  }
+
+  .contenedor {
+    min-height: 0;
+    width: 780px !important;
+  }
+
+  #certificado-fin {
+    height: 70vw;
+  }
+
+  .heading-title-certificado h5 {
+    font-size: 27px;
+    width: 64%;
+  }
+
+  .parrafo-certificado p {
+    width: 55%;
+    font-size: 13px;
+  }
+
+  #whatssap img {
+    width: 30%;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    top: -40px;
+    left: 82px;
+  }
+
+  #whatssap {
+    display: block;
+    position: fixed;
+    top: 76%;
+    transition: 300ms all;
+    z-index: 2222222;
+    left: 267px;
+  }
+
+  .text-footer p {
+    font-size: 12px;
+  }
+
+}
