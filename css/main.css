@@ -6948,3 +6948,103 @@ a.ui-button:active,
     font-size: 2.7em;
   }
 }
+
+
+@media(max-width:768px){
+  .title-header-autor-sobremi h2 {
+    width: 94%;
+    font-size: 2.6em;
+  }
+
+  .sobre-mi-wrapper {
+    width: 94%;
+  }
+
+  .heading-title-soñar h3 {
+    width: 100%;
+  }
+
+  .heading-text-soñar p {
+    width: 95%;
+    line-height: 50px;
+  }
+
+  .heading-title-mitrabajo {
+    width: 100%;
+  }
+
+  .text-ayudarte p {
+    width: 100%;
+    line-height: 50px;
+  }
+
+  .hitos-destacados {
+    width: 100%;
+  }
+}
+
+@media(max-width:576px){
+  .logo-sobremi-h2 {
+    display: flex;
+    width: 100%;
+  }
+
+  .title-header-autor-sobremi h2 {
+    width: 100%;
+    font-size: 2.2em;
+  }
+
+  .text-footer p {
+    font-size: 9px;
+  }
+
+  .text-footer {
+    position: relative;
+    left: 16px;
+  }
+}
+
+@media(max-width:490px){
+  .title-header-autor-sobremi h2 {
+    width: 100%;
+    font-size: 1.9em;
+  }
+
+  .header-sobremi {
+    margin-bottom: 259px;
+  }
+
+  .sobre-mi-wrapper h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+  }
+
+  .text-sobremi p {
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .heading-title-soñar h3 {
+    font-size: 2.4em;
+  }
+
+  .heading-text-soñar p {
+    width: 98%;
+    line-height: 39px;
+    font-size: 17px;
+  }
+
+  .ayudarte-mitrabajo h3 {
+    font-size: 2.1em;
+  }
+
+  .heading-title-hitos h3 {
+    font-size: 2.5em;
+  }
+
+  .list-hitos {
+    width: 100%;
+    font-size: 17px;
+  }
+}
