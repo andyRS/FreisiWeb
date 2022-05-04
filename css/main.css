@@ -6693,7 +6693,7 @@ a.ui-button:active,
   }
 
   .text-rentabilidad-curso p {
-    width: 65%;
+    width: 68%;
     font-size: 13px;
     left: 50px;
     text-align: justify;
@@ -6745,13 +6745,6 @@ a.ui-button:active,
     margin-bottom: 15px;
   }
 
-  .heading-title-que-aprenderas h5 {
-    font-size: 13px;
-    position: relative;
-    left: -59px;
-    top: 63px;
-  }
-
   .text-principal-que-aprenderas p {
     font-size: 11px;
   }
@@ -6784,7 +6777,7 @@ a.ui-button:active,
   }
 
   .heading-title-que-aprenderas h5 {
-    font-size: 13px;
+    font-size: 12px;
     position: relative;
     left: -59px;
     top: 92px;
