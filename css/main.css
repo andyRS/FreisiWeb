@@ -244,7 +244,7 @@ video {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 350px;
+  margin-top: 277px;
 
 }
 
@@ -1961,6 +1961,7 @@ h1 {
   transition: all 300ms;
 }
 
+
 .mas-detalles {
   width: 100%;
   display: inline-flex;
@@ -2886,6 +2887,10 @@ a.ui-button:active,
   width: 100%;
 }
 
+#destacado-movil{
+  display: none;
+}
+
 .title-header-autor-sobremi h2 {
   display: flex;
   width: 72%;
@@ -3506,13 +3511,12 @@ a.ui-button:active,
   #swiper-container {
     position: relative;
     z-index: -1;
-    top: -143px;
+    top: -86px;
   }
 
   .wrap {
-    margin-top: -183px;
+    margin-top: -126px;
   }
-
 
   .description-autor {
     display: block;
@@ -6433,7 +6437,7 @@ a.ui-button:active,
 
 
   #certificado-fin {
-    height: 50vw;
+    height: 70vw;
   }
 
   .heading-title-certificado h5 {
@@ -6507,7 +6511,7 @@ a.ui-button:active,
   }
 
   .title-digido-clientes h3 {
-    font-size: 27px;
+    font-size: 23px;
   }
 
   .parrafo-dirigido-clients p {
@@ -6536,7 +6540,7 @@ a.ui-button:active,
   }
 
   .text-principal-que-aprenderas p {
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .heading-title-que-aprenderas {
@@ -6545,7 +6549,7 @@ a.ui-button:active,
   }
 
   .heading-title-que-aprenderas h5 {
-    font-size: 18px;
+    font-size: 13px;
     position: relative;
     left: -59px;
     top: 63px;
@@ -6578,36 +6582,41 @@ a.ui-button:active,
   }
 
   .heading-title-formacion h4 {
-    font-size: 22px;
+    font-size: 17px;
   }
 
   .parrafo-heading-formacion p {
-    font-size: 18px;
+    font-size: 16px;
+  }
+
+  .cards {
+    width: 390px;
+    height: 315px;
   }
 
   .card-01 {
     position: relative;
-    left: 29px;
+    left: 15px;
     height: 315px;
   }
 
   #nuestra-formacion {
-    margin-bottom: 1382px;
+    margin-bottom: 1563px;
     background: #fff;
   }
 
   .wrap-heading-title h4 {
-    font-size: 29px;
+    font-size: 25px;
   }
 
   .wrap-heading-title p {
-    width: 95%;
-    font-size: 17px;
+    width: 99%;
+    font-size: 16px;
   }
 
   .contenedor {
     min-height: 0;
-    width: 850px !important;
+    width: 800px !important;
   }
 
   .heading-title-certificado h5 {
@@ -6651,6 +6660,17 @@ a.ui-button:active,
 
   #footer {
     height: 60vw;
+  }
+
+  .destacado-f h4 {
+    color: #fff;
+    font-size: 2.0em;
+  }
+
+  .destacado-f {
+    width: 90%;
+    position: relative;
+    top: 107px;
   }
 }
 
@@ -6771,7 +6791,7 @@ a.ui-button:active,
     width: 100%;
   }
 
-  .btn-danger {
+  .btn-danger .btn-cursos {
     font-size: 11px;
     position: relative;
     left: -22px;
@@ -7040,6 +7060,26 @@ a.ui-button:active,
     width: 98%;
     line-height: 39px;
     font-size: 17px;
+  }
+
+  #destacado-movil{
+    display: flex;
+    width: 100%;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .destaco-movil-contenedor h3{
+    display: flex;
+    width: 78%;
+    align-items: center;
+    color: #fff;
+    font-size: 21px;
+    text-align: center;
+    position: relative;
   }
 
   .ayudarte-mitrabajo h3 {
