@@ -3127,12 +3127,13 @@ a.ui-button:active,
 
 }
 
-#whatssap {
-  display: block;
-  position: fixed;
-  top: 80%;
-  transition: 300ms all;
-  z-index: 1;
+#whatssap, #instagram {
+	display: block;
+	position: fixed;
+	top: 80%;
+	transition: 300ms all;
+	z-index: 1;
+	left: 1092px;
 }
 
 #whatssap img {
@@ -3141,11 +3142,18 @@ a.ui-button:active,
   cursor: pointer;
   position: relative;
   top: -40px;
-  left: 1383px;
 }
 
 #whatssap:hover {
   opacity: 0.8;
+}
+
+#instagram img{
+  width: 27%;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+  top: 18px;
 }
 
 

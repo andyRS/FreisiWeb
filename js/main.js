@@ -32,6 +32,7 @@ window.addEventListener('load', function () {
     let link4 = document.getElementById('link-4')
     let link5 = document.getElementById('link-5')
     let WhatSapp = document.getElementById('whatssap')
+    let instagram = document.getElementById('instagram')
 
 
 
@@ -47,6 +48,8 @@ window.addEventListener('load', function () {
             link4.style.color = "#fff";
             link5.style.color = "#fff";
             WhatSapp.style.opacity = "1";
+            instagram.style.opacity = "1";
+
 
         } else {
             menu.style.backgroundColor = '#fff';
@@ -58,6 +61,7 @@ window.addEventListener('load', function () {
             link4.style.color = "#444444";
             link5.style.color = "#444444";
             WhatSapp.style.opacity = "0";
+            instagram.style.opacity = "0";
         }
     })
 
