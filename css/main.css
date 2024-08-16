@@ -241,11 +241,10 @@ video {
 
 
 .caja-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 277px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 360px;
 }
 
 h1 {
