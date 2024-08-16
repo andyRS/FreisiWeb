@@ -3516,12 +3516,11 @@ a.ui-button:active,
     overflow: hidden;
   }
 
-  #swiper-container {
+#swiper-container {
     position: relative;
     z-index: -1;
-    top: -86px;
-  }
-
+    top: -23px;
+}
   .wrap {
     margin-top: -126px;
   }
